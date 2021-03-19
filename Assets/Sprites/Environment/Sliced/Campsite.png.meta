@@ -1,0 +1,7844 @@
+fileFormatVersion: 2
+guid: f03a0cd27093da14cacecf73727c7259
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5791282470344113526
+    second: Campsite_0
+  - first:
+      213: 4416370314355005561
+    second: Campsite_1
+  - first:
+      213: -3826715862010856527
+    second: Campsite_2
+  - first:
+      213: 3933231805303637364
+    second: Campsite_3
+  - first:
+      213: 4443575793076637850
+    second: Campsite_4
+  - first:
+      213: -6835269114668821116
+    second: Campsite_5
+  - first:
+      213: -3659707215603516766
+    second: Campsite_6
+  - first:
+      213: -9198790984314295964
+    second: Campsite_7
+  - first:
+      213: -2093390114663575056
+    second: Campsite_8
+  - first:
+      213: -4488065163096636155
+    second: Campsite_9
+  - first:
+      213: 8215361681091303528
+    second: Campsite_10
+  - first:
+      213: -8681408767847013922
+    second: Campsite_11
+  - first:
+      213: 2898757840074354388
+    second: Campsite_12
+  - first:
+      213: -3748112623037523522
+    second: Campsite_13
+  - first:
+      213: 6003928950163519383
+    second: Campsite_14
+  - first:
+      213: 8258508707621014962
+    second: Campsite_15
+  - first:
+      213: -223128512444699548
+    second: Campsite_16
+  - first:
+      213: 8515759444880315967
+    second: Campsite_17
+  - first:
+      213: 1118162347662195826
+    second: Campsite_18
+  - first:
+      213: -3122472561361303670
+    second: Campsite_19
+  - first:
+      213: 714738336236172490
+    second: Campsite_20
+  - first:
+      213: -6306735534686686706
+    second: Campsite_21
+  - first:
+      213: 1635479569782347923
+    second: Campsite_22
+  - first:
+      213: -7745932179155282265
+    second: Campsite_23
+  - first:
+      213: 3036976656183515720
+    second: Campsite_24
+  - first:
+      213: 2425121402500963714
+    second: Campsite_25
+  - first:
+      213: -1257491002800795476
+    second: Campsite_26
+  - first:
+      213: 2391917651378603271
+    second: Campsite_27
+  - first:
+      213: -3562126112069205135
+    second: Campsite_28
+  - first:
+      213: -3209657677971428118
+    second: Campsite_29
+  - first:
+      213: -2685022590973444017
+    second: Campsite_30
+  - first:
+      213: 4420507882010853362
+    second: Campsite_31
+  - first:
+      213: -2219484852657078041
+    second: Campsite_32
+  - first:
+      213: -7753671237957998520
+    second: Campsite_33
+  - first:
+      213: -7203218180276889404
+    second: Campsite_34
+  - first:
+      213: 7483167946145378817
+    second: Campsite_35
+  - first:
+      213: -8752427884612655155
+    second: Campsite_36
+  - first:
+      213: -359121785281611815
+    second: Campsite_37
+  - first:
+      213: -1448465968245287325
+    second: Campsite_38
+  - first:
+      213: -5108246872481353040
+    second: Campsite_39
+  - first:
+      213: 5191178221196549946
+    second: Campsite_40
+  - first:
+      213: -8066515351982274640
+    second: Campsite_41
+  - first:
+      213: 8383697085417456734
+    second: Campsite_42
+  - first:
+      213: -2199332914940602568
+    second: Campsite_43
+  - first:
+      213: -8196361250484762956
+    second: Campsite_44
+  - first:
+      213: -3941760030946765250
+    second: Campsite_45
+  - first:
+      213: -2264451617667658091
+    second: Campsite_46
+  - first:
+      213: -5161905878960133453
+    second: Campsite_47
+  - first:
+      213: 2909636530928259121
+    second: Campsite_48
+  - first:
+      213: -5352531007738856096
+    second: Campsite_49
+  - first:
+      213: 3684596984555862041
+    second: Campsite_50
+  - first:
+      213: -8946232339887466545
+    second: Campsite_51
+  - first:
+      213: -1136858199566401469
+    second: Campsite_52
+  - first:
+      213: 8011734073379224766
+    second: Campsite_53
+  - first:
+      213: 4038250158538275605
+    second: Campsite_54
+  - first:
+      213: 2676288698005502613
+    second: Campsite_55
+  - first:
+      213: 428935621951112119
+    second: Campsite_56
+  - first:
+      213: 8239618796429555265
+    second: Campsite_57
+  - first:
+      213: 38668614013184418
+    second: Campsite_58
+  - first:
+      213: 2003640096750630396
+    second: Campsite_59
+  - first:
+      213: 3499055039906516435
+    second: Campsite_60
+  - first:
+      213: 9163685410877317673
+    second: Campsite_61
+  - first:
+      213: -8283719170106492026
+    second: Campsite_62
+  - first:
+      213: 2440618341138579074
+    second: Campsite_63
+  - first:
+      213: 3187556888993890176
+    second: Campsite_64
+  - first:
+      213: -7442822478833843074
+    second: Campsite_65
+  - first:
+      213: 1018958050260681696
+    second: Campsite_66
+  - first:
+      213: -7822766840756318188
+    second: Campsite_67
+  - first:
+      213: 2230456217907767443
+    second: Campsite_68
+  - first:
+      213: -233851888142867757
+    second: Campsite_69
+  - first:
+      213: -2296042902418040193
+    second: Campsite_70
+  - first:
+      213: -7371315591692880034
+    second: Campsite_71
+  - first:
+      213: 3544873674130013935
+    second: Campsite_72
+  - first:
+      213: 8360184751191183315
+    second: Campsite_73
+  - first:
+      213: -8543760458107392095
+    second: Campsite_74
+  - first:
+      213: -8516952975276707134
+    second: Campsite_75
+  - first:
+      213: -6673156865975646666
+    second: Campsite_76
+  - first:
+      213: -7869022388163676918
+    second: Campsite_77
+  - first:
+      213: 575317295910641744
+    second: Campsite_78
+  - first:
+      213: -5166268654521708557
+    second: Campsite_79
+  - first:
+      213: 1252345124267006312
+    second: Campsite_80
+  - first:
+      213: 7708038465545095824
+    second: Campsite_81
+  - first:
+      213: 5025036966149734546
+    second: Campsite_82
+  - first:
+      213: -4577866084998286491
+    second: Campsite_83
+  - first:
+      213: -4157175566314032354
+    second: Campsite_84
+  - first:
+      213: 4087828441403579135
+    second: Campsite_85
+  - first:
+      213: 7533693967906608876
+    second: Campsite_86
+  - first:
+      213: -7529895958044436618
+    second: Campsite_87
+  - first:
+      213: 1897789235947513606
+    second: Campsite_88
+  - first:
+      213: 7213340146736355690
+    second: Campsite_89
+  - first:
+      213: 361321529584893583
+    second: Campsite_90
+  - first:
+      213: 6710942817061523903
+    second: Campsite_91
+  - first:
+      213: 1810033873723034938
+    second: Campsite_92
+  - first:
+      213: -4963896368491997681
+    second: Campsite_93
+  - first:
+      213: -512312292397878831
+    second: Campsite_94
+  - first:
+      213: -8563234529237063125
+    second: Campsite_95
+  - first:
+      213: -4685702330755487776
+    second: Campsite_96
+  - first:
+      213: 484532485629241406
+    second: Campsite_97
+  - first:
+      213: 1910610195634519648
+    second: Campsite_98
+  - first:
+      213: -7035155373348366516
+    second: Campsite_99
+  - first:
+      213: 6351683647680895683
+    second: Campsite_100
+  - first:
+      213: -6710586396306317140
+    second: Campsite_101
+  - first:
+      213: 813852119349738952
+    second: Campsite_102
+  - first:
+      213: 5757431568588660294
+    second: Campsite_103
+  - first:
+      213: -2036726575251472582
+    second: Campsite_104
+  - first:
+      213: -7546578930747597523
+    second: Campsite_105
+  - first:
+      213: 6245314108092923137
+    second: Campsite_106
+  - first:
+      213: 8298225679842456950
+    second: Campsite_107
+  - first:
+      213: -2434847319987079750
+    second: Campsite_108
+  - first:
+      213: 6645949228341177608
+    second: Campsite_109
+  - first:
+      213: -4167856070454739467
+    second: Campsite_110
+  - first:
+      213: -564243816084458587
+    second: Campsite_111
+  - first:
+      213: -2274510532267254833
+    second: Campsite_112
+  - first:
+      213: -466521969736401717
+    second: Campsite_113
+  - first:
+      213: 2872884637515625492
+    second: Campsite_114
+  - first:
+      213: -7283997327108358974
+    second: Campsite_115
+  - first:
+      213: -5235677767695232292
+    second: Campsite_116
+  - first:
+      213: 3129667509559630654
+    second: Campsite_117
+  - first:
+      213: -3998972984577271565
+    second: Campsite_118
+  - first:
+      213: -7369574100511121633
+    second: Campsite_119
+  - first:
+      213: 5036811450053197322
+    second: Campsite_120
+  - first:
+      213: -8094971470312232618
+    second: Campsite_121
+  - first:
+      213: 7522206621450654119
+    second: Campsite_122
+  - first:
+      213: -4940742522521850097
+    second: Campsite_123
+  - first:
+      213: 6560234525688914903
+    second: Campsite_124
+  - first:
+      213: -4908472105520694338
+    second: Campsite_125
+  - first:
+      213: 7545631991080707175
+    second: Campsite_126
+  - first:
+      213: 4015370222031918089
+    second: Campsite_127
+  - first:
+      213: 7131902263377439802
+    second: Campsite_128
+  - first:
+      213: -2812524621775417934
+    second: Campsite_129
+  - first:
+      213: 1197682037043818775
+    second: Campsite_130
+  - first:
+      213: 6132730422316784886
+    second: Campsite_131
+  - first:
+      213: 6072062121505039457
+    second: Campsite_132
+  - first:
+      213: -2477466410832741988
+    second: Campsite_133
+  - first:
+      213: 1597775953089886035
+    second: Campsite_134
+  - first:
+      213: -706571168523697470
+    second: Campsite_135
+  - first:
+      213: -4828073304219744248
+    second: Campsite_136
+  - first:
+      213: -6090743808147501854
+    second: Campsite_137
+  - first:
+      213: -8995514636472422572
+    second: Campsite_138
+  - first:
+      213: -3396364922835846397
+    second: Campsite_139
+  - first:
+      213: 6379260003574607896
+    second: Campsite_140
+  - first:
+      213: 1165175962417847402
+    second: Campsite_141
+  - first:
+      213: 4244953396868419025
+    second: Campsite_142
+  - first:
+      213: 1465597279254763550
+    second: Campsite_143
+  - first:
+      213: -4910508191526082839
+    second: Campsite_144
+  - first:
+      213: -3784044510202652296
+    second: Campsite_145
+  - first:
+      213: -7371077395237984244
+    second: Campsite_146
+  - first:
+      213: 163846969104481142
+    second: Campsite_147
+  - first:
+      213: 7405232471804175975
+    second: Campsite_148
+  - first:
+      213: -2135689966783136391
+    second: Campsite_149
+  - first:
+      213: 7071794646526032965
+    second: Campsite_150
+  - first:
+      213: -2179757438756277011
+    second: Campsite_151
+  - first:
+      213: 1486548840190855735
+    second: Campsite_152
+  - first:
+      213: -5993182551493113379
+    second: Campsite_153
+  - first:
+      213: 7808394162373756077
+    second: Campsite_154
+  - first:
+      213: -3948659055259246454
+    second: Campsite_155
+  - first:
+      213: -522320482496007438
+    second: Campsite_156
+  - first:
+      213: 7258781622431326617
+    second: Campsite_157
+  - first:
+      213: -7969132331187803384
+    second: Campsite_158
+  - first:
+      213: 3238660166080921643
+    second: Campsite_159
+  - first:
+      213: 8630848559694247446
+    second: Campsite_160
+  - first:
+      213: -1273812030555906144
+    second: Campsite_161
+  - first:
+      213: 3896805523433842346
+    second: Campsite_162
+  - first:
+      213: 609450544512292464
+    second: Campsite_163
+  - first:
+      213: 6065550614091254812
+    second: Campsite_164
+  - first:
+      213: 5693307115508044411
+    second: Campsite_165
+  - first:
+      213: 5872249383559623343
+    second: Campsite_166
+  - first:
+      213: -462800299951359981
+    second: Campsite_167
+  - first:
+      213: -5274069479811534835
+    second: Campsite_168
+  - first:
+      213: -9082199863515812321
+    second: Campsite_169
+  - first:
+      213: 489973718957395151
+    second: Campsite_170
+  - first:
+      213: -8766036850132245021
+    second: Campsite_171
+  - first:
+      213: 1447018390606102711
+    second: Campsite_172
+  - first:
+      213: -1510132846901569955
+    second: Campsite_173
+  - first:
+      213: 6494836966738610153
+    second: Campsite_174
+  - first:
+      213: -1070086815561520617
+    second: Campsite_175
+  - first:
+      213: 2442444080360894430
+    second: Campsite_176
+  - first:
+      213: 3766127092283414578
+    second: Campsite_177
+  - first:
+      213: 7941954085361985755
+    second: Campsite_178
+  - first:
+      213: -7920071297855262637
+    second: Campsite_179
+  - first:
+      213: 1112224611666762128
+    second: Campsite_180
+  - first:
+      213: 220018814714276608
+    second: Campsite_181
+  - first:
+      213: -399893505737636723
+    second: Campsite_182
+  - first:
+      213: -2745767248953384931
+    second: Campsite_183
+  - first:
+      213: -4342221442833496317
+    second: Campsite_184
+  - first:
+      213: 821837611686801372
+    second: Campsite_185
+  - first:
+      213: 7332894441535368661
+    second: Campsite_186
+  - first:
+      213: 6885058534568099772
+    second: Campsite_187
+  - first:
+      213: -1112660016767882353
+    second: Campsite_188
+  - first:
+      213: -4468047063674612656
+    second: Campsite_189
+  - first:
+      213: 7988296696898492347
+    second: Campsite_190
+  - first:
+      213: -4887871908651182190
+    second: Campsite_191
+  - first:
+      213: 8236873841416983611
+    second: Campsite_192
+  - first:
+      213: -8599104879865330691
+    second: Campsite_193
+  - first:
+      213: 267185564769314226
+    second: Campsite_194
+  - first:
+      213: -249363885448273817
+    second: Campsite_195
+  - first:
+      213: 5781711249189410339
+    second: Campsite_196
+  - first:
+      213: 8889425715591733742
+    second: Campsite_197
+  - first:
+      213: 2523921665499793415
+    second: Campsite_198
+  - first:
+      213: -7142668950481140392
+    second: Campsite_199
+  - first:
+      213: -5273814709618147215
+    second: Campsite_200
+  - first:
+      213: -8656566741272067707
+    second: Campsite_201
+  - first:
+      213: 5342694729189008560
+    second: Campsite_202
+  - first:
+      213: 6474592934313266937
+    second: Campsite_203
+  - first:
+      213: 3339258198907173157
+    second: Campsite_204
+  - first:
+      213: 6603794957758414527
+    second: Campsite_205
+  - first:
+      213: -6393142111846767480
+    second: Campsite_206
+  - first:
+      213: 3599969666832318070
+    second: Campsite_207
+  - first:
+      213: 8279293919723291195
+    second: Campsite_208
+  - first:
+      213: -4090080873150700008
+    second: Campsite_209
+  - first:
+      213: 3854204919920531149
+    second: Campsite_210
+  - first:
+      213: -2220828600799312748
+    second: Campsite_211
+  - first:
+      213: -7654730287085010036
+    second: Campsite_212
+  - first:
+      213: 5570705285696832570
+    second: Campsite_213
+  - first:
+      213: 4524896950999344054
+    second: Campsite_214
+  - first:
+      213: 2585214898585323720
+    second: Campsite_215
+  - first:
+      213: -9020446169604133237
+    second: Campsite_216
+  - first:
+      213: -5709091537326631505
+    second: Campsite_217
+  - first:
+      213: -6950387435019388845
+    second: Campsite_218
+  - first:
+      213: -2399599764307967142
+    second: Campsite_219
+  - first:
+      213: -1270082924450471406
+    second: Campsite_220
+  - first:
+      213: -394632720043015309
+    second: Campsite_221
+  - first:
+      213: 5265125537904631883
+    second: Campsite_222
+  - first:
+      213: 6013511952703279058
+    second: Campsite_223
+  - first:
+      213: -9167472697331785946
+    second: Campsite_224
+  - first:
+      213: -2914558007795554148
+    second: Campsite_225
+  - first:
+      213: -5302498463308133777
+    second: Campsite_226
+  - first:
+      213: 2408574507849682526
+    second: Campsite_227
+  - first:
+      213: 5053727398186673943
+    second: Campsite_228
+  - first:
+      213: 4174674170061986511
+    second: Campsite_229
+  - first:
+      213: -427864065443438887
+    second: Campsite_230
+  - first:
+      213: 452668628658748131
+    second: Campsite_231
+  - first:
+      213: -1223408773945498799
+    second: Campsite_232
+  - first:
+      213: -5662403658192202957
+    second: Campsite_233
+  - first:
+      213: 20169336127691338
+    second: Campsite_234
+  - first:
+      213: 8514029483217482938
+    second: Campsite_235
+  - first:
+      213: 6904013479208601854
+    second: Campsite_236
+  - first:
+      213: 666333453627751558
+    second: Campsite_237
+  - first:
+      213: -8580633017294536375
+    second: Campsite_238
+  - first:
+      213: -1729428251421415852
+    second: Campsite_239
+  - first:
+      213: 6707499467899268547
+    second: Campsite_240
+  - first:
+      213: -8478672882803202711
+    second: Campsite_241
+  - first:
+      213: 7341659615618030328
+    second: Campsite_242
+  - first:
+      213: 4998841602128503646
+    second: Campsite_243
+  - first:
+      213: 5585759458498723139
+    second: Campsite_244
+  - first:
+      213: -6394866139573145870
+    second: Campsite_245
+  - first:
+      213: 6365213162368244120
+    second: Campsite_246
+  - first:
+      213: 1311245261508594620
+    second: Campsite_247
+  - first:
+      213: 1678517591937413029
+    second: Campsite_248
+  - first:
+      213: -2391383344935621917
+    second: Campsite_249
+  - first:
+      213: 5003918770284705306
+    second: Campsite_250
+  - first:
+      213: 2154102536467995236
+    second: Campsite_251
+  - first:
+      213: -7674961346255865926
+    second: Campsite_252
+  - first:
+      213: -2605740439255311766
+    second: Campsite_253
+  - first:
+      213: -7001023493456464218
+    second: Campsite_254
+  - first:
+      213: 2821356011316382692
+    second: Campsite_255
+  - first:
+      213: 2800015270355522365
+    second: Campsite_256
+  - first:
+      213: 603635658066096253
+    second: Campsite_257
+  - first:
+      213: -4433736399974408694
+    second: Campsite_258
+  - first:
+      213: -1900348411121985652
+    second: Campsite_259
+  - first:
+      213: 4656019663235203269
+    second: Campsite_260
+  - first:
+      213: 4228874882290165880
+    second: Campsite_261
+  - first:
+      213: 1574952773019069330
+    second: Campsite_262
+  - first:
+      213: -1555006300683951865
+    second: Campsite_263
+  - first:
+      213: -5318911885872575491
+    second: Campsite_264
+  - first:
+      213: -9039442524218929181
+    second: Campsite_265
+  - first:
+      213: -1086468536202701324
+    second: Campsite_266
+  - first:
+      213: -2379234334504987126
+    second: Campsite_267
+  - first:
+      213: 8490756095662556170
+    second: Campsite_268
+  - first:
+      213: 1914378063525420717
+    second: Campsite_269
+  - first:
+      213: 2617401351065113874
+    second: Campsite_270
+  - first:
+      213: 5621476141248248225
+    second: Campsite_271
+  - first:
+      213: 9127646085698075459
+    second: Campsite_272
+  - first:
+      213: -1654017560352180682
+    second: Campsite_273
+  - first:
+      213: 6331266552404787079
+    second: Campsite_274
+  - first:
+      213: -3844468530408208773
+    second: Campsite_275
+  - first:
+      213: -8511170010563055287
+    second: Campsite_276
+  - first:
+      213: -3216290724696243313
+    second: Campsite_277
+  - first:
+      213: 2212953422714395499
+    second: Campsite_278
+  - first:
+      213: 7735074793138827996
+    second: Campsite_279
+  - first:
+      213: 289802241785277594
+    second: Campsite_280
+  - first:
+      213: -5190841248049081057
+    second: Campsite_281
+  - first:
+      213: 2349064226905448416
+    second: Campsite_282
+  - first:
+      213: -5025718231391684309
+    second: Campsite_283
+  - first:
+      213: -1538332907229620532
+    second: Campsite_284
+  - first:
+      213: -5700608431696250457
+    second: Campsite_285
+  - first:
+      213: -4489450867923093643
+    second: Campsite_286
+  - first:
+      213: -1982354417465629884
+    second: Campsite_287
+  - first:
+      213: -2581673807435226239
+    second: Campsite_288
+  - first:
+      213: -809667081142791943
+    second: Campsite_289
+  - first:
+      213: -6829907670860939070
+    second: Campsite_290
+  - first:
+      213: 6797036340323155105
+    second: Campsite_291
+  - first:
+      213: -2770311587520767156
+    second: Campsite_292
+  - first:
+      213: -2695083528676875350
+    second: Campsite_293
+  - first:
+      213: 1458995057927678510
+    second: Campsite_294
+  - first:
+      213: 3034821815750629179
+    second: Campsite_295
+  - first:
+      213: -5246763855125578264
+    second: Campsite_296
+  - first:
+      213: -2924352405125225121
+    second: Campsite_297
+  - first:
+      213: -6227232605595641885
+    second: Campsite_298
+  - first:
+      213: -1480478488930942941
+    second: Campsite_299
+  - first:
+      213: -8264373027481754915
+    second: Campsite_300
+  - first:
+      213: -3841360828254798593
+    second: Campsite_301
+  - first:
+      213: -8423492263200025999
+    second: Campsite_302
+  - first:
+      213: -6216841026927687034
+    second: Campsite_303
+  - first:
+      213: -7700838708651633586
+    second: Campsite_304
+  - first:
+      213: -5539209515864259078
+    second: Campsite_305
+  - first:
+      213: -2489184928179212577
+    second: Campsite_306
+  - first:
+      213: -1131823069013905157
+    second: Campsite_307
+  - first:
+      213: -6891087887884804801
+    second: Campsite_308
+  - first:
+      213: 5359762089683149761
+    second: Campsite_309
+  - first:
+      213: -4629393659543704784
+    second: Campsite_310
+  - first:
+      213: -3605081439864505195
+    second: Campsite_311
+  - first:
+      213: -1648860649359906764
+    second: Campsite_312
+  - first:
+      213: -901107489684988357
+    second: Campsite_313
+  - first:
+      213: 1740196712041804195
+    second: Campsite_314
+  - first:
+      213: -1859102022227877021
+    second: Campsite_315
+  - first:
+      213: 1608269860470795573
+    second: Campsite_316
+  - first:
+      213: 6731772620382925646
+    second: Campsite_317
+  - first:
+      213: 1297867092939963173
+    second: Campsite_318
+  - first:
+      213: -6262705125474972334
+    second: Campsite_319
+  - first:
+      213: -4643751731060795425
+    second: Campsite_320
+  - first:
+      213: 1825392049068282036
+    second: Campsite_321
+  - first:
+      213: -3401721747664917076
+    second: Campsite_322
+  - first:
+      213: -5333278699070985103
+    second: Campsite_323
+  - first:
+      213: 6043961723428494617
+    second: Campsite_324
+  - first:
+      213: 2474588073949455994
+    second: Campsite_325
+  - first:
+      213: 7509278252669246848
+    second: Campsite_326
+  - first:
+      213: -5166685923243529118
+    second: Campsite_327
+  - first:
+      213: 5952695939068735592
+    second: Campsite_328
+  - first:
+      213: -2576587324137127907
+    second: Campsite_329
+  - first:
+      213: 3407404738599483819
+    second: Campsite_330
+  - first:
+      213: 5942811236711791661
+    second: Campsite_331
+  - first:
+      213: 5159257692153053736
+    second: Campsite_332
+  - first:
+      213: -5235414219063841246
+    second: Campsite_333
+  - first:
+      213: 7874712628196859839
+    second: Campsite_334
+  - first:
+      213: -8369315077268753380
+    second: Campsite_335
+  - first:
+      213: -4066890049231697243
+    second: Campsite_336
+  - first:
+      213: 2096903769402329569
+    second: Campsite_337
+  - first:
+      213: -7471991735493502021
+    second: Campsite_338
+  - first:
+      213: 2897795968970408259
+    second: Campsite_339
+  - first:
+      213: -2522164976719633203
+    second: Campsite_340
+  - first:
+      213: -6810451579726450473
+    second: Campsite_341
+  - first:
+      213: -5660262921651045646
+    second: Campsite_342
+  - first:
+      213: 762905884062579804
+    second: Campsite_343
+  - first:
+      213: 3301842084990114560
+    second: Campsite_344
+  - first:
+      213: 3565152223234780873
+    second: Campsite_345
+  - first:
+      213: -309851766466562570
+    second: Campsite_346
+  - first:
+      213: -2686555905491262111
+    second: Campsite_347
+  - first:
+      213: 104457045178213148
+    second: Campsite_348
+  - first:
+      213: 2106727175029375891
+    second: Campsite_349
+  - first:
+      213: 1771236997021695642
+    second: Campsite_350
+  - first:
+      213: -2686021572489972773
+    second: Campsite_351
+  - first:
+      213: -3801913258107878606
+    second: Campsite_352
+  - first:
+      213: -3481121656538685867
+    second: Campsite_353
+  - first:
+      213: -8659657603516425568
+    second: Campsite_354
+  - first:
+      213: 1836107889811128804
+    second: Campsite_355
+  - first:
+      213: 8021668856847563003
+    second: Campsite_356
+  - first:
+      213: 9001337959436701796
+    second: Campsite_357
+  - first:
+      213: -9173724887099732784
+    second: Campsite_358
+  - first:
+      213: -5862663239202854489
+    second: Campsite_359
+  - first:
+      213: 6724785984753514068
+    second: Campsite_360
+  - first:
+      213: 7827250616086028651
+    second: Campsite_361
+  - first:
+      213: -7907955366313249196
+    second: Campsite_362
+  - first:
+      213: 3536208020336102002
+    second: Campsite_363
+  - first:
+      213: 6422109891909351209
+    second: Campsite_364
+  - first:
+      213: 6792447138740694471
+    second: Campsite_365
+  - first:
+      213: 8292068479100575758
+    second: Campsite_366
+  - first:
+      213: 2688105460804102885
+    second: Campsite_367
+  - first:
+      213: -8589308725479970649
+    second: Campsite_368
+  - first:
+      213: 4528779536278083830
+    second: Campsite_369
+  - first:
+      213: -2701849634011568016
+    second: Campsite_370
+  - first:
+      213: 5222439837933493320
+    second: Campsite_371
+  - first:
+      213: -2109049187517162347
+    second: Campsite_372
+  - first:
+      213: 5839538382157004167
+    second: Campsite_373
+  - first:
+      213: -5339602640578523839
+    second: Campsite_374
+  - first:
+      213: 8911169889212827233
+    second: Campsite_375
+  - first:
+      213: 1537295865273123637
+    second: Campsite_376
+  - first:
+      213: -8631012404245751847
+    second: Campsite_377
+  - first:
+      213: -1023829662656664397
+    second: Campsite_378
+  - first:
+      213: -3947281384380389753
+    second: Campsite_379
+  - first:
+      213: -8638981667301531479
+    second: Campsite_380
+  - first:
+      213: -5650095866077582871
+    second: Campsite_381
+  - first:
+      213: 9126223032666721141
+    second: Campsite_382
+  - first:
+      213: 91820705464751431
+    second: Campsite_383
+  - first:
+      213: -4539673165246174248
+    second: Campsite_384
+  - first:
+      213: -2838143019176471731
+    second: Campsite_385
+  - first:
+      213: -3791812298039920364
+    second: Campsite_386
+  - first:
+      213: 1273574212975539976
+    second: Campsite_387
+  - first:
+      213: 1571059546225217569
+    second: Campsite_388
+  - first:
+      213: -4140385700425847976
+    second: Campsite_389
+  - first:
+      213: -1458882497606340152
+    second: Campsite_390
+  - first:
+      213: -1806905887526903819
+    second: Campsite_391
+  - first:
+      213: -9052060561090476051
+    second: Campsite_392
+  - first:
+      213: -1377739477259372465
+    second: Campsite_393
+  - first:
+      213: -3132851950294917025
+    second: Campsite_394
+  - first:
+      213: 6735103942794699529
+    second: Campsite_395
+  - first:
+      213: 3659581875522491426
+    second: Campsite_396
+  - first:
+      213: -8265782503247954978
+    second: Campsite_397
+  - first:
+      213: -6598318209748725928
+    second: Campsite_398
+  - first:
+      213: 2008215416360012821
+    second: Campsite_399
+  - first:
+      213: -8079909202789494250
+    second: Campsite_400
+  - first:
+      213: 576096543627569479
+    second: Campsite_401
+  - first:
+      213: 2593718022930758360
+    second: Campsite_402
+  - first:
+      213: -5407127881425538934
+    second: Campsite_403
+  - first:
+      213: -5370917062454497945
+    second: Campsite_404
+  - first:
+      213: 4653186344897995044
+    second: Campsite_405
+  - first:
+      213: -7475870636836568894
+    second: Campsite_406
+  - first:
+      213: 2738688385648885265
+    second: Campsite_407
+  - first:
+      213: -3858818555822390058
+    second: Campsite_408
+  - first:
+      213: -7690863788722222541
+    second: Campsite_409
+  - first:
+      213: -6086109940811342247
+    second: Campsite_410
+  - first:
+      213: -5418048978285000661
+    second: Campsite_411
+  - first:
+      213: -3941094457136861163
+    second: Campsite_412
+  - first:
+      213: -8916084908372157949
+    second: Campsite_413
+  - first:
+      213: -6149727256055320944
+    second: Campsite_414
+  - first:
+      213: 5204373588689399340
+    second: Campsite_415
+  - first:
+      213: -893026983456016287
+    second: Campsite_416
+  - first:
+      213: -9101604207633555783
+    second: Campsite_417
+  - first:
+      213: 4448038550950762313
+    second: Campsite_418
+  - first:
+      213: 6712098204585268568
+    second: Campsite_419
+  - first:
+      213: -835404121042894065
+    second: Campsite_420
+  - first:
+      213: 8626556819161539893
+    second: Campsite_421
+  - first:
+      213: -1225147927009349060
+    second: Campsite_422
+  - first:
+      213: -4138720805021438865
+    second: Campsite_423
+  - first:
+      213: 2639099383980284101
+    second: Campsite_424
+  - first:
+      213: 8450676420117391841
+    second: Campsite_425
+  - first:
+      213: 7598944193750783872
+    second: Campsite_426
+  - first:
+      213: -7408717786042741417
+    second: Campsite_427
+  - first:
+      213: 998647534892371938
+    second: Campsite_428
+  - first:
+      213: 4201986926948731192
+    second: Campsite_429
+  - first:
+      213: -6757559634297085436
+    second: Campsite_430
+  - first:
+      213: 5042354677227331264
+    second: Campsite_431
+  - first:
+      213: -1231253087043398091
+    second: Campsite_432
+  - first:
+      213: -450010321252593607
+    second: Campsite_433
+  - first:
+      213: 7382522782544112555
+    second: Campsite_434
+  - first:
+      213: -8060836095790521879
+    second: Campsite_435
+  - first:
+      213: 3756859361362847992
+    second: Campsite_436
+  - first:
+      213: -6004666527141351148
+    second: Campsite_437
+  - first:
+      213: 4161835175248069694
+    second: Campsite_438
+  - first:
+      213: -2205575117926183622
+    second: Campsite_439
+  - first:
+      213: 2956649688972864505
+    second: Campsite_440
+  - first:
+      213: -9137046153530199696
+    second: Campsite_441
+  - first:
+      213: 2091386375497143742
+    second: Campsite_442
+  - first:
+      213: 3209426397185447369
+    second: Campsite_443
+  - first:
+      213: -991004360001752969
+    second: Campsite_444
+  - first:
+      213: -1477409279405745127
+    second: Campsite_445
+  - first:
+      213: 2463582776496692960
+    second: Campsite_446
+  - first:
+      213: -1186890575914484797
+    second: Campsite_447
+  - first:
+      213: -7306887746571224301
+    second: Campsite_448
+  - first:
+      213: 7400133581430909067
+    second: Campsite_449
+  - first:
+      213: 1301481141719006327
+    second: Campsite_450
+  - first:
+      213: -7294450601462919094
+    second: Campsite_451
+  - first:
+      213: 8581664374644682060
+    second: Campsite_452
+  - first:
+      213: -9006432205495781990
+    second: Campsite_453
+  - first:
+      213: -7980695153738552318
+    second: Campsite_454
+  - first:
+      213: -2855767014843317282
+    second: Campsite_455
+  - first:
+      213: 1676431818933906260
+    second: Campsite_456
+  - first:
+      213: 7948441700704762963
+    second: Campsite_457
+  - first:
+      213: -5148898976993804287
+    second: Campsite_458
+  - first:
+      213: -3609048242302898003
+    second: Campsite_459
+  - first:
+      213: 5179844591933458857
+    second: Campsite_460
+  - first:
+      213: -3203859067163397513
+    second: Campsite_461
+  - first:
+      213: 7710903201209113646
+    second: Campsite_462
+  - first:
+      213: 8897733019240189435
+    second: Campsite_463
+  - first:
+      213: 1319210361997299401
+    second: Campsite_464
+  - first:
+      213: 6676600283840523782
+    second: Campsite_465
+  - first:
+      213: -4159057624529504579
+    second: Campsite_466
+  - first:
+      213: -4535822228691734097
+    second: Campsite_467
+  - first:
+      213: -6346731679000805674
+    second: Campsite_468
+  - first:
+      213: 4983484346104830231
+    second: Campsite_469
+  - first:
+      213: -4270923492947675497
+    second: Campsite_470
+  - first:
+      213: 2286219039440694837
+    second: Campsite_471
+  - first:
+      213: 5221005160208241676
+    second: Campsite_472
+  - first:
+      213: -2294972784564707416
+    second: Campsite_473
+  - first:
+      213: -2548360365172569978
+    second: Campsite_474
+  - first:
+      213: -5155861959395120084
+    second: Campsite_475
+  - first:
+      213: -7417764343105509169
+    second: Campsite_476
+  - first:
+      213: -4732416437737036680
+    second: Campsite_477
+  - first:
+      213: 7842045774142549724
+    second: Campsite_478
+  - first:
+      213: -701276380879614780
+    second: Campsite_479
+  - first:
+      213: 8636262441078128795
+    second: Campsite_480
+  - first:
+      213: -8462162963465620595
+    second: Campsite_481
+  - first:
+      213: -2970117764649717861
+    second: Campsite_482
+  - first:
+      213: 3196723530772672695
+    second: Campsite_483
+  - first:
+      213: -5597369010655485904
+    second: Campsite_484
+  - first:
+      213: -971552832308211069
+    second: Campsite_485
+  - first:
+      213: 6316988410978345335
+    second: Campsite_486
+  - first:
+      213: 5317266212698976920
+    second: Campsite_487
+  - first:
+      213: 4607016346354719914
+    second: Campsite_488
+  - first:
+      213: 1792534308431818129
+    second: Campsite_489
+  - first:
+      213: -4803373970825667710
+    second: Campsite_490
+  - first:
+      213: 6817439469719238328
+    second: Campsite_491
+  - first:
+      213: 190135747187817399
+    second: Campsite_492
+  - first:
+      213: -5104753051833291479
+    second: Campsite_493
+  - first:
+      213: 8872263436410446546
+    second: Campsite_494
+  - first:
+      213: -6717557615206215841
+    second: Campsite_495
+  - first:
+      213: -4598999799533292157
+    second: Campsite_496
+  - first:
+      213: -5428027428500760917
+    second: Campsite_497
+  - first:
+      213: 4167962938987136076
+    second: Campsite_498
+  - first:
+      213: -4655114547391879520
+    second: Campsite_499
+  - first:
+      213: -4333141017745748076
+    second: Campsite_500
+  - first:
+      213: -6547691122080837240
+    second: Campsite_501
+  - first:
+      213: 5205437651834570529
+    second: Campsite_502
+  - first:
+      213: -1798188400388783569
+    second: Campsite_503
+  - first:
+      213: -3693371360756189324
+    second: Campsite_504
+  - first:
+      213: 6755179087371532426
+    second: Campsite_505
+  - first:
+      213: 1873286583535888622
+    second: Campsite_506
+  - first:
+      213: 4224765175459933386
+    second: Campsite_507
+  - first:
+      213: 2899936170590452640
+    second: Campsite_508
+  - first:
+      213: -3461984267648633801
+    second: Campsite_509
+  - first:
+      213: -8795500375558416006
+    second: Campsite_510
+  - first:
+      213: 3051489371032254728
+    second: Campsite_511
+  - first:
+      213: -2992157062761534877
+    second: Campsite_512
+  - first:
+      213: 7097514536158506932
+    second: Campsite_513
+  - first:
+      213: 5472325740748041991
+    second: Campsite_514
+  - first:
+      213: -6405944791972121164
+    second: Campsite_515
+  - first:
+      213: 4519327443644072918
+    second: Campsite_516
+  - first:
+      213: 6195725531687720380
+    second: Campsite_517
+  - first:
+      213: -3586018800732575152
+    second: Campsite_518
+  - first:
+      213: 227059223477586208
+    second: Campsite_519
+  - first:
+      213: -2431904499262639539
+    second: Campsite_520
+  - first:
+      213: -700725029591493128
+    second: Campsite_521
+  - first:
+      213: 3196868954468801395
+    second: Campsite_522
+  - first:
+      213: -3815466814335854005
+    second: Campsite_523
+  - first:
+      213: -4306915389935025007
+    second: Campsite_524
+  - first:
+      213: 2465457907667348775
+    second: Campsite_525
+  - first:
+      213: 1935905821778492354
+    second: Campsite_526
+  - first:
+      213: -1347510565823176385
+    second: Campsite_527
+  - first:
+      213: 8332070816887755102
+    second: Campsite_528
+  - first:
+      213: -7818878048041967387
+    second: Campsite_529
+  - first:
+      213: -6793157554858487378
+    second: Campsite_530
+  - first:
+      213: -963598494819606889
+    second: Campsite_531
+  - first:
+      213: 4433998527922723727
+    second: Campsite_532
+  - first:
+      213: -2124383515211946123
+    second: Campsite_533
+  - first:
+      213: 23150257368558846
+    second: Campsite_534
+  - first:
+      213: -8816999715804549145
+    second: Campsite_535
+  - first:
+      213: 4236104627803132938
+    second: Campsite_536
+  - first:
+      213: 7295416103672676437
+    second: Campsite_537
+  - first:
+      213: 4302410318287285061
+    second: Campsite_538
+  - first:
+      213: 3444133100787856863
+    second: Campsite_539
+  - first:
+      213: 4134729552381983187
+    second: Campsite_540
+  - first:
+      213: -4513137833261162994
+    second: Campsite_541
+  - first:
+      213: 790091744764605214
+    second: Campsite_542
+  - first:
+      213: -4673749925886278013
+    second: Campsite_543
+  - first:
+      213: -5732345843361863538
+    second: Campsite_544
+  - first:
+      213: 1731918585356826816
+    second: Campsite_545
+  - first:
+      213: 6076842423273299737
+    second: Campsite_546
+  - first:
+      213: -7036552058217495889
+    second: Campsite_547
+  - first:
+      213: -7199724132982422417
+    second: Campsite_548
+  - first:
+      213: -4743581422598901441
+    second: Campsite_549
+  - first:
+      213: 5127013047196522165
+    second: Campsite_550
+  - first:
+      213: -7883517940804637807
+    second: Campsite_551
+  - first:
+      213: -1118207444514455555
+    second: Campsite_552
+  - first:
+      213: 1042671915301892806
+    second: Campsite_553
+  - first:
+      213: 2319579996258084716
+    second: Campsite_554
+  - first:
+      213: 2452171256799131604
+    second: Campsite_555
+  - first:
+      213: -3315570637449504433
+    second: Campsite_556
+  - first:
+      213: -2700944093475922192
+    second: Campsite_557
+  - first:
+      213: -8276451669781816448
+    second: Campsite_558
+  - first:
+      213: 5034099191494398444
+    second: Campsite_559
+  - first:
+      213: -5327379347950313216
+    second: Campsite_560
+  - first:
+      213: -7925657099140639490
+    second: Campsite_561
+  - first:
+      213: -8209485838424477171
+    second: Campsite_562
+  - first:
+      213: -1152569329681176251
+    second: Campsite_563
+  - first:
+      213: -5684271331885735049
+    second: Campsite_564
+  - first:
+      213: 3158348246383747645
+    second: Campsite_565
+  - first:
+      213: 4242770475221858195
+    second: Campsite_566
+  - first:
+      213: -1973289934228906142
+    second: Campsite_567
+  - first:
+      213: 5611672265764669813
+    second: Campsite_568
+  - first:
+      213: 7320650974007587806
+    second: Campsite_569
+  - first:
+      213: 876186492352215763
+    second: Campsite_570
+  - first:
+      213: 1328269544772146465
+    second: Campsite_571
+  - first:
+      213: 8057000941975458162
+    second: Campsite_572
+  - first:
+      213: -8038658259949195061
+    second: Campsite_573
+  - first:
+      213: 3385331359374106430
+    second: Campsite_574
+  - first:
+      213: 1896120350665928142
+    second: Campsite_575
+  - first:
+      213: 2311548081333538517
+    second: Campsite_576
+  - first:
+      213: -1189884168820083315
+    second: Campsite_577
+  - first:
+      213: -8107041939948292568
+    second: Campsite_578
+  - first:
+      213: -2214211532988009096
+    second: Campsite_579
+  - first:
+      213: -3283019915357789950
+    second: Campsite_580
+  - first:
+      213: -5916708913459725639
+    second: Campsite_581
+  - first:
+      213: -8232502000412297086
+    second: Campsite_582
+  - first:
+      213: 3994245002312122693
+    second: Campsite_583
+  - first:
+      213: 1584327578385928666
+    second: Campsite_584
+  - first:
+      213: -7216108572741537992
+    second: Campsite_585
+  - first:
+      213: 2766998946237912423
+    second: Campsite_586
+  - first:
+      213: -3700282090427943949
+    second: Campsite_587
+  - first:
+      213: -7733448843549663712
+    second: Campsite_588
+  - first:
+      213: -5057385000465870759
+    second: Campsite_589
+  - first:
+      213: 3571676500121517452
+    second: Campsite_590
+  - first:
+      213: 9022454892216366627
+    second: Campsite_591
+  - first:
+      213: -6521866058422072302
+    second: Campsite_592
+  - first:
+      213: -949602922598413419
+    second: Campsite_593
+  - first:
+      213: -3762511611676915315
+    second: Campsite_594
+  - first:
+      213: -8555910570759197312
+    second: Campsite_595
+  - first:
+      213: -7053034820653279368
+    second: Campsite_596
+  - first:
+      213: 4114102032833935968
+    second: Campsite_597
+  - first:
+      213: 2445309104412927381
+    second: Campsite_598
+  - first:
+      213: 7850876730240980156
+    second: Campsite_599
+  - first:
+      213: 636097351095318767
+    second: Campsite_600
+  - first:
+      213: 7567792019434897460
+    second: Campsite_601
+  - first:
+      213: -5466898148330002994
+    second: Campsite_602
+  - first:
+      213: 6932150139120249731
+    second: Campsite_603
+  - first:
+      213: -2221928194542387359
+    second: Campsite_604
+  - first:
+      213: -8332879057898723610
+    second: Campsite_605
+  - first:
+      213: 7266958151192166665
+    second: Campsite_606
+  - first:
+      213: -5226276101547848341
+    second: Campsite_607
+  - first:
+      213: 3363947313133966204
+    second: Campsite_608
+  - first:
+      213: -4782485854254341733
+    second: Campsite_609
+  - first:
+      213: -2710228499177275793
+    second: Campsite_610
+  - first:
+      213: 2099130956768792090
+    second: Campsite_611
+  - first:
+      213: 4584932712715331866
+    second: Campsite_612
+  - first:
+      213: -5758191710432138413
+    second: Campsite_613
+  - first:
+      213: -3239978705267371046
+    second: Campsite_614
+  - first:
+      213: 8965931523179407046
+    second: Campsite_615
+  - first:
+      213: -8942865379241488746
+    second: Campsite_616
+  - first:
+      213: -8593867185852342375
+    second: Campsite_617
+  - first:
+      213: 2725391519369473090
+    second: Campsite_618
+  - first:
+      213: -7875594710557297832
+    second: Campsite_619
+  - first:
+      213: 1980820161853869381
+    second: Campsite_620
+  - first:
+      213: -2202685986510754715
+    second: Campsite_621
+  - first:
+      213: -5208612119369586404
+    second: Campsite_622
+  - first:
+      213: 4833414314026177491
+    second: Campsite_623
+  - first:
+      213: 4606426594419805989
+    second: Campsite_624
+  - first:
+      213: 4154699486842041278
+    second: Campsite_625
+  - first:
+      213: 2034492067013485478
+    second: Campsite_626
+  - first:
+      213: -3951409682569965463
+    second: Campsite_627
+  - first:
+      213: 6283033418360938333
+    second: Campsite_628
+  - first:
+      213: 908978217390667265
+    second: Campsite_629
+  - first:
+      213: 8377726940176613315
+    second: Campsite_630
+  - first:
+      213: -7065244533975744060
+    second: Campsite_631
+  - first:
+      213: 670190406603291549
+    second: Campsite_632
+  - first:
+      213: -1728013929232586537
+    second: Campsite_633
+  - first:
+      213: 8257773376859307291
+    second: Campsite_634
+  - first:
+      213: 8890877606152476577
+    second: Campsite_635
+  - first:
+      213: 2233373177251316929
+    second: Campsite_636
+  - first:
+      213: -8460323854209900215
+    second: Campsite_637
+  - first:
+      213: -8764346726073433503
+    second: Campsite_638
+  - first:
+      213: -647124518149066689
+    second: Campsite_639
+  - first:
+      213: 2546453327603430326
+    second: Campsite_640
+  - first:
+      213: -6761162258054403561
+    second: Campsite_641
+  - first:
+      213: 3112877764952898380
+    second: Campsite_642
+  - first:
+      213: 774743173317111237
+    second: Campsite_643
+  - first:
+      213: 6553053377804299368
+    second: Campsite_644
+  - first:
+      213: 7710416827173296260
+    second: Campsite_645
+  - first:
+      213: 2684786404533457105
+    second: Campsite_646
+  - first:
+      213: 4347803695588238884
+    second: Campsite_647
+  - first:
+      213: -4981500148210649863
+    second: Campsite_648
+  - first:
+      213: -6516316846086225267
+    second: Campsite_649
+  - first:
+      213: 4859001356303771079
+    second: Campsite_650
+  - first:
+      213: 5278303259703065605
+    second: Campsite_651
+  - first:
+      213: 332784102182561403
+    second: Campsite_652
+  - first:
+      213: 3405451443966896613
+    second: Campsite_653
+  - first:
+      213: -3667478299132829646
+    second: Campsite_654
+  - first:
+      213: 2954097268544580172
+    second: Campsite_655
+  - first:
+      213: -7254762688580275539
+    second: Campsite_656
+  - first:
+      213: 681999018319369782
+    second: Campsite_657
+  - first:
+      213: 3557426955630244299
+    second: Campsite_658
+  - first:
+      213: -2010312464542927492
+    second: Campsite_659
+  - first:
+      213: -5102557272941124212
+    second: Campsite_660
+  - first:
+      213: -3935256797687567187
+    second: Campsite_661
+  - first:
+      213: 6189314158700467102
+    second: Campsite_662
+  - first:
+      213: 5714924221502057999
+    second: Campsite_663
+  - first:
+      213: 4820424388288560591
+    second: Campsite_664
+  - first:
+      213: 6397721122377697857
+    second: Campsite_665
+  - first:
+      213: -5947062883610503735
+    second: Campsite_666
+  - first:
+      213: 4168517206680441294
+    second: Campsite_667
+  - first:
+      213: 1906141575489887573
+    second: Campsite_668
+  - first:
+      213: -6024295031668660670
+    second: Campsite_669
+  - first:
+      213: -1403714775350678013
+    second: Campsite_670
+  - first:
+      213: 2763952413851209896
+    second: Campsite_671
+  - first:
+      213: 348128551340772831
+    second: Campsite_672
+  - first:
+      213: -6523271846980392284
+    second: Campsite_673
+  - first:
+      213: 1701747327092095149
+    second: Campsite_674
+  - first:
+      213: -4238530855297620482
+    second: Campsite_675
+  - first:
+      213: 860922552399501383
+    second: Campsite_676
+  - first:
+      213: -2883319047931377380
+    second: Campsite_677
+  - first:
+      213: -8263308639106576276
+    second: Campsite_678
+  - first:
+      213: 3024661052164510531
+    second: Campsite_679
+  - first:
+      213: 2305339811879411941
+    second: Campsite_680
+  - first:
+      213: 7838545587495265604
+    second: Campsite_681
+  - first:
+      213: -4062349335510380028
+    second: Campsite_682
+  - first:
+      213: 3583601024393562273
+    second: Campsite_683
+  - first:
+      213: 6637326341567555476
+    second: Campsite_684
+  - first:
+      213: 7666428768645329044
+    second: Campsite_685
+  - first:
+      213: 9092828473271443838
+    second: Campsite_686
+  - first:
+      213: -5879254694377081230
+    second: Campsite_687
+  - first:
+      213: -4919066489859966230
+    second: Campsite_688
+  - first:
+      213: -1168044573574094806
+    second: Campsite_689
+  - first:
+      213: -7283060987526686382
+    second: Campsite_690
+  - first:
+      213: -2287905392514170204
+    second: Campsite_691
+  - first:
+      213: 6385736334218953235
+    second: Campsite_692
+  - first:
+      213: 2683248261367914523
+    second: Campsite_693
+  - first:
+      213: 6345955093389600331
+    second: Campsite_694
+  - first:
+      213: -8134792006942372184
+    second: Campsite_695
+  - first:
+      213: 6516838169604425703
+    second: Campsite_696
+  - first:
+      213: -5668047544923376868
+    second: Campsite_697
+  - first:
+      213: -398468834473369993
+    second: Campsite_698
+  - first:
+      213: -5301163792485595630
+    second: Campsite_699
+  - first:
+      213: -3520279625815336945
+    second: Campsite_700
+  - first:
+      213: -4753288143950454702
+    second: Campsite_701
+  - first:
+      213: 5501829376142354607
+    second: Campsite_702
+  - first:
+      213: 20153196134272040
+    second: Campsite_703
+  - first:
+      213: -6051279178538548537
+    second: Campsite_704
+  - first:
+      213: 6749762481251896736
+    second: Campsite_705
+  - first:
+      213: 4880836206243272651
+    second: Campsite_706
+  - first:
+      213: 2466886142404857098
+    second: Campsite_707
+  - first:
+      213: 6034550050271700536
+    second: Campsite_708
+  - first:
+      213: 4959547246610134592
+    second: Campsite_709
+  - first:
+      213: -481988007779062021
+    second: Campsite_710
+  - first:
+      213: 6304387961663483066
+    second: Campsite_711
+  - first:
+      213: -9115368088267163650
+    second: Campsite_712
+  - first:
+      213: -5748915764903052994
+    second: Campsite_713
+  - first:
+      213: -6376570727455146544
+    second: Campsite_714
+  - first:
+      213: -8238886054090298662
+    second: Campsite_715
+  - first:
+      213: -6668949508825570003
+    second: Campsite_716
+  - first:
+      213: 8895583338331679933
+    second: Campsite_717
+  - first:
+      213: -8122179879199953941
+    second: Campsite_718
+  - first:
+      213: 9023868903824098579
+    second: Campsite_719
+  - first:
+      213: 8722072827464533627
+    second: Campsite_720
+  - first:
+      213: -5762761850330457878
+    second: Campsite_721
+  - first:
+      213: 196376751628689165
+    second: Campsite_722
+  - first:
+      213: -2091038923441392063
+    second: Campsite_723
+  - first:
+      213: -1799004719870669042
+    second: Campsite_724
+  - first:
+      213: 1409974836015807679
+    second: Campsite_725
+  - first:
+      213: -4747711680304729945
+    second: Campsite_726
+  - first:
+      213: -4299697445794320198
+    second: Campsite_727
+  - first:
+      213: 3832786283480968814
+    second: Campsite_728
+  - first:
+      213: 5330276242140127526
+    second: Campsite_729
+  - first:
+      213: -7536694050986059043
+    second: Campsite_730
+  - first:
+      213: -2347582706798989038
+    second: Campsite_731
+  - first:
+      213: -7212270525393950465
+    second: Campsite_732
+  - first:
+      213: -3126684512510638658
+    second: Campsite_733
+  - first:
+      213: 1185651506128413236
+    second: Campsite_734
+  - first:
+      213: -1059338687076329764
+    second: Campsite_735
+  - first:
+      213: 4918172962234004858
+    second: Campsite_736
+  - first:
+      213: 4445200748662655254
+    second: Campsite_737
+  - first:
+      213: -4214667878403230644
+    second: Campsite_738
+  - first:
+      213: -5854815152302266677
+    second: Campsite_739
+  - first:
+      213: 6077345447566857093
+    second: Campsite_740
+  - first:
+      213: 6041084922157207039
+    second: Campsite_741
+  - first:
+      213: 5931235324379666100
+    second: Campsite_742
+  - first:
+      213: -5379139658897025414
+    second: Campsite_743
+  - first:
+      213: 8684402920128328589
+    second: Campsite_744
+  - first:
+      213: 4648918070218203575
+    second: Campsite_745
+  - first:
+      213: -6309667953342579941
+    second: Campsite_746
+  - first:
+      213: 8779467738581796944
+    second: Campsite_747
+  - first:
+      213: 4180516648921545641
+    second: Campsite_748
+  - first:
+      213: 8994429293682127944
+    second: Campsite_749
+  - first:
+      213: -5484835949499403958
+    second: Campsite_750
+  - first:
+      213: 9031617516274312724
+    second: Campsite_751
+  - first:
+      213: -8337262293939013309
+    second: Campsite_752
+  - first:
+      213: -3581086473898126865
+    second: Campsite_753
+  - first:
+      213: -2981603308512741881
+    second: Campsite_754
+  - first:
+      213: -3666026212608306689
+    second: Campsite_755
+  - first:
+      213: 3607119314981418267
+    second: Campsite_756
+  - first:
+      213: 7389318572622079432
+    second: Campsite_757
+  - first:
+      213: 8442552149768145150
+    second: Campsite_758
+  - first:
+      213: -6977200428979333979
+    second: Campsite_759
+  - first:
+      213: -7138308300460139523
+    second: Campsite_760
+  - first:
+      213: 74347077300942263
+    second: Campsite_761
+  - first:
+      213: -4427207915652054494
+    second: Campsite_762
+  - first:
+      213: 3982482925548955027
+    second: Campsite_763
+  - first:
+      213: -3240360431089020757
+    second: Campsite_764
+  - first:
+      213: -9166611842541173617
+    second: Campsite_765
+  - first:
+      213: 3044114012270050027
+    second: Campsite_766
+  - first:
+      213: 4747711808195935271
+    second: Campsite_767
+  - first:
+      213: -1665357793036713001
+    second: Campsite_768
+  - first:
+      213: -6604833969699233429
+    second: Campsite_769
+  - first:
+      213: 305014438869711731
+    second: Campsite_770
+  - first:
+      213: -468390679929168010
+    second: Campsite_771
+  - first:
+      213: -323544989662071821
+    second: Campsite_772
+  - first:
+      213: -2417803041255945120
+    second: Campsite_773
+  - first:
+      213: 3760378126519906911
+    second: Campsite_774
+  - first:
+      213: -8364985685732492520
+    second: Campsite_775
+  - first:
+      213: -7803478865750523685
+    second: Campsite_776
+  - first:
+      213: -8679908323061468119
+    second: Campsite_777
+  - first:
+      213: 4816096940344040191
+    second: Campsite_778
+  - first:
+      213: 7446858356081673532
+    second: Campsite_779
+  - first:
+      213: -2322679527545585216
+    second: Campsite_780
+  - first:
+      213: -6372348292577626571
+    second: Campsite_781
+  - first:
+      213: -9013454466451163734
+    second: Campsite_782
+  - first:
+      213: 7014716461165042037
+    second: Campsite_783
+  - first:
+      213: 1619900831721698307
+    second: Campsite_784
+  - first:
+      213: -818636251461865646
+    second: Campsite_785
+  - first:
+      213: 6285120763782884648
+    second: Campsite_786
+  - first:
+      213: 2398001372193433537
+    second: Campsite_787
+  - first:
+      213: 7827366986022282240
+    second: Campsite_788
+  - first:
+      213: -513823696656909366
+    second: Campsite_789
+  - first:
+      213: -3993048814767597102
+    second: Campsite_790
+  - first:
+      213: 3879122397285895701
+    second: Campsite_791
+  - first:
+      213: -8850642274439825288
+    second: Campsite_792
+  - first:
+      213: 8626069199386308372
+    second: Campsite_793
+  - first:
+      213: -6454095548977369363
+    second: Campsite_794
+  - first:
+      213: 7481142639373432021
+    second: Campsite_795
+  - first:
+      213: -5875760586326067652
+    second: Campsite_796
+  - first:
+      213: 5209380449024055090
+    second: Campsite_797
+  - first:
+      213: 1965042937705125639
+    second: Campsite_798
+  - first:
+      213: 2505371784682293961
+    second: Campsite_799
+  - first:
+      213: -1607631840089338828
+    second: Campsite_800
+  - first:
+      213: 5010605729466845457
+    second: Campsite_801
+  - first:
+      213: -8193744734335494863
+    second: Campsite_802
+  - first:
+      213: 5006187909205166772
+    second: Campsite_803
+  - first:
+      213: -4829156808501070762
+    second: Campsite_804
+  - first:
+      213: 7647619101749980753
+    second: Campsite_805
+  - first:
+      213: -3290551081215499626
+    second: Campsite_806
+  - first:
+      213: -2684241888856494019
+    second: Campsite_807
+  - first:
+      213: 7671715579822386136
+    second: Campsite_808
+  - first:
+      213: 7855730196688120807
+    second: Campsite_809
+  - first:
+      213: -7274633765717728381
+    second: Campsite_810
+  - first:
+      213: 4104346196438672846
+    second: Campsite_811
+  - first:
+      213: 6307008827657630530
+    second: Campsite_0
+  - first:
+      213: 912888179473574651
+    second: Campsite_1
+  - first:
+      213: -4670151487104573052
+    second: Campsite_2
+  - first:
+      213: -6638617943561418028
+    second: Campsite_3
+  - first:
+      213: 6391368721508052535
+    second: Campsite_4
+  - first:
+      213: 2666464260309096575
+    second: Campsite_5
+  - first:
+      213: -2295302135755047277
+    second: Campsite_6
+  - first:
+      213: 2855369935112385584
+    second: Campsite_7
+  - first:
+      213: 417879850151954368
+    second: Campsite_8
+  - first:
+      213: -4662810158133089913
+    second: Campsite_9
+  - first:
+      213: 2948491392097104445
+    second: Campsite_10
+  - first:
+      213: 8587180317270952497
+    second: Campsite_11
+  - first:
+      213: -5058900499648934983
+    second: Campsite_12
+  - first:
+      213: -2011509207047928868
+    second: Campsite_13
+  - first:
+      213: -1034861272582333253
+    second: Campsite_14
+  - first:
+      213: 2338627439001583803
+    second: Campsite_15
+  - first:
+      213: -5727744879266606550
+    second: Campsite_16
+  - first:
+      213: 316573437116924079
+    second: Campsite_17
+  - first:
+      213: 396477073305480682
+    second: Campsite_18
+  - first:
+      213: -413783342073338525
+    second: Campsite_19
+  - first:
+      213: -3296967886018656368
+    second: Campsite_20
+  - first:
+      213: 2967506071668898796
+    second: Campsite_21
+  - first:
+      213: 7315556562168804465
+    second: Campsite_22
+  - first:
+      213: -7825668083717810563
+    second: Campsite_23
+  - first:
+      213: -8627206115198511198
+    second: Campsite_24
+  - first:
+      213: -623766801824311429
+    second: Campsite_25
+  - first:
+      213: 2082815437452557914
+    second: Campsite_26
+  - first:
+      213: 6276180754358220418
+    second: Campsite_27
+  - first:
+      213: 7986249752229078915
+    second: Campsite_28
+  - first:
+      213: 745968447543867062
+    second: Campsite_29
+  - first:
+      213: 1645882252125663075
+    second: Campsite_30
+  - first:
+      213: 1365029767987667024
+    second: Campsite_31
+  - first:
+      213: -2290790113884253222
+    second: Campsite_32
+  - first:
+      213: -4825491850868667560
+    second: Campsite_33
+  - first:
+      213: 2763327019312923703
+    second: Campsite_34
+  - first:
+      213: 8744819225227249914
+    second: Campsite_35
+  - first:
+      213: -5576436785668109856
+    second: Campsite_36
+  - first:
+      213: 7093962052413761964
+    second: Campsite_37
+  - first:
+      213: -2815283271572802336
+    second: Campsite_38
+  - first:
+      213: 579265826082214412
+    second: Campsite_39
+  - first:
+      213: -7249637679112561992
+    second: Campsite_40
+  - first:
+      213: -6114040015391550959
+    second: Campsite_41
+  - first:
+      213: -1520147971776495843
+    second: Campsite_42
+  - first:
+      213: 6874570023505842621
+    second: Campsite_43
+  - first:
+      213: -3428361568241923257
+    second: Campsite_44
+  - first:
+      213: -6758969720401566571
+    second: Campsite_45
+  - first:
+      213: -2290481177408648540
+    second: Campsite_46
+  - first:
+      213: -8582399486377102824
+    second: Campsite_47
+  - first:
+      213: 1522990255754009668
+    second: Campsite_48
+  - first:
+      213: 278399643872882987
+    second: Campsite_49
+  - first:
+      213: -826795831177128721
+    second: Campsite_50
+  - first:
+      213: -951092656116996290
+    second: Campsite_51
+  - first:
+      213: 6553706830058322413
+    second: Campsite_52
+  - first:
+      213: 4303936589521924224
+    second: Campsite_53
+  - first:
+      213: 7559970886124976531
+    second: Campsite_54
+  - first:
+      213: 5376075824709211757
+    second: Campsite_55
+  - first:
+      213: 9022668056618161837
+    second: Campsite_56
+  - first:
+      213: -6180335390693965144
+    second: Campsite_57
+  - first:
+      213: 5645013942685498448
+    second: Campsite_58
+  - first:
+      213: 5055719772344618343
+    second: Campsite_59
+  - first:
+      213: 2941564162292077882
+    second: Campsite_60
+  - first:
+      213: -24907324740797750
+    second: Campsite_61
+  - first:
+      213: 4281039240656575555
+    second: Campsite_62
+  - first:
+      213: 4074987335506336391
+    second: Campsite_63
+  - first:
+      213: 3767073741831792655
+    second: Campsite_64
+  - first:
+      213: 4747761081626473217
+    second: Campsite_65
+  - first:
+      213: -1799985466919993980
+    second: Campsite_66
+  - first:
+      213: 7136874499226665728
+    second: Campsite_67
+  - first:
+      213: 7906834966988885390
+    second: Campsite_68
+  - first:
+      213: -2284528902438024107
+    second: Campsite_69
+  - first:
+      213: 5213378926858742189
+    second: Campsite_70
+  - first:
+      213: 8746038839438311098
+    second: Campsite_71
+  - first:
+      213: 3899366965421423666
+    second: Campsite_72
+  - first:
+      213: -3149808675623411363
+    second: Campsite_73
+  - first:
+      213: -7170378705557975940
+    second: Campsite_74
+  - first:
+      213: 8169547790163476794
+    second: Campsite_75
+  - first:
+      213: 286874360756525554
+    second: Campsite_76
+  - first:
+      213: -384539096460959709
+    second: Campsite_77
+  - first:
+      213: 1018346247454921590
+    second: Campsite_78
+  - first:
+      213: -5723085974857337995
+    second: Campsite_79
+  - first:
+      213: -6414705541508298398
+    second: Campsite_80
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Campsite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24339cfdc1ff68750800000000000000
+      internalID: 6307008827657630530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaec2966fa3bac00800000000000000
+      internalID: 912888179473574651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481aedb47f9403fb0800000000000000
+      internalID: -4670151487104573052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dacc7a3724eed3a0800000000000000
+      internalID: -6638617943561418028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ea7024df3b2b850800000000000000
+      internalID: 6391368721508052535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f789ff10e1f210520800000000000000
+      internalID: 2666464260309096575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eff1a5ed27520e0800000000000000
+      internalID: -2295302135755047277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03434bcd3df40a720800000000000000
+      internalID: 2855369935112385584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7c91b728b9cc500800000000000000
+      internalID: 417879850151954368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789e465adde5a4fb0800000000000000
+      internalID: -4662810158133089913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32be31ac452be820800000000000000
+      internalID: 2948491392097104445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a4921700bcb2770800000000000000
+      internalID: 8587180317270952497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb016c7ccc2bc9b0800000000000000
+      internalID: -5058900499648934983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd30b7b980fa514e0800000000000000
+      internalID: -2011509207047928868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_14
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcdbefc72f63a1f0800000000000000
+      internalID: -1034861272582333253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_15
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0cba3e349747020800000000000000
+      internalID: 2338627439001583803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2250431166f280b0800000000000000
+      internalID: -5727744879266606550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0cda02dd1b46400800000000000000
+      internalID: 316573437116924079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_18
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeda5fb2cc1908500800000000000000
+      internalID: 396477073305480682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_19
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365aeb12e32f14af0800000000000000
+      internalID: -413783342073338525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_20
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097ccfdfc21de32d0800000000000000
+      internalID: -3296967886018656368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_21
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebb3a6bc03be2920800000000000000
+      internalID: 2967506071668898796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174795e0fe3168560800000000000000
+      internalID: 7315556562168804465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7653eb0754a56390800000000000000
+      internalID: -7825668083717810563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7d3834fb1064880800000000000000
+      internalID: -8627206115198511198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77949a066fe757f0800000000000000
+      internalID: -623766801824311429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e3f0aea95a7ec10800000000000000
+      internalID: 2082815437452557914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2863aa9b429791750800000000000000
+      internalID: 6276180754358220418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3876a2136dbd4de60800000000000000
+      internalID: 7986249752229078915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b67089c9563a5a00800000000000000
+      internalID: 745968447543867062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fe114203957d610800000000000000
+      internalID: 1645882252125663075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_31
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0502dbc775f81f210800000000000000
+      internalID: 1365029767987667024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3d3fe478a7530e0800000000000000
+      internalID: -2290790113884253222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_33
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b4e6a6ab8680db0800000000000000
+      internalID: -4825491850868667560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734c268884f495620800000000000000
+      internalID: 2763327019312923703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_35
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af84da8d0c6db5970800000000000000
+      internalID: 8744819225227249914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9c4d5e9448c92b0800000000000000
+      internalID: -5576436785668109856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_37
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca92938b6e0d27260800000000000000
+      internalID: 7093962052413761964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4bdcfc7ca1ee8d0800000000000000
+      internalID: -2815283271572802336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_39
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0257222337f90800800000000000000
+      internalID: 579265826082214412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba553ae0fc146b90800000000000000
+      internalID: -7249637679112561992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1121014eff0962ba0800000000000000
+      internalID: -6114040015391550959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f3b38497957eae0800000000000000
+      internalID: -1520147971776495843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_43
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db15d9a6301676f50800000000000000
+      internalID: 6874570023505842621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_44
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bc65361530c60d0800000000000000
+      internalID: -3428361568241923257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_45
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594e7df89d05332a0800000000000000
+      internalID: -6758969720401566571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_46
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aac6df21839630e0800000000000000
+      internalID: -2290481177408648540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_47
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8127ffd732135e880800000000000000
+      internalID: -8582399486377102824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_48
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c5996819fb22510800000000000000
+      internalID: 1522990255754009668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_49
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2173a640031dd300800000000000000
+      internalID: 278399643872882987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_50
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4d9e47291a684f0800000000000000
+      internalID: -826795831177128721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_51
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37e9a3b44a0dc2f0800000000000000
+      internalID: -951092656116996290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_52
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de97daf83a173fa50800000000000000
+      internalID: 6553706830058322413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080b2426687aabb30800000000000000
+      internalID: 4303936589521924224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39936cb67796ae860800000000000000
+      internalID: 7559970886124976531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d669b599a78ab9a40800000000000000
+      internalID: 5376075824709211757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da65df81bc4f63d70800000000000000
+      internalID: 9022668056618161837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a249ecf4b90b3aa0800000000000000
+      internalID: -6180335390693965144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c75e5b54e175e40800000000000000
+      internalID: 5645013942685498448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d058ab856892640800000000000000
+      internalID: 5055719772344618343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a355071450982d820800000000000000
+      internalID: 2941564162292077882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_61
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf48c8be287aff0800000000000000
+      internalID: -24907324740797750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cd7d8e18e496b30800000000000000
+      internalID: 4281039240656575555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_63
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a121534634d8830800000000000000
+      internalID: 4074987335506336391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08e5900c95574430800000000000000
+      internalID: 3767073741831792655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_65
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10335cc8c8f63e140800000000000000
+      internalID: 4747761081626473217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d3e5b21ca2507e0800000000000000
+      internalID: -1799985466919993980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_67
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00303f45b854b0360800000000000000
+      internalID: 7136874499226665728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_68
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d8201a288babd60800000000000000
+      internalID: 7906834966988885390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_69
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c81133119bb40e0800000000000000
+      internalID: -2284528902438024107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_70
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da92ce62384a95840800000000000000
+      internalID: 5213378926858742189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_71
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe7d786cfb206970800000000000000
+      internalID: 8746038839438311098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c36d668955d1630800000000000000
+      internalID: 3899366965421423666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51e50ba2b1a944d0800000000000000
+      internalID: -3149808675623411363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c013ebe82bd7c90800000000000000
+      internalID: -7170378705557975940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3185485e60106170800000000000000
+      internalID: 8169547790163476794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f95f0016be2bf300800000000000000
+      internalID: 286874360756525554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320e139aab7d9aaf0800000000000000
+      internalID: -384539096460959709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67317e14484e12e00800000000000000
+      internalID: 1018346247454921590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573bb99c0a38390b0800000000000000
+      internalID: -5723085974857337995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_80
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2690babeb436af6a0800000000000000
+      internalID: -6414705541508298398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_81
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09accdd352478fa60800000000000000
+      internalID: 7708038465545095824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_82
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290cf863f748cb540800000000000000
+      internalID: 5025036966149734546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_83
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5637e5edc072870c0800000000000000
+      internalID: -4577866084998286491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_84
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e133bec19debe46c0800000000000000
+      internalID: -4157175566314032354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_85
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa59982f42eab830800000000000000
+      internalID: 4087828441403579135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_86
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce69393afbe0d8860800000000000000
+      internalID: 7533693967906608876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_87
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6779c11758f608790800000000000000
+      internalID: -7529895958044436618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_88
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6072633514d465a10800000000000000
+      internalID: 1897789235947513606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_89
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69d84245aeea1460800000000000000
+      internalID: 7213340146736355690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_90
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ebb9c440ca30500800000000000000
+      internalID: 361321529584893583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_91
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb159ee9fee022d50800000000000000
+      internalID: 6710942817061523903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d8faad7388e1910800000000000000
+      internalID: 1810033873723034938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_93
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06de2e7d82bc1bb0800000000000000
+      internalID: -4963896368491997681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1fe853fa6e3e8f0800000000000000
+      internalID: -512312292397878831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a277cc097492980800000000000000
+      internalID: -8563234529237063125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7691c5e8a09feb0800000000000000
+      internalID: -4685702330755487776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3861108ab769b600800000000000000
+      internalID: 484532485629241406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ef80f99d9d38a10800000000000000
+      internalID: 1910610195634519648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47d3e7367b1e5e90800000000000000
+      internalID: -7035155373348366516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca5da9ff96b52850800000000000000
+      internalID: 6351683647680895683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_101
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0e79d0a353fd2a0800000000000000
+      internalID: -6710586396306317140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd3a89c0326b4b00800000000000000
+      internalID: 813852119349738952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_103
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ed858e18186ef40800000000000000
+      internalID: 5757431568588660294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fb98988f71cb3e0800000000000000
+      internalID: -2036726575251472582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_105
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d975b227a254790800000000000000
+      internalID: -7546578930747597523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_106
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d3d9b9710dba650800000000000000
+      internalID: 6245314108092923137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_107
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675b8093a48392370800000000000000
+      internalID: 8298225679842456950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_108
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5bbd9434fa53ed0800000000000000
+      internalID: -2434847319987079750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_109
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dae868c972b3c50800000000000000
+      internalID: 6645949228341177608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_110
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdf6957cfcc826c0800000000000000
+      internalID: -4167856070454739467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_111
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3339f1d376b28f0800000000000000
+      internalID: -564243816084458587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_112
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb5356c8b05f60e0800000000000000
+      internalID: -2274510532267254833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc32f18db49689f0800000000000000
+      internalID: -466521969736401717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414bbcb4b598ed720800000000000000
+      internalID: 2872884637515625492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_115
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccbfc4f50b0aea90800000000000000
+      internalID: -7283997327108358974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_116
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd29d126fc22757b0800000000000000
+      internalID: -5235677767695232292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_117
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b126ca400de6b20800000000000000
+      internalID: 3129667509559630654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_118
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f853eb024bc088c0800000000000000
+      internalID: -3998972984577271565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_119
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f9d19b6630ab990800000000000000
+      internalID: -7369574100511121633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_120
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e7a01e35956e540800000000000000
+      internalID: 5036811450053197322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_121
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6592e153652e8af80800000000000000
+      internalID: -8094971470312232618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_122
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a158ae511f346860800000000000000
+      internalID: 7522206621450654119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_123
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fea6a5ad4fe6bb0800000000000000
+      internalID: -4940742522521850097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_124
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3e0f22b82aa0b50800000000000000
+      internalID: 6560234525688914903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_125
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb768050aa91ebb0800000000000000
+      internalID: -4908472105520694338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_126
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7646032415877b860800000000000000
+      internalID: 7545631991080707175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_127
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904d4ed41f579b730800000000000000
+      internalID: 4015370222031918089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_128
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3caa65725b99f260800000000000000
+      internalID: 7131902263377439802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_129
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd490502c7e7f8d0800000000000000
+      internalID: -2812524621775417934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_130
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711fcd397750f9010800000000000000
+      internalID: 1197682037043818775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_131
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc5c6593d5db1550800000000000000
+      internalID: 6132730422316784886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_132
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164a96e045c444450800000000000000
+      internalID: 6072062121505039457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_133
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c993a5fec654e9dd0800000000000000
+      internalID: -2477466410832741988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_134
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357759293c07c2610800000000000000
+      internalID: 1597775953089886035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_135
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2cc9b0441c136f0800000000000000
+      internalID: -706571168523697470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_136
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8088f68f8ec3ffcb0800000000000000
+      internalID: -4828073304219744248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec4571d6c4597ba0800000000000000
+      internalID: -6090743808147501854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_138
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45feb313913892380800000000000000
+      internalID: -8995514636472422572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_139
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bb5cee810bdd0d0800000000000000
+      internalID: -3396364922835846397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_140
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810fbeaac2fa78850800000000000000
+      internalID: 6379260003574607896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_141
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c5dbc4d598b2010800000000000000
+      internalID: 1165175962417847402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_142
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd0e6caf9a19ea30800000000000000
+      internalID: 4244953396868419025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_143
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1852cdd5f8d65410800000000000000
+      internalID: 1465597279254763550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_144
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6217911de5adbb0800000000000000
+      internalID: -4910508191526082839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_145
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8799a13119f5c7bc0800000000000000
+      internalID: -3784044510202652296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_146
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08ade4a92ca4b990800000000000000
+      internalID: -7371077395237984244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_147
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b3ff643f9164200800000000000000
+      internalID: 163846969104481142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_148
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7666311d2bba4c660800000000000000
+      internalID: 7405232471804175975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_149
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d76836a418c52e0800000000000000
+      internalID: -2135689966783136391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_150
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c71b653cf042260800000000000000
+      internalID: 7071794646526032965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_151
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4ba668822ffb1e0800000000000000
+      internalID: -2179757438756277011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_152
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a48d84b4841a410800000000000000
+      internalID: 1486548840190855735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_153
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd90f200930f3dca0800000000000000
+      internalID: -5993182551493113379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_154
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4858abe1dfc5c60800000000000000
+      internalID: 7808394162373756077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_155
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80a428928b8339c0800000000000000
+      internalID: -3948659055259246454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_156
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f23aedd94850c8f0800000000000000
+      internalID: -522320482496007438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_157
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991272b4d6f5cb460800000000000000
+      internalID: 7258781622431326617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_158
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b6877fd54f76190800000000000000
+      internalID: -7969132331187803384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_159
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20067b034802fc20800000000000000
+      internalID: 3238660166080921643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_160
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61674ce690fe6c770800000000000000
+      internalID: 8630848559694247446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_161
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af981805b2825ee0800000000000000
+      internalID: -1273812030555906144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_162
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6ed073afb341630800000000000000
+      internalID: 3896805523433842346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_163
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076d2dd8a04357800800000000000000
+      internalID: 609450544512292464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_164
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ccf08952a2d2450800000000000000
+      internalID: 6065550614091254812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_165
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b729f0938a0b20f40800000000000000
+      internalID: 5693307115508044411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_166
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2f39ba3bb6e7150800000000000000
+      internalID: 5872249383559623343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_167
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3187477449dc399f0800000000000000
+      internalID: -462800299951359981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_168
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ba1750cdbec6b0800000000000000
+      internalID: -5274069479811534835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_169
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ee90cf75b85f180800000000000000
+      internalID: -9082199863515812321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_170
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc8bbb508cbcc600800000000000000
+      internalID: 489973718957395151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_171
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e522e3ede7c85680800000000000000
+      internalID: -8766036850132245021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0c8834f87d41410800000000000000
+      internalID: 1447018390606102711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_173
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5658c04d2eea0be0800000000000000
+      internalID: -1510132846901569955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_174
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7c7846fcb422a50800000000000000
+      internalID: 6494836966738610153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_175
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a60a7f5b94621f0800000000000000
+      internalID: -1070086815561520617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_176
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfaaa153fd45e120800000000000000
+      internalID: 2442444080360894430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_177
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238178af2a8f34430800000000000000
+      internalID: 3766127092283414578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_178
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8a670992d773e60800000000000000
+      internalID: 7941954085361985755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_179
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350f19fed11461290800000000000000
+      internalID: -7920071297855262637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_180
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09918d8346a6f6f00800000000000000
+      internalID: 1112224611666762128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_181
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b62fe32f9ad0300800000000000000
+      internalID: 220018814714276608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_182
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84c58aa9fa437af0800000000000000
+      internalID: -399893505737636723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_183
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d106b3a1c3315e9d0800000000000000
+      internalID: -2745767248953384931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_184
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30743d39a945db3c0800000000000000
+      internalID: -4342221442833496317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_185
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfa5ab14f0c76b00800000000000000
+      internalID: 821837611686801372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_186
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dde62ba4aca3c560800000000000000
+      internalID: 7332894441535368661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_187
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbff3b23244ac8f50800000000000000
+      internalID: 6885058534568099772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_188
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b25c02c990f80f0800000000000000
+      internalID: -1112660016767882353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_189
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05492f94ede4ef1c0800000000000000
+      internalID: -4468047063674612656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_190
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb79f03a5812cde60800000000000000
+      internalID: 7988296696898492347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_191
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2975c39656aca2cb0800000000000000
+      internalID: -4887871908651182190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_192
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34dd513e114f4270800000000000000
+      internalID: 8236873841416983611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_193
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df38c49fba7d9a880800000000000000
+      internalID: -8599104879865330691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_194
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5ef250bdb35b300800000000000000
+      internalID: 267185564769314226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_195
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7606b0c0ed41a8cf0800000000000000
+      internalID: -249363885448273817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_196
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32690d19fb3cc3050800000000000000
+      internalID: 5781711249189410339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_197
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1611317959d5b70800000000000000
+      internalID: 8889425715591733742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_198
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7080709e165c60320800000000000000
+      internalID: 2523921665499793415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_199
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8550c5ade6420ec90800000000000000
+      internalID: -7142668950481140392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_200
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1700bf5a675afc6b0800000000000000
+      internalID: -5273814709618147215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_201
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581840cc962bdd780800000000000000
+      internalID: -8656566741272067707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_202
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4a9a4ac80152a40800000000000000
+      internalID: 5342694729189008560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_203
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe0ffa48ff5ad950800000000000000
+      internalID: 6474592934313266937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_204
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5293c27c3ad675e20800000000000000
+      internalID: 3339258198907173157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_205
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeb4b2968465ab50800000000000000
+      internalID: 6603794957758414527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_206
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88468c02f1ff647a0800000000000000
+      internalID: -6393142111846767480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_207
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eb8b9a659a5f130800000000000000
+      internalID: 3599969666832318070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_208
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32882454f5f5e270800000000000000
+      internalID: 8279293919723291195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_209
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816ab35bd1d1d37c0800000000000000
+      internalID: -4090080873150700008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_210
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc61d6744f2ec7530800000000000000
+      internalID: 3854204919920531149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_211
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494445e67280e21e0800000000000000
+      internalID: -2220828600799312748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_212
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83cfd24c5fe4c590800000000000000
+      internalID: -7654730287085010036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_213
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34c95641fe1f4d40800000000000000
+      internalID: 5570705285696832570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_214
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b360919dc9abce30800000000000000
+      internalID: 4524896950999344054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_215
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8c932d04780e320800000000000000
+      internalID: 2585214898585323720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_216
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e66394000f0d280800000000000000
+      internalID: -9020446169604133237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_217
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5157fae7b35c0b0800000000000000
+      internalID: -5709091537326631505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_218
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358b45cd3734b8f90800000000000000
+      internalID: -6950387435019388845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_219
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53005d5ab8e2bed0800000000000000
+      internalID: -2399599764307967142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_220
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21227d43f42cf5ee0800000000000000
+      internalID: -1270082924450471406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_221
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3730719c1abf58af0800000000000000
+      internalID: -394632720043015309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_222
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40a4a8e7cb711940800000000000000
+      internalID: 5265125537904631883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_223
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfc1719249447350800000000000000
+      internalID: 6013511952703279058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_224
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f5273372896c080800000000000000
+      internalID: -9167472697331785946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_225
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9863141fe86d87d0800000000000000
+      internalID: -2914558007795554148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_226
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ac670ddbdb966b0800000000000000
+      internalID: -5302498463308133777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_227
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e0173f0c9fc6120800000000000000
+      internalID: 2408574507849682526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_228
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7176398fa42722640800000000000000
+      internalID: 5053727398186673943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_229
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca1b8f0a0c6fe930800000000000000
+      internalID: 4174674170061986511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_230
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ded61f36ebef0af0800000000000000
+      internalID: -427864065443438887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_231
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eafa2c28b3384600800000000000000
+      internalID: 452668628658748131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_232
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153e1e5b334950fe0800000000000000
+      internalID: -1223408773945498799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_233
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333d492afd91b61b0800000000000000
+      internalID: -5662403658192202957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_234
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a1f3387e7a74000800000000000000
+      internalID: 20169336127691338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_235
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4716aa4b8e72670800000000000000
+      internalID: 8514029483217482938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_236
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8ccb82eabffcf50800000000000000
+      internalID: 6904013479208601854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_237
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cf075eeba4f3900800000000000000
+      internalID: 666333453627751558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_238
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941cb20abb77be880800000000000000
+      internalID: -8580633017294536375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_239
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45660811b26dff7e0800000000000000
+      internalID: -1729428251421415852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campsite_240
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cde14b6a33d51d50800000000000000
+      internalID: 6707499467899268547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
