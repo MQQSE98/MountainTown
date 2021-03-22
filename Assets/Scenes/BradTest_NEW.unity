@@ -255,7 +255,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1562311133
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7333730855679237331, guid: 56a98f86aec45684eb2a58d175ed1008,
     type: 3}
@@ -308,9 +308,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCombat: {fileID: 11400000, guid: 4c2787cdceef94c4887667690e934f4c, type: 2}
-  animator: {fileID: 0}
+  animator: {fileID: 269977670}
   orientation: 
-  poisonArrow: {fileID: 0}
+  poisonArrow: {fileID: 6021006608849084699, guid: 0c58a35c93e70dc4aaffde44349898ab,
+    type: 3}
 --- !u!1 &825013166
 GameObject:
   m_ObjectHideFlags: 0
