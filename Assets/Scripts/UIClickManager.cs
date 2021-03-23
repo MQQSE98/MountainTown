@@ -1,13 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
 
 public class UIClickManager : MonoBehaviour, IPointerClickHandler
 {
-
-
     public UnityEvent leftClick;
     public UnityEvent middleClick;
     public UnityEvent rightClick;
@@ -21,5 +17,4 @@ public class UIClickManager : MonoBehaviour, IPointerClickHandler
         else if (eventData.button == PointerEventData.InputButton.Right)
             rightClick.Invoke();
     }
-
 }

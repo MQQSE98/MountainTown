@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
@@ -13,8 +11,7 @@ public class UIManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        
+    {   
         if(Input.GetButtonDown("Inventory"))
         {
             Inventory.SetActive(!Inventory.activeSelf);

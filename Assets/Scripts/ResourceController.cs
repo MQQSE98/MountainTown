@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class ResourceController: MonoBehaviour
 {   
-
     public Slider healthBar, stamBar, manaBar, expBar;
    
     public void SetMaxHealth(float health)
@@ -13,6 +10,7 @@ public class ResourceController: MonoBehaviour
         healthBar.maxValue = health;
         healthBar.value = health;
     }
+
     public void SetHealth(float health)
     {
         healthBar.value = health;
@@ -24,6 +22,7 @@ public class ResourceController: MonoBehaviour
         stamBar.value = stamina;
 
     }
+
     public void SetStamina(float stamina)
     {
         stamBar.value = stamina;

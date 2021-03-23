@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
 
 public class UIImageAnimation : MonoBehaviour
 {
-
 	public Sprite[] sprites;
 	public int spritePerFrame = 6;
 	public bool loop = true;
@@ -21,6 +19,7 @@ public class UIImageAnimation : MonoBehaviour
 
 	void Update()
 	{
+		// divide into functions
 		if (!loop && index == sprites.Length) return;
 		frame++;
 		if (frame < spritePerFrame) return;

@@ -1,12 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class InventorySlotController : MonoBehaviour
 {
     public Item item;
-   // public Text itemAmountText;
+    //public Text itemAmountText;
     public int amount;
     private void Start()
     {
@@ -28,9 +26,7 @@ public class InventorySlotController : MonoBehaviour
             displayImage.sprite = null;
             displayImage.enabled = false;
         }
-    }
-
-    
+    } 
     
     public void Use()
     {
@@ -39,6 +35,4 @@ public class InventorySlotController : MonoBehaviour
             item.Use();
         }
     }
-
-    
 }

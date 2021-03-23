@@ -15,12 +15,9 @@ public abstract class Item : ScriptableObject
     [SerializeField] string id;
     public string ID { get { return id; } }
 
-   
-
     public ItemType type;
     public string ItemName;
     public Sprite Icon;
-   
 
     [TextArea(15,20)]
     public string Description;
@@ -39,9 +36,4 @@ public abstract class Item : ScriptableObject
 
     public abstract void Use();
 
-    
-
-
-
  }
-

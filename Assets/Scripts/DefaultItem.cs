@@ -1,12 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Default Item", menuName = "Item/default")]
 public class DefaultItem : Item
 {
-    
-
     public void Awake()
     {
         type = ItemType.Default;
@@ -16,5 +12,4 @@ public class DefaultItem : Item
     {
         throw new System.NotImplementedException();
     }
-
 }

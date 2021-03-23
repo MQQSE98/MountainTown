@@ -1,6 +1,7 @@
 ﻿/// <summary>
 /// Manages the Unity player object.
 /// </summary>
+ 
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -11,7 +12,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject player;
     public PlayerMovement playerMovement;
 
-    //Variables controlling health
+    //variables controlling health
     public float healthRegenValue = 0.001f;
 
     //variables controlling stamina
@@ -21,13 +22,13 @@ public class PlayerManager : MonoBehaviour
 
     //varibles controlling timers
     public float regenTimer = 0f;
-    public float MaxRegenTimer = 3f;
+    public float maxRegenTimer = 3f;
 
     public int alteredMoveSpeed = 6;
     public int defaultMoveSpeed = 3;
     
     public ResourceController resourceController;
-    public GameObject CurrentInteractableObject = null;
+    public GameObject currentInteractableObject = null;
     
     public bool isFatigued = false;
     public bool isDraining = false;    
@@ -58,12 +59,13 @@ public class PlayerManager : MonoBehaviour
         playerSheet.currentHealth -= damage;
         resourceController.SetHealth(playerSheet.currentHealth);
     }
+
     void Sprint()
     {
         print(playerSheet.currentStamina);
-        stamConsumationRate = playerSheet.maxStamina  * stamConsumtionPercent;
+        stamConsumationRate = playerSheet.maxStamina * stamConsumtionPercent;
 
-        if (Input.GetKey(KeyCode.G) &&  playerSheet.currentStamina >= 5)
+        if(Input.GetKey(KeyCode.G) && playerSheet.currentStamina >= 5)
         {        
             playerMovement.moveSpeed = 8;
             playerSheet.currentStamina -= 2;
@@ -85,7 +87,7 @@ public class PlayerManager : MonoBehaviour
             playerSheet.currentStamina += stamRegenRate;
             resourceController.SetStamina(playerSheet.currentStamina);
 
-        } else if (isFatigued == true)
+        } else if(isFatigued == true)
         {
             RegenTimer();
         }
@@ -93,12 +95,12 @@ public class PlayerManager : MonoBehaviour
 
     void RegenTimer()
     {
-        if (regenTimer <= MaxRegenTimer)
+        if (regenTimer <= maxRegenTimer)
         {
             regenTimer += Time.deltaTime;
             isFatigued = true;
         }
-        else if (regenTimer >= MaxRegenTimer)
+        else if (regenTimer >= maxRegenTimer)
         {
             regenTimer = 0f;
             isFatigued = false;
@@ -117,26 +119,26 @@ public class PlayerManager : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         UnityEngine.Debug.Log(other.name);
-        CurrentInteractableObject = other.gameObject;      
+        currentInteractableObject = other.gameObject;      
     }
 
     void OnTriggerExit2D(Collider2D other)
     {        
-         CurrentInteractableObject = null;
+         currentInteractableObject = null;
          UnityEngine.Debug.Log(other.name);     
     }
 
     public void PickUp()
     {
-        if (Input.GetButtonDown("Interact") && CurrentInteractableObject)
+        if(Input.GetButtonDown("Interact") && currentInteractableObject)
         {
-            GameObject itemObject = CurrentInteractableObject;
+            GameObject itemObject = currentInteractableObject;
 
             Item itemPickedUp = itemObject.GetComponent<ItemManager>().item;
 
             Debug.Log("Current item is " + itemPickedUp.ItemName);
 
-            if (itemPickedUp)
+            if(itemPickedUp)
             {
                 playerSheet.bag.Add(itemPickedUp);
                 Destroy(itemObject);
@@ -152,7 +154,7 @@ public class PlayerManager : MonoBehaviour
 
     public void TestDamage()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(20);
         }
@@ -172,11 +174,11 @@ public class PlayerManager : MonoBehaviour
     public void UpdatePanelSlots()
     {
         int index = 0;
-        foreach (Transform child in inventoryPanel.transform)
+        foreach(Transform child in inventoryPanel.transform)
         {
             InventorySlotController slot = child.GetComponent<InventorySlotController>();
 
-            if (index < playerSheet.bag.Count)
+            if(index < playerSheet.bag.Count)
             {
                 slot.item = playerSheet.bag[index];
                 //slot.amount = 1;                

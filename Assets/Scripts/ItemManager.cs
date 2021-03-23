@@ -1,12 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ItemManager : MonoBehaviour
 {
     public Item item;
     //public DefaultItem defaultItem;
-
-
-  
 }

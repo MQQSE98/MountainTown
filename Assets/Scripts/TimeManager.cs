@@ -5,7 +5,8 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-public class TimeManager : MonoBehaviour {
+public class TimeManager : MonoBehaviour 
+{
     // Start is called before the first frame update
 
     //boolean to be set true in scenes aside from main menu
@@ -23,7 +24,8 @@ public class TimeManager : MonoBehaviour {
     private int totalGameSec, totalRealSec;
     private string[] weekDays = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
     
-    void Start() {
+    void Start() 
+    {
         isTimeRunning = true;
         totalRealSec = 0;
         totalGameSec = 0;
@@ -53,9 +55,11 @@ public class TimeManager : MonoBehaviour {
 
     // Update is called once per frame
 
-    void Update() {
+    void Update() 
+    {
         
-        if(isTimeRunning == true) {
+        if(isTimeRunning == true) 
+        {
             UpdateRealWorldTime();
             print(TotalRealSec);
         }
@@ -64,7 +68,8 @@ public class TimeManager : MonoBehaviour {
 
     //increments how much time has passed in the video game since launch
     //1 game day = 24 minutes
-    void UpdateInGameTime() {
+    void UpdateInGameTime() 
+    {
         
         //totalRealSec = (int)Time.realtimeSinceStartup;
         //+realSec+(realMin*60)+(realHr*60*60)+(realDay*60*60*24);
@@ -78,11 +83,13 @@ public class TimeManager : MonoBehaviour {
         //print("REal Hour: "+cRealHr+", REal Minutes: "+cRealMin+"Real sec: "+cRealSec);
      }
 
-    void TotalInGameTime() {
+    void TotalInGameTime() 
+    {
         print("Game Hour: " + (gameHr + cGameHr) + ", Game Minutes: " + (gameMin + cGameMin));
     }
 
-    void UpdateRealWorldTime() {
+    void UpdateRealWorldTime() 
+    {
         totalRealSec = (int)Time.realtimeSinceStartup;
 
         cRealSec = totalRealSec % 60;
@@ -92,41 +99,48 @@ public class TimeManager : MonoBehaviour {
         //print("REal Hour: " + cRealHr + ", REal Minutes: " + cRealMin + "Real sec: " + cRealSec);
     }
 
-    void TotalRealWorldTime() {
+    void TotalRealWorldTime() 
+    {
         print("REal Hour: " + (realHr+cRealHr) + ", REal Minutes: " + (realMin + cRealMin) + "Real sec: " + (realSec+cRealSec));
     }
 
-    public int TotalRealSec {
+    public int TotalRealSec 
+    {
         get { return (realSec+cRealSec); }
     }
 
-    public int TotalRealMin {
+    public int TotalRealMin 
+    {
         get { return (realMin+cRealMin); }
     }
 
-    public int TotalRealHour {
+    public int TotalRealHour 
+    {
         get { return (realHr+cRealHr); }
     }
 
-    public int TotalRealDay {
+    public int TotalRealDay 
+    {
         get { return (realDay+cRealDay); }
     }
 
-    public int TotalGameMin {
+    public int TotalGameMin 
+    {
         get { return (gameMin+cGameMin); }
     }
 
-    public int TotalGameHour {
+    public int TotalGameHour
+    {
         get { return (gameHr+cGameHr); }
     }
 
-    public int TotalGameDay {
+    public int TotalGameDay 
+    {
         get { return (gameDay+cGameDay); }
     }
 
-    public string GameWeekDay {
+    public string GameWeekDay
+    {
         get { return weekDays[(gameDay - 1) % 7]; }
     }
-
 }
-
