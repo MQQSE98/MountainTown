@@ -31312,9 +31312,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1258112942}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6078cc85f5b835429f8a72a194769c0, type: 3}
+  m_Script: {fileID: 11500000, guid: d3ccb976c2374bb489f84d9a635bcee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCombat: {fileID: 0}
+  animator: {fileID: 1258112947}
+  orientation: 
+  currentInteractableObject: {fileID: 0}
+  currentMeleeWeapon: {fileID: 0}
+  currentRangedWeapon: {fileID: 0}
+  poisonArrow: {fileID: 0}
 --- !u!95 &1258112947
 Animator:
   serializedVersion: 3
@@ -31373,7 +31380,8 @@ SpriteRenderer:
   m_SortingLayerID: 1562311133
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 7333730855679237331, guid: 56a98f86aec45684eb2a58d175ed1008,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -31381,7 +31389,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1258112949
