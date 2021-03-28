@@ -9,7 +9,7 @@ public class PlayerManager : MonoBehaviour
     //public GameObject mainUIPanel = GameObject.Find("MainUIPanel");
     public CharacterSheet playerSheet;
     public GameObject inventoryPanel;
-    //public GameObject player;
+    public GameObject player;
     public PlayerMovement playerMovement;
     public PlayerCombat playerCombat;
 
@@ -26,25 +26,9 @@ public class PlayerManager : MonoBehaviour
     public float regenTimer = 0f;
     public float maxRegenTimer = 3f;
 
-    //variable for bow holdtime
-    public float holdTimeDelta = 0;
-
-    //weapon range variables
-    private float hitRange = .6f;
-    private float bowHitRange = 10;
-
-    //range/ melee bits
-    bool rangedInUse = false;
-    bool meleeInUse = false;
-
-    //player orientation state string
-    public string orientation;
-
-    //player move speed 
     public int alteredMoveSpeed = 6;
     public int defaultMoveSpeed = 3;
     
-    //misc gameobjects 
     public ResourceController resourceController;
     public GameObject currentInteractableObject = null;
     public Animator animator;
@@ -84,7 +68,6 @@ public class PlayerManager : MonoBehaviour
 
         playerSheet.currentStamina = playerSheet.maxStamina;
         resourceController.SetMaxStamina(playerSheet.maxStamina);
-
     }
     void Update()
     {
@@ -232,6 +215,7 @@ public class PlayerManager : MonoBehaviour
             {
                 slot.item = null;
             }
+
             slot.UpdateInfo();          
             index++;
         }

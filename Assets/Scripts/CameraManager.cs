@@ -1,9 +1,9 @@
 ﻿/// <summary>
-/// This class clamps the Main Camera within a BaseLayer's boundaries. 
+/// This class clamps the Main Camera within a Base grid layer boundaries. 
 /// </summary>
 /// 
 /// <remarks>
-/// This class will clamp the Main Camera to a BaseLayer regardless of size, 
+/// This class will clamp the Main Camera to a Base grid layer regardless of size, 
 /// orthographic size or aspect ratio.
 /// </remarks>
 
@@ -21,9 +21,9 @@ public class CameraManager : MonoBehaviour
     private float yMin;
     private float yMax;
 
-    private float Zoom = 3f;
-    private float Height;
-    private float Width;
+    private float zoom = 3f;
+    private float height;
+    private float width;
 
     public void Awake()
     {
@@ -40,17 +40,6 @@ public class CameraManager : MonoBehaviour
         ZoomCameraOut();
         PlayerCameraClamp();
     }
-
-    public float SetClampHeight()
-    {
-        return Height = 2f * Camera.main.orthographicSize;
-    }
-
-    public float SetClampWidth()
-    {
-        return Width = Height * Camera.main.aspect / 2;
-    }
-
     public void GetTilemapBoundaries(TilemapRenderer baseLayer)
     {
         xMin = baseLayer.bounds.min.x;
@@ -59,21 +48,41 @@ public class CameraManager : MonoBehaviour
         yMax = baseLayer.bounds.max.y;
     }
 
+    public float SetClampHeight()
+    {
+        return height = 2f * Camera.main.orthographicSize;
+    }
+
+    public float SetClampWidth()
+    {
+        return width = height * Camera.main.aspect / 2;
+    }  
+
     public void PlayerCameraClamp()
     {
         SetClampHeight();
         SetClampWidth();
-        float x = Mathf.Clamp(player.position.x, xMin + Width, xMax - Width);
-        float y = Mathf.Clamp(player.position.y, yMin + Camera.main.orthographicSize, yMax - Camera.main.orthographicSize);
+        float x = ClampX();
+        float y = ClampY();
         CameraTransform.position = new Vector3(x, y, CameraTransform.position.z);
+    }
+
+    public float ClampX()
+    {
+        return Mathf.Clamp(player.position.x, xMin + width, xMax - width);
+    }
+
+    public float ClampY()
+    {
+        return Mathf.Clamp(player.position.y, yMin + Camera.main.orthographicSize, yMax - Camera.main.orthographicSize);
     }
 
     public void ZoomCameraIn()
     {
         if (Input.mouseScrollDelta.y > 0 && Camera.main.orthographicSize > 3f) 
         {
-            Zoom -= 0.5f;
-            Camera.main.orthographicSize = Zoom;
+            zoom -= 0.5f;
+            Camera.main.orthographicSize = zoom;
         }
     }
 
@@ -81,8 +90,8 @@ public class CameraManager : MonoBehaviour
     {
         if (Input.mouseScrollDelta.y < 0 && Camera.main.orthographicSize < 5f)
         {
-            Zoom += 0.5f;
-            Camera.main.orthographicSize = Zoom;
+            zoom += 0.5f;
+            Camera.main.orthographicSize = zoom;
         }
     }
 }
