@@ -13,6 +13,7 @@ public class PlayerManager : MonoBehaviour
     public PlayerMovement playerMovement;
     public PlayerCombat playerCombat;
 
+    public string orientation;
 
     //variables controlling health
     public float healthRegenValue = 0.001f;
@@ -28,6 +29,8 @@ public class PlayerManager : MonoBehaviour
 
     public int alteredMoveSpeed = 6;
     public int defaultMoveSpeed = 3;
+
+    public float holdTimeDelta;
     
     public ResourceController resourceController;
     public GameObject currentInteractableObject = null;
@@ -41,17 +44,9 @@ public class PlayerManager : MonoBehaviour
     public bool isFatigued = false;
     public bool isDraining = false;
 
-    public float HitRange
-    {
-        get
-        {
-            return hitRange;
-        }
-        set
-        {
-            hitRange = value;
-        }
-    }
+    public bool meleeInUse;
+    public bool rangedInUse;
+
 
     public void Start()
     {
