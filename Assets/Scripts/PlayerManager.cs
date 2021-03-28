@@ -1,11 +1,11 @@
 ﻿/// <summary>
 /// Manages the Unity player object.
 /// </summary>
- 
+
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
-{ 
+{
     //public GameObject mainUIPanel = GameObject.Find("MainUIPanel");
     public CharacterSheet playerSheet;
     public GameObject inventoryPanel;
@@ -18,7 +18,7 @@ public class PlayerManager : MonoBehaviour
     //variables controlling stamina
     public float stamConsumtionPercent = .0005f;
     public float stamRegenRate = 0.5f;
-    public float stamConsumationRate; 
+    public float stamConsumationRate;
 
     //varibles controlling timers
     public float regenTimer = 0f;
@@ -26,12 +26,12 @@ public class PlayerManager : MonoBehaviour
 
     public int alteredMoveSpeed = 6;
     public int defaultMoveSpeed = 3;
-    
+
     public ResourceController resourceController;
     public GameObject currentInteractableObject = null;
-    
+
     public bool isFatigued = false;
-    public bool isDraining = false;    
+    public bool isDraining = false;
 
     public void Start()
     {
@@ -46,7 +46,7 @@ public class PlayerManager : MonoBehaviour
     void Update()
     {
         TestDamage();
-        Sprint();       
+        Sprint();
         PickUp();
         RegenStamina();
         RegenHealth();
@@ -65,29 +65,30 @@ public class PlayerManager : MonoBehaviour
         print(playerSheet.currentStamina);
         stamConsumationRate = playerSheet.maxStamina * stamConsumtionPercent;
 
-        if(Input.GetKey(KeyCode.G) && playerSheet.currentStamina >= 5)
-        {        
+        if (Input.GetKey(KeyCode.G) && playerSheet.currentStamina >= 5)
+        {
             playerMovement.moveSpeed = 8;
             playerSheet.currentStamina -= 2;
             resourceController.SetStamina(playerSheet.currentStamina);
             isDraining = true;
-            isFatigued = true;           
+            isFatigued = true;
         }
         else
         {
             playerMovement.moveSpeed = defaultMoveSpeed;
             isDraining = false;
-        }   
+        }
     }
-    
+
     void RegenStamina()
     {
-        if(playerSheet.currentStamina < playerSheet.maxStamina && isFatigued == false && isDraining == false)
+        if (playerSheet.currentStamina < playerSheet.maxStamina && isFatigued == false && isDraining == false)
         {
             playerSheet.currentStamina += stamRegenRate;
             resourceController.SetStamina(playerSheet.currentStamina);
 
-        } else if(isFatigued == true)
+        }
+        else if (isFatigued == true)
         {
             RegenTimer();
         }
@@ -106,31 +107,31 @@ public class PlayerManager : MonoBehaviour
             isFatigued = false;
         }
     }
-        
+
     void RegenHealth()
     {
-       if(playerSheet.currentHealth < playerSheet.maxHealth)
-       {
+        if (playerSheet.currentHealth < playerSheet.maxHealth)
+        {
             playerSheet.currentHealth += healthRegenValue;
             resourceController.SetHealth(playerSheet.currentHealth);
-       }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         UnityEngine.Debug.Log(other.name);
-        currentInteractableObject = other.gameObject;      
+        currentInteractableObject = other.gameObject;
     }
 
     void OnTriggerExit2D(Collider2D other)
-    {        
-         currentInteractableObject = null;
-         UnityEngine.Debug.Log(other.name);     
+    {
+        currentInteractableObject = null;
+        UnityEngine.Debug.Log(other.name);
     }
 
     public void PickUp()
     {
-        if(Input.GetButtonDown("Interact") && currentInteractableObject)
+        if (Input.GetButtonDown("Interact") && currentInteractableObject)
         {
             GameObject itemObject = currentInteractableObject;
 
@@ -138,7 +139,7 @@ public class PlayerManager : MonoBehaviour
 
             Debug.Log("Current item is " + itemPickedUp.ItemName);
 
-            if(itemPickedUp)
+            if (itemPickedUp)
             {
                 playerSheet.bag.Add(itemPickedUp);
                 Destroy(itemObject);
@@ -154,17 +155,17 @@ public class PlayerManager : MonoBehaviour
 
     public void TestDamage()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(20);
         }
     }
- 
+
     public void Heal(float amount)
     {
         playerSheet.currentHealth += amount;
 
-        if(playerSheet.currentHealth > playerSheet.maxHealth)
+        if (playerSheet.currentHealth > playerSheet.maxHealth)
         {
             playerSheet.maxHealth = playerSheet.currentHealth;
         }
@@ -174,11 +175,11 @@ public class PlayerManager : MonoBehaviour
     public void UpdatePanelSlots()
     {
         int index = 0;
-        foreach(Transform child in inventoryPanel.transform)
+        foreach (Transform child in inventoryPanel.transform)
         {
             InventorySlotController slot = child.GetComponent<InventorySlotController>();
 
-            if(index < playerSheet.bag.Count)
+            if (index < playerSheet.bag.Count)
             {
                 slot.item = playerSheet.bag[index];
                 //slot.amount = 1;                
@@ -188,7 +189,7 @@ public class PlayerManager : MonoBehaviour
                 slot.item = null;
             }
 
-            slot.UpdateInfo();          
+            slot.UpdateInfo();
             index++;
         }
     }

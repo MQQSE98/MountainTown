@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 476c6e9b3fee7094f9fc01f51591ed16
+guid: 3f8f702e7b6b70c489222793095e1d8c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - PlayerAttributes: {instanceID: 0}
-  - PlayerInventory: {fileID: 11400000, guid: 8153c6fa516b2a04e9403d986c44a826, type: 2}
-  - PlayerSkills: {fileID: 11400000, guid: 415c8f1a529eb7e47a7fa12d27307a01, type: 2}
-  - PlayerCombat: {fileID: 11400000, guid: f92abe96f5369c1419cc65065a2fd63e, type: 2}
-  - CurrentInteractableObject: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
