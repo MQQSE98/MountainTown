@@ -13,7 +13,7 @@ public class PlayerCombat : Combat
     /// <param name="player">player game object</param>
     /// <param name="enemies">enemy game object array</param>
     /// <param name="orientation">player hitting orientation</param>
-    public void MeleeAttack(GameObject player, GameObject[] enemies, string orientation)
+    public void MeleeAttack(GameObject player, MeleeWeapon weapon, GameObject[] enemies, string orientation)
     {
         foreach(GameObject e in enemies)
         {
@@ -25,7 +25,7 @@ public class PlayerCombat : Combat
                 angle += Mathf.Abs(angle) * 2;
                 angle = 180-angle+180;
             }    
-            if((player.transform.position - e.transform.position).magnitude < player.GetComponent<PlayerM>().HitRange)
+            if((player.transform.position - e.transform.position).magnitude <weapon.Range)
             {
             bool hit = false;
                 switch(orientation)
@@ -65,16 +65,75 @@ public class PlayerCombat : Combat
                 }
                 if (hit == true)
                 {
-                    e.GetComponent<EnemyM>().health -= 10;
+                    e.GetComponent<EnemyM>().health -= weapon.Damage;
                 }
             }
         }
         
     }
 
-    public void RangedAttack(GameObject arrow, GameObject[] enemies)
+    public void RangedAttack(GameObject player, RangedWeapon weapon, GameObject[] enemies, string orientation, float holdTimeDelta)
     {
+        float dist = 0;
+        if (holdTimeDelta >= 1)
+            dist = weapon.Range;
+        else
+            dist = holdTimeDelta * weapon.Range;
 
+        GameObject arrow = Instantiate(weapon.Projectile, player.transform.position, Quaternion.identity);
+        float x = 0;
+        float y = 0;
+        switch (orientation)
+        {
+            case "Up":
+                arrow.GetComponent<Arrow>().destination = new Vector2(player.transform.position.x, player.transform.position.y + dist);
+                arrow.GetComponent<CircleCollider2D>().offset = new Vector2(-.01f, .37f);
+                arrow.GetComponent<Arrow>().orientation = 0;
+                break;
+            case "Down":
+                arrow.GetComponent<Arrow>().destination = new Vector2(player.transform.position.x, player.transform.position.y - dist);
+                arrow.GetComponent<CircleCollider2D>().offset = new Vector2(.01f, -.37f);
+                arrow.GetComponent<Arrow>().orientation = 4;
+                break;
+            case "Left":
+                arrow.GetComponent<Arrow>().destination = new Vector2(player.transform.position.x - dist, player.transform.position.y);
+                arrow.GetComponent<CircleCollider2D>().offset = new Vector2(-.3f, -.02f);
+                arrow.GetComponent<Arrow>().orientation = 6;
+                break;
+            case "Right":
+                arrow.GetComponent<Arrow>().destination = new Vector2(player.transform.position.x + dist, player.transform.position.y);
+                arrow.GetComponent<CircleCollider2D>().offset = new Vector2(.37f, .01f);
+                arrow.GetComponent<Arrow>().orientation = 2;
+                break;
+            case "UpRight":
+                y = dist * Mathf.Sin(45 * Mathf.Deg2Rad);
+                x = dist * Mathf.Cos(45 * Mathf.Deg2Rad);
+                arrow.GetComponent<Arrow>().destination = new Vector2(player.transform.position.x + x, player.transform.position.y + y);
+                arrow.GetComponent<CircleCollider2D>().offset = new Vector2(.23f, .25f);
+                arrow.GetComponent<Arrow>().orientation = 1;
+                break;
+            case "DownRight":
+                y = dist * Mathf.Sin(315 * Mathf.Deg2Rad);
+                x = dist * Mathf.Cos(315 * Mathf.Deg2Rad);
+                arrow.GetComponent<Arrow>().destination = new Vector2(player.transform.position.x + x, player.transform.position.y + y);
+                arrow.GetComponent<CircleCollider2D>().offset = new Vector2(.27f, -.23f);
+                arrow.GetComponent<Arrow>().orientation = 3;
+                break;
+            case "UpLeft":
+                y = dist * Mathf.Sin(135 * Mathf.Deg2Rad);
+                x = dist * Mathf.Cos(135 * Mathf.Deg2Rad);
+                arrow.GetComponent<Arrow>().destination = new Vector2(player.transform.position.x + x, player.transform.position.y + y);
+                arrow.GetComponent<CircleCollider2D>().offset = new Vector2(-.26f, .23f);
+                arrow.GetComponent<Arrow>().orientation = 7;
+                break;
+            case "DownLeft":
+                y = dist * Mathf.Sin(225 * Mathf.Deg2Rad);
+                x = dist * Mathf.Cos(225 * Mathf.Deg2Rad);
+                arrow.GetComponent<Arrow>().destination = new Vector2(player.transform.position.x + x, player.transform.position.y + y);
+                arrow.GetComponent<CircleCollider2D>().offset = new Vector2(-.22f, -.26f);
+                arrow.GetComponent<Arrow>().orientation = 5;
+                break;
+        }
     }
 
 

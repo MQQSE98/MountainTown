@@ -9,8 +9,10 @@ public class PlayerManager : MonoBehaviour
     //public GameObject mainUIPanel = GameObject.Find("MainUIPanel");
     public CharacterSheet playerSheet;
     public GameObject inventoryPanel;
-    public GameObject player;
+    //public GameObject player;
     public PlayerMovement playerMovement;
+    public PlayerCombat playerCombat;
+
 
     //variables controlling health
     public float healthRegenValue = 0.001f;
@@ -24,17 +26,57 @@ public class PlayerManager : MonoBehaviour
     public float regenTimer = 0f;
     public float maxRegenTimer = 3f;
 
+    //variable for bow holdtime
+    public float holdTimeDelta = 0;
+
+    //weapon range variables
+    private float hitRange = .6f;
+    private float bowHitRange = 10;
+
+    //range/ melee bits
+    bool rangedInUse = false;
+    bool meleeInUse = false;
+
+    //player orientation state string
+    public string orientation;
+
+    //player move speed 
     public int alteredMoveSpeed = 6;
     public int defaultMoveSpeed = 3;
     
+    //misc gameobjects 
     public ResourceController resourceController;
     public GameObject currentInteractableObject = null;
-    
+    public Animator animator;
+
+    //melee / ranged SO data
+    public MeleeWeapon currentMeleeWeapon;
+    public RangedWeapon currentRangedWeapon;
+
+    //player stamina states
     public bool isFatigued = false;
-    public bool isDraining = false;    
+    public bool isDraining = false;
+
+    public float HitRange
+    {
+        get
+        {
+            return hitRange;
+        }
+        set
+        {
+            hitRange = value;
+        }
+    }
 
     public void Start()
     {
+
+        //set all components 
+        animator = gameObject.GetComponent<Animator>();
+        playerMovement = gameObject.GetComponent<PlayerMovement>();
+        playerCombat = gameObject.GetComponent<PlayerCombat>();
+
         //playerSheet.list.Clear();
         UpdatePanelSlots();
         playerSheet.currentHealth = playerSheet.maxHealth;
@@ -42,6 +84,7 @@ public class PlayerManager : MonoBehaviour
 
         playerSheet.currentStamina = playerSheet.maxStamina;
         resourceController.SetMaxStamina(playerSheet.maxStamina);
+
     }
     void Update()
     {
@@ -51,6 +94,7 @@ public class PlayerManager : MonoBehaviour
         RegenStamina();
         RegenHealth();
         UpdatePanelSlots();
+        Attack();
     }
 
     //Testing Methods for Resource Controller
@@ -128,6 +172,7 @@ public class PlayerManager : MonoBehaviour
          UnityEngine.Debug.Log(other.name);     
     }
 
+    //HERE !! -------------------------------------------------------------------------------------
     public void PickUp()
     {
         if(Input.GetButtonDown("Interact") && currentInteractableObject)
@@ -187,9 +232,79 @@ public class PlayerManager : MonoBehaviour
             {
                 slot.item = null;
             }
-
             slot.UpdateInfo();          
             index++;
         }
     }
+
+    public void Attack()
+    {
+        if (animator.GetBool("Melee") == true)
+        {
+            meleeInUse = true;
+            rangedInUse = false;
+        }
+        else
+        {
+            rangedInUse = true;
+            meleeInUse = false;
+        }
+
+        if (Input.GetMouseButtonDown(0) && meleeInUse)
+        {
+            SetOrientation();
+            currentMeleeWeapon.Attack();
+
+        }
+        else if ((Input.GetMouseButton(0) && rangedInUse))
+        {
+            SetOrientation();
+            holdTimeDelta += Time.deltaTime;
+ 
+        }
+        //launching arrow
+        if (Input.GetMouseButtonUp(0) && rangedInUse)
+        {
+            currentRangedWeapon.Attack();
+            holdTimeDelta = 0;
+        }
+
+    }
+
+    public void SetOrientation()
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("Up"))
+        {
+            orientation = "Up";
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("Down"))
+        {
+            orientation = "Down";
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("Left"))
+        {
+            orientation = "Left";
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("Right"))
+        {
+            orientation = "Right";
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("UpRight"))
+        {
+            orientation = "UpRight";
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("UpLeft"))
+        {
+            orientation = "UpLeft";
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("DownRight"))
+        {
+            orientation = "DownRight";
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("DownLeft"))
+        {
+            orientation = "DownLeft";
+        }
+    }
+
 }
