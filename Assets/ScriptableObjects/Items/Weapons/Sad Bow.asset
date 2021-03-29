@@ -24,7 +24,7 @@ MonoBehaviour:
   StaminaDebuff: 0
   SpeedDebuff: 0
   MaxStackAmount: 0
-  Range: 100
+  Range: 10
   Damage: 1
   AttackRate: 1
   DamageType: 5
