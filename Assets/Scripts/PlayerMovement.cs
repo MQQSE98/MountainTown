@@ -28,10 +28,6 @@ public class PlayerMovement : MonoBehaviour
     //create a property for attacking
 
     // Update is called once per frame
-    void Update()
-    {
-       
-
 
     private float diagonalDelta = 0;
 
