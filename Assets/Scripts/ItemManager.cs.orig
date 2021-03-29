@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+﻿using UnityEngine;
+=======
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+>>>>>>> origin
+
+public class ItemManager : MonoBehaviour
+{
+    public Item item;
+<<<<<<< HEAD
+    //public DefaultItem defaultItem;
+=======
+    public DefaultItem defaultItem;
+>>>>>>> origin
+}

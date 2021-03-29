@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Prefabs/ItemPrefabs.meta
-guid: 55ebe26bbe6c98c4aaa60ea18dad70e2
-=======
-guid: 792fc71ab0f8cb043b72cd593384837d
->>>>>>> Brad_New:Assets/Animation.meta
+guid: b2fd6031fb700d143ab9fd5345e5fea0
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

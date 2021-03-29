@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject Inventory;
+    public GameObject InventoryV2;
     // Start is called before the first frame update
     void Start()
     {
@@ -11,10 +13,11 @@ public class UIManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   
+    {
+        
         if(Input.GetButtonDown("Inventory"))
         {
-            Inventory.SetActive(!Inventory.activeSelf);
+            InventoryV2.SetActive(!InventoryV2.activeSelf);
         }
     }
 }

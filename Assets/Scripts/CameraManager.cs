@@ -27,8 +27,16 @@ public class CameraManager : MonoBehaviour
 
     public void Awake()
     {
-        TilemapRenderer baseLayer = GameObject.Find("Base").GetComponent<TilemapRenderer>();
-        GetTilemapBoundaries(baseLayer);
+        TilemapRenderer BaseLayer;
+        try
+        {
+            BaseLayer = GameObject.Find("BaseLayer").GetComponent<TilemapRenderer>();
+        }
+        catch
+        {
+            BaseLayer = GameObject.Find("Base").GetComponent<TilemapRenderer>();
+        }
+        GetTilemapBoundaries(BaseLayer);
         SetClampHeight();
         SetClampWidth();
         CameraTransform = transform;

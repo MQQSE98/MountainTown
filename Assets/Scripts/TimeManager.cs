@@ -39,6 +39,7 @@ public class TimeManager : MonoBehaviour {
         realHr = 0;
         realDay = 0;
 
+
         gameMin = 6;
         gameHr = 3;
         gameDay = 12;
@@ -56,6 +57,7 @@ public class TimeManager : MonoBehaviour {
         
         if(isTimeRunning == true) {
             UpdateRealWorldTime();
+            print(TotalRealSec);
         }
         
     }
@@ -77,6 +79,7 @@ public class TimeManager : MonoBehaviour {
      }
 
     void TotalInGameTime() {
+        print("Game Hour: " + (gameHr + cGameHr) + ", Game Minutes: " + (gameMin + cGameMin));
     }
 
     void UpdateRealWorldTime() {
@@ -90,6 +93,7 @@ public class TimeManager : MonoBehaviour {
     }
 
     void TotalRealWorldTime() {
+        print("REal Hour: " + (realHr+cRealHr) + ", REal Minutes: " + (realMin + cRealMin) + "Real sec: " + (realSec+cRealSec));
     }
 
     public int TotalRealSec {

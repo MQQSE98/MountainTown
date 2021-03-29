@@ -10,7 +10,7 @@ public class GloopManager : EnemyMovementManager
         idleTime = .5f;
         randIdleTime = .5f;
         moveSpeed = 2f;
-        visualDistance = 8f;
+        visualDistance = 3f;
         minRandDist = 2;
         maxRandDist = 3;
         randHorizontal = true;

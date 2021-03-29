@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Boundary
+  - InteractableObject
+<<<<<<< HEAD
+  - Item
+  - TeleportPad
+  - InteractableDoor
+  - Enemy
+=======
+  - InteractableDoor
+  - TeleportPad
+  - Consumable
+  - Item
+  - Collision
+  - LEntity
+  - NPC
+>>>>>>> origin
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+<<<<<<< HEAD
+  - 
+  - Collision
+=======
+  - Player
+  - 
+>>>>>>> origin
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2337642677
+    locked: 0
