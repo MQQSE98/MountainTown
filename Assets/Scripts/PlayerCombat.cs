@@ -74,6 +74,7 @@ public class PlayerCombat : Combat
 
     public void RangedAttack(GameObject player, RangedWeapon weapon, GameObject[] enemies, string orientation, float holdTimeDelta)
     {
+        Debug.Log("in the attack functiin!!!!!!!!!!!!!!!!!!!!");
         float dist = 0;
         if (holdTimeDelta >= 1)
             dist = weapon.Range;

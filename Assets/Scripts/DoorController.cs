@@ -46,7 +46,7 @@ public class DoorController : MonoBehaviour
             animator.SetTrigger("startTrans");
             yield return new WaitForSeconds(1f);
             animator.SetTrigger("transOut");
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene(toScene);
         }
         else
         {

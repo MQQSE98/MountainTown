@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Sad Sword
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeWeapon
+  id: 34ffd204f42329946b5bfa52c26d5a7d
+  Prefab: {fileID: 4700009407362035773, guid: c83552cfaf2e52c46864c4d8e8443263, type: 3}
+  TypeOfItem: 0
+  ItemName: Sad Sword
+  ItemDescription: A sword that is very sad
+  isInInventory: 0
+  Icon: {fileID: -8283719170106492026, guid: f03a0cd27093da14cacecf73727c7259, type: 3}
+  Rarity: 0.5
+  HealthDebuff: 0
+  StaminaDebuff: 0
+  SpeedDebuff: 0
+  MaxStackAmount: 1
+  Range: 1
+  Damage: 1
+  AttackRate: 1
+  DamageType: 3
+  WeaponType: 0
+  TwoHanded: 0

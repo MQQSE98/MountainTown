@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Basic Health Potion
+  m_EditorClassIdentifier: Assembly-CSharp::HealthPotion
+  id: a826253c3e6bf5940b856950669a906f
+  Prefab: {fileID: 4700009407362035773, guid: c83552cfaf2e52c46864c4d8e8443263, type: 3}
+  TypeOfItem: 2
+  ItemName: Basic Health Potion
+  ItemDescription: A basic health potion that restores a little bit of health.
+  isInInventory: 0
+  Icon: {fileID: 7221839013660105604, guid: 5d60655318101a346aace82c2d9b0e1f, type: 3}
+  Rarity: 0.5
+  HealthDebuff: 0
+  StaminaDebuff: 0
+  SpeedDebuff: 0
+  MaxStackAmount: 1
+  EffectDuration: 0
+  IsTimed: 0
+  HealthAdd: 10

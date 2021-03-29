@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Boundary
   - InteractableObject
+  - Item
+  - TeleportPad
+  - InteractableDoor
+  - Enemy
   layers:
   - Default
   - TransparentFX

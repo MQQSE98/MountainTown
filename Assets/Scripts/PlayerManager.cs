@@ -80,6 +80,15 @@ public class PlayerManager : MonoBehaviour
     {
         playerSheet.currentHealth -= damage;
         resourceController.SetHealth(playerSheet.currentHealth);
+        if (playerSheet.currentHealth <= 0)
+        {
+            Death();
+        }
+    }
+
+    void Death()
+    {
+        Debug.Log("Sorry, you have died :((");
     }
 
     void Sprint()
@@ -189,7 +198,7 @@ public class PlayerManager : MonoBehaviour
 
         if(playerSheet.currentHealth > playerSheet.maxHealth)
         {
-            playerSheet.maxHealth = playerSheet.currentHealth;
+            playerSheet.currentHealth = playerSheet.maxHealth; 
         }
         resourceController.SetHealth(playerSheet.currentHealth);
     }
@@ -216,6 +225,7 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+    //TODO: do not run this if inventor is open 
     public void Attack()
     {
         if (animator.GetBool("Melee") == true)

@@ -145,11 +145,12 @@ public class RangedWeapon : Weapon
     public override void Attack()
     {
         GameObject player = GameObject.Find("player");
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         PlayerManager playerManager = player.GetComponent<PlayerManager>();
         PlayerCombat combat = playerManager.playerCombat;
         string orientation = playerManager.orientation;
         float holdTime = playerManager.holdTimeDelta;
-        combat.RangedAttack(player, this, GameObject.FindGameObjectsWithTag("Enemy"), orientation, holdTime);
+        combat.RangedAttack(player, this, enemies, orientation, holdTime);
     }
     public override void Use()
     {

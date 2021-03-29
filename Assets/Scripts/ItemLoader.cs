@@ -13,11 +13,22 @@ public class ItemLoader : MonoBehaviour
     {
         for (int i =0; i < lootPool.Length; i++)
         {
-            currentPrefab = lootPool[i].Prefab;
-            currentPrefab.GetComponent<ItemManager>().item = lootPool[i];
-            currentPrefab.GetComponent<SpriteRenderer>().sprite = lootPool[i].Icon;
-            currentPrefab.SetActive(true);
-            Instantiate(currentPrefab, new Vector3 (1.5F, 1, 0), Quaternion.identity);
+            if(i == 0)
+            {
+                currentPrefab = lootPool[i].Prefab;
+                currentPrefab.GetComponent<ItemManager>().item = lootPool[i];
+                currentPrefab.GetComponent<SpriteRenderer>().sprite = lootPool[i].Icon;
+                currentPrefab.SetActive(true);
+                Instantiate(currentPrefab, new Vector3(-9F, -1, 0), Quaternion.identity);
+            }
+            else
+            {
+                currentPrefab = lootPool[i].Prefab;
+                currentPrefab.GetComponent<ItemManager>().item = lootPool[i];
+                currentPrefab.GetComponent<SpriteRenderer>().sprite = lootPool[i].Icon;
+                currentPrefab.SetActive(true);
+                Instantiate(currentPrefab, new Vector3(-12F, -1, 0), Quaternion.identity);
+            }
         }
     }
 
