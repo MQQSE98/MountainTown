@@ -333,6 +333,15 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "io.tinu.asepriteimporter": {
+      "version": "1.0.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
     "nuget.castle-core": {
       "version": "1.0.1",
       "depth": 3,
