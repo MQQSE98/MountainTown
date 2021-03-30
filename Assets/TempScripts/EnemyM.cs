@@ -7,7 +7,7 @@ public class EnemyM : MonoBehaviour
 
     public float health = 100;
     public float hitRange;
-    public EnemyCombat enemyCombat;
+    private EnemyCombat enemyCombat;
     public float hitDelta;
 
     public float HitRange
@@ -25,7 +25,7 @@ public class EnemyM : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        enemyCombat = gameObject.GetComponent<EnemyCombat>();
     }
 
     // Update is called once per frame

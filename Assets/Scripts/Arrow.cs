@@ -67,8 +67,8 @@ public class Arrow : MonoBehaviour
         Debug.Log("Are we here?");
         if(col.gameObject.tag == "Enemy" && !isGrounded)
         {
-            Debug.Log("hit");
-            col.gameObject.GetComponent<EnemyM>().health -= 10;
+            Debug.LogWarning("Hit -----------------------------------");
+            col.gameObject.GetComponent<Transform>().parent.transform.gameObject.GetComponent<EnemyM>().health -= 10;
             Destroy(this.gameObject);
         }
     }

@@ -12,6 +12,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject player;
     public PlayerMovement playerMovement;
     public PlayerCombat playerCombat;
+    //public GameObject InventoryV2;
 
     public string orientation;
 
@@ -76,7 +77,7 @@ public class PlayerManager : MonoBehaviour
     }
 
     //Testing Methods for Resource Controller
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         playerSheet.currentHealth -= damage;
         resourceController.SetHealth(playerSheet.currentHealth);
@@ -239,20 +240,21 @@ public class PlayerManager : MonoBehaviour
             meleeInUse = false;
         }
 
-        if (Input.GetMouseButtonDown(0) && meleeInUse)
+        if (Input.GetMouseButtonDown(0) && meleeInUse && currentMeleeWeapon != null && !inventoryPanel.GetComponent<Transform>().parent.transform.gameObject.activeSelf)
         {
             SetOrientation();
             currentMeleeWeapon.Attack();
 
         }
-        else if ((Input.GetMouseButton(0) && rangedInUse))
+        else if (Input.GetMouseButton(0) && rangedInUse && currentMeleeWeapon != null && !inventoryPanel.GetComponent<Transform>().parent.transform.gameObject.activeSelf)
         {
             SetOrientation();
             holdTimeDelta += Time.deltaTime;
  
         }
         //launching arrow
-        if (Input.GetMouseButtonUp(0) && rangedInUse)
+        if (Input.GetMouseButtonUp(0) && rangedInUse && currentMeleeWeapon != null && !inventoryPanel.GetComponent<Transform>().parent.transform.gameObject.activeSelf)
+            
         {
             currentRangedWeapon.Attack();
             holdTimeDelta = 0;

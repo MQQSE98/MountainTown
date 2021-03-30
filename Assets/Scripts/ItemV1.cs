@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//comment to update :)!!!!!llfuckk
+//hh
 public enum TypeOfItem
 {
     MeleeWeapon, 

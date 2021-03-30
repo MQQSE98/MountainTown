@@ -18,7 +18,7 @@ MonoBehaviour:
   ItemName: Basic Health Potion
   ItemDescription: A basic health potion that restores a little bit of health.
   isInInventory: 0
-  Icon: {fileID: 7221839013660105604, guid: 5d60655318101a346aace82c2d9b0e1f, type: 3}
+  Icon: {fileID: 21300000, guid: d3a9365181f5d284f89d4d0486f7be27, type: 3}
   Rarity: 0.5
   HealthDebuff: 0
   StaminaDebuff: 0

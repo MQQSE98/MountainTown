@@ -18,7 +18,7 @@ MonoBehaviour:
   attributePoints: 0
   skillPoints: 0
   maxHealth: 100
-  currentHealth: 37.706764
+  currentHealth: 100
   maxStamina: 100
   currentStamina: 100
   maxMana: 0
@@ -42,5 +42,8 @@ MonoBehaviour:
   lightArmor: 0
   mediumArmor: 0
   heavyArmor: 0
-  bag: []
+  bag:
+  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
+  - {fileID: 11400000, guid: 34ffd204f42329946b5bfa52c26d5a7d, type: 2}
+  - {fileID: 11400000, guid: 874d3a90a7bb977499343fd500c468fe, type: 2}
   gold: 0

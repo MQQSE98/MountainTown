@@ -1,12 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+ //test
 [CreateAssetMenu(menuName = "Combat/EnemyCombat")]
 public class EnemyCombat : Combat
 {
 
-    public Attributes playerAttributes;
+    private PlayerManager playerManager;
+
+    private void Start()
+    {
+        playerManager = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerManager>();
+    }
 
 
     public void MeleeAttack(GameObject enemy, GameObject player)
@@ -14,12 +19,7 @@ public class EnemyCombat : Combat
 
         if ((player.transform.position - enemy.transform.position).magnitude < enemy.GetComponent<EnemyM>().HitRange)
         {
-            playerAttributes.health -= 10;
-            if (playerAttributes.health <= 0)
-                Destroy(player);
-            //Debug.Log("Angle: "+angle);
-
-
+            playerManager.TakeDamage(10);
         }
     }
 }

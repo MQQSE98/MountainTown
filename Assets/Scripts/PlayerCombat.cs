@@ -15,6 +15,7 @@ public class PlayerCombat : Combat
     /// <param name="orientation">player hitting orientation</param>
     public void MeleeAttack(GameObject player, MeleeWeapon weapon, GameObject[] enemies, string orientation)
     {
+        Debug.LogWarning("In Melee--------------------------------------");
         foreach(GameObject e in enemies)
         {
             float angle = Mathf.Rad2Deg * Mathf.Atan2((e.transform.position.y - player.transform.position.y)
@@ -65,7 +66,8 @@ public class PlayerCombat : Combat
                 }
                 if (hit == true)
                 {
-                    e.GetComponent<EnemyM>().health -= weapon.Damage;
+                    e.GetComponent<Transform>().parent.transform.gameObject.GetComponent<EnemyM>().health -= weapon.Damage;
+                    Debug.LogWarning("HIT!!!!!!");
                 }
             }
         }
@@ -81,7 +83,9 @@ public class PlayerCombat : Combat
         else
             dist = holdTimeDelta * weapon.Range;
 
+
         GameObject arrow = Instantiate(weapon.Projectile, player.transform.position, Quaternion.identity);
+        arrow.layer = 1;
         float x = 0;
         float y = 0;
         switch (orientation)
