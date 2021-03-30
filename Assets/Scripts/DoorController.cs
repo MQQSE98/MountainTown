@@ -8,6 +8,9 @@ public class DoorController : MonoBehaviour
 
     public string toScene; //name of scene to load into
     public bool teleport = false; //flag to teleport to a teleport pad within current scene
+    public string layerName;
+    public GameObject alert;
+    public string findPad;
     Collider2D myCollider; //door collider
     private bool byDoor = false; //detect if player is near door
     GameObject doorAlert; //UI element when near door
@@ -15,17 +18,23 @@ public class DoorController : MonoBehaviour
     GameObject panel; //transition animation panel
     GameObject teleportPad; //pad to teleport to 
     Animator animator; //animator to control transition effect 
+    CameraManager cameraManager; 
 
     void Start()
     {
         byDoor = false;
         myCollider = GetComponent<Collider2D>();
         doorAlert = GameObject.Find("DoorAlert");
-        doorAlert.SetActive(false);
+        if (alert.activeSelf)
+        {
+            alert.SetActive(false);
+        }
+        
         player = GameObject.FindGameObjectWithTag("Player");
         panel = GameObject.Find("TransitionPanel");
         animator = panel.transform.GetComponent<Animator>();
-        teleportPad = GameObject.FindGameObjectWithTag("TeleportPad");
+        teleportPad = GameObject.Find(findPad);
+        cameraManager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraManager>();
     }
 
     // Update is called once per frame
@@ -53,6 +62,10 @@ public class DoorController : MonoBehaviour
             animator.SetTrigger("startTrans");
             yield return new WaitForSeconds(1f);
             animator.SetTrigger("transOut");
+            if (layerName != null)
+            {
+                cameraManager.SwitchTownScene(layerName);
+            }
             player.transform.position = teleportPad.transform.position;
             
         }
@@ -69,7 +82,7 @@ public class DoorController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         byDoor = true;
-        doorAlert.SetActive(true);
+        alert.SetActive(true);
         Debug.Log("Entering Trigger!!");
         
     }
@@ -77,7 +90,7 @@ public class DoorController : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         byDoor = false;
-        doorAlert.SetActive(false);
+        alert.SetActive(false);
         Debug.Log("Exiting Trigger!!");
     }
 }

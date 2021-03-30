@@ -42,6 +42,15 @@ public class CameraManager : MonoBehaviour
         CameraTransform = transform;
     }
 
+    public void SwitchTownScene(string baseLayerName)
+    {
+        TilemapRenderer baseLayer = GameObject.Find("" + baseLayerName + "Base").GetComponent<TilemapRenderer>();
+        GetTilemapBoundaries(baseLayer);
+        SetClampHeight();
+        SetClampWidth();
+        CameraTransform = transform;
+    }
+
     public void LateUpdate()
     {
         ZoomCameraIn();

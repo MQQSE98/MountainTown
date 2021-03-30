@@ -267,18 +267,13 @@ public class NPCMovementManager : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void FixedUpdate() {
-        
-        if(!testComplete) {
-            HandleMovement(desiredLocation);
-        } else {
-            RandomBehavior();
-        }
-        
+    void FixedUpdate() 
+    {
+        RandomBehavior();
     }
 
     void Update() {
-        LoopedAnimation();
+        //LoopedAnimation();
     }
 
     void HandleMovement(Destination desiredLocation) {
@@ -392,7 +387,7 @@ public class NPCMovementManager : MonoBehaviour {
                 currentWaypoint++;
             }
             if (currentWaypoint >= currentPath.vectorPath.Count) {
-                //reached destination
+                //reched destination
                 randomMovement = false;
                 return;
             }
@@ -426,10 +421,10 @@ public class NPCMovementManager : MonoBehaviour {
         }
 
         if (!onPath) {
-            animator.SetBool("Move_U", false);
-            animator.SetBool("Move_R", false);
-            animator.SetBool("Move_L", false);
-            animator.SetBool("Move_D", false);
+            //animator.SetBool("Move_U", false);
+            //animator.SetBool("Move_R", false);
+            //animator.SetBool("Move_L", false);
+            //animator.SetBool("Move_D", false);
             return;
         }
         //Here need to set back to idle if coming off of a movement period into an idle one 
@@ -437,13 +432,13 @@ public class NPCMovementManager : MonoBehaviour {
             //moving horizontal
             if (horizontal > 0) {
                 //moving right
-                animator.SetBool("Move_U", false);
-                animator.SetBool("Move_D", false);
-                animator.SetBool("Move_L", false);
-                animator.SetBool("Move_R", true);
+               // animator.SetBool("Move_U", false);
+                //animator.SetBool("Move_D", false);
+                //animator.SetBool("Move_L", false);
+                //animator.SetBool("Move_R", true);
             } else {
                 //moving left
-                animator.SetBool("Move_U", false);
+                //animator.SetBool("Move_U", false);
                 animator.SetBool("Move_D", false);
                 animator.SetBool("Move_R", false);
                 animator.SetBool("Move_L", true);
