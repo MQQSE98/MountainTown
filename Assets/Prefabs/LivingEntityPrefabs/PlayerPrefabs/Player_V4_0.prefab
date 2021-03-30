@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7333730855679237331, guid: 56a98f86aec45684eb2a58d175ed1008,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -157,6 +157,6 @@ MonoBehaviour:
   moveSpeed: 5
   rollSpeed: 10
   mousePos: {x: 0, y: 0}
-  delta: 0
   rb: {fileID: 949850824016897382}
   animator: {fileID: 949850824016897381}
+  diagonalTime: 0
