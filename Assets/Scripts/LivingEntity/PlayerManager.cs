@@ -1,7 +1,8 @@
 ﻿/// <summary>
 /// Manages the Unity player object.
 /// </summary>
- 
+
+using System;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -74,6 +75,23 @@ public class PlayerManager : MonoBehaviour
         RegenHealth();
         UpdatePanelSlots();
         Attack();
+    }
+
+    public float AttributeMultiplier(int attr)
+    {
+        float multiplier = attr / 2;
+        return multiplier;
+    }
+
+    public float SkillMultiplier(int skill)
+    {
+        float multiplier = (float)Math.Pow(skill, 0.5f);
+        return multiplier;
+    }
+
+    public void AttackRating(int weaponRating, int skill)
+    {
+        playerSheet.attack = playerSheet.level * 10 + weaponRating * SkillMultiplier(skill);
     }
 
     //Testing Methods for Resource Controller
