@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Combat/PlayerCombat")]
+
 public class PlayerCombat : Combat
 {
     

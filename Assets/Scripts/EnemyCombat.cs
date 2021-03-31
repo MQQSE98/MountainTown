@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
  //test
-[CreateAssetMenu(menuName = "Combat/EnemyCombat")]
 public class EnemyCombat : Combat
 {
 
