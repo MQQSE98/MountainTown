@@ -76,9 +76,10 @@ public class PlayerManager : MonoBehaviour
         Attack();
     }
 
-    public float AttributeMultiplier(int attr)
+    //-----------PLAYER CALCULATIONS----------\\
+    public float AbilityScoreMultiplier(int ability)
     {
-        float multiplier = attr / 2;
+        float multiplier = ability / 2;
         return multiplier;
     }
 
@@ -88,15 +89,16 @@ public class PlayerManager : MonoBehaviour
         return multiplier;
     }
 
-    public void AttackRating(int weaponRating, int skill)
+    public void AttackRating(int weaponRating, int weaponSkill)
     {
-        playerSheet.attack = playerSheet.level * 10 + weaponRating * SkillMultiplier(skill);
+        playerSheet.attack = playerSheet.level * 10 + weaponRating * SkillMultiplier(weaponSkill);
     }
 
-    public void DefenseRating(int armorRating, int skill)
+    public void DefenseRating(int armorRating, int armorSkill)
     {
-        playerSheet.defense = playerSheet.level * 10 + armorRating * SkillMultiplier(skill);
+        playerSheet.defense = playerSheet.level * 10 + armorRating * SkillMultiplier(armorSkill);
     }
+    //-----------PLAYER CALCULATIONS----------\\
 
     //Testing Methods for Resource Controller
     public void TakeDamage(int damage)
