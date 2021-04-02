@@ -52,7 +52,6 @@ public class PlayerManager : MonoBehaviour
 
     public void Start()
     {
-
         //set all components 
         animator = gameObject.GetComponent<Animator>();
         playerMovement = gameObject.GetComponent<PlayerMovement>();
@@ -92,6 +91,11 @@ public class PlayerManager : MonoBehaviour
     public void AttackRating(int weaponRating, int skill)
     {
         playerSheet.attack = playerSheet.level * 10 + weaponRating * SkillMultiplier(skill);
+    }
+
+    public void DefenseRating(int armorRating, int skill)
+    {
+        playerSheet.defense = playerSheet.level * 10 + armorRating * SkillMultiplier(skill);
     }
 
     //Testing Methods for Resource Controller
