@@ -118,7 +118,7 @@ public class MeleeWeapon : Weapon
     public bool TwoHanded;
     public override void Attack()
     {
-        GameObject player = GameObject.Find("player");
+        GameObject player = GameObject.FindWithTag("Player");
         PlayerManager playerManager = player.GetComponent<PlayerManager>();
         PlayerCombat combat = playerManager.playerCombat;
         string orientation = playerManager.orientation;
@@ -127,7 +127,7 @@ public class MeleeWeapon : Weapon
 
     public override void Use()
     {
-        GameObject player = GameObject.Find("player");
+        GameObject player = GameObject.FindWithTag("Player");
         PlayerManager playerManager = player.GetComponent<PlayerManager>();
 
         playerManager.currentMeleeWeapon = this;
@@ -144,7 +144,7 @@ public class RangedWeapon : Weapon
     //NOTE: Possibly add a FlyPattern int var that corresponds to different flying animations??
     public override void Attack()
     {
-        GameObject player = GameObject.Find("player");
+        GameObject player = GameObject.FindWithTag("Player");
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         PlayerManager playerManager = player.GetComponent<PlayerManager>();
         PlayerCombat combat = playerManager.playerCombat;
@@ -154,7 +154,7 @@ public class RangedWeapon : Weapon
     }
     public override void Use()
     {
-        GameObject player = GameObject.Find("player");
+        GameObject player = GameObject.FindWithTag("Player");
         PlayerManager playerManager = player.GetComponent<PlayerManager>();
 
         playerManager.currentRangedWeapon = this;
@@ -167,7 +167,7 @@ public class HealthPotion : Potion
     public float HealthAdd;
     public override void Use()
     {
-        GameObject player = GameObject.Find("player");
+        GameObject player = GameObject.FindWithTag("Player");
         PlayerManager playerManager = player.GetComponent<PlayerManager>();
 
         playerManager.Heal(HealthAdd);

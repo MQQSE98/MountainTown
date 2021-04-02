@@ -246,14 +246,14 @@ public class PlayerManager : MonoBehaviour
             currentMeleeWeapon.Attack();
 
         }
-        else if (Input.GetMouseButton(0) && rangedInUse && currentMeleeWeapon != null && !inventoryPanel.GetComponent<Transform>().parent.transform.gameObject.activeSelf)
+        else if (Input.GetMouseButton(0) && rangedInUse && currentRangedWeapon != null && !inventoryPanel.GetComponent<Transform>().parent.transform.gameObject.activeSelf)
         {
             SetOrientation();
             holdTimeDelta += Time.deltaTime;
  
         }
         //launching arrow
-        if (Input.GetMouseButtonUp(0) && rangedInUse && currentMeleeWeapon != null && !inventoryPanel.GetComponent<Transform>().parent.transform.gameObject.activeSelf)
+        if (Input.GetMouseButtonUp(0) && rangedInUse && currentRangedWeapon != null && !inventoryPanel.GetComponent<Transform>().parent.transform.gameObject.activeSelf)
             
         {
             currentRangedWeapon.Attack();
