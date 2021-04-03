@@ -9,12 +9,11 @@ public class PlayerManager : MonoBehaviour
 { 
     //public GameObject mainUIPanel = GameObject.Find("MainUIPanel");
     public CharacterSheet playerSheet;
-    public GameObject inventoryPanel;
-    public GameObject player;
     public PlayerMovement playerMovement;
     public PlayerCombat playerCombat;
-    //public GameObject InventoryV2;
-
+    GameObject inventoryPanel;
+    Animator animator;
+    [HideInInspector]
     public string orientation;
 
     //variables controlling health
@@ -23,30 +22,35 @@ public class PlayerManager : MonoBehaviour
     //variables controlling stamina
     public float stamConsumtionPercent = .0005f;
     public float stamRegenRate = 0.5f;
+    [HideInInspector]
     public float stamConsumationRate; 
 
     //varibles controlling timers
+    [HideInInspector]
     public float regenTimer = 0f;
     public float maxRegenTimer = 3f;
 
     public int alteredMoveSpeed = 6;
     public int defaultMoveSpeed = 3;
 
+    [HideInInspector]
     public float holdTimeDelta;
     
     public ResourceController resourceController;
     public GameObject currentInteractableObject = null;
-    public Animator animator;
 
     //melee / ranged SO data
     public MeleeWeapon currentMeleeWeapon;
     public RangedWeapon currentRangedWeapon;
 
     //player stamina states
+    [HideInInspector]
     public bool isFatigued = false;
+    [HideInInspector]
     public bool isDraining = false;
-
+    [HideInInspector]
     public bool meleeInUse;
+    [HideInInspector]
     public bool rangedInUse;
 
 
@@ -56,6 +60,7 @@ public class PlayerManager : MonoBehaviour
         
         //set all components 
         animator = gameObject.GetComponent<Animator>();
+        inventoryPanel = GameObject.Find("InvetoryPanel");
         playerMovement = gameObject.GetComponent<PlayerMovement>();
         playerCombat = gameObject.GetComponent<PlayerCombat>();
 
