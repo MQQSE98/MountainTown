@@ -52,6 +52,8 @@ public class PlayerManager : MonoBehaviour
 
     public void Start()
     {
+        InitializePlayer();
+        
         //set all components 
         animator = gameObject.GetComponent<Animator>();
         playerMovement = gameObject.GetComponent<PlayerMovement>();
@@ -59,10 +61,10 @@ public class PlayerManager : MonoBehaviour
 
         //playerSheet.list.Clear();
         UpdatePanelSlots();
-        playerSheet.currentHealth = playerSheet.maxHealth;
+        //playerSheet.currentHealth = playerSheet.maxHealth;
         resourceController.SetMaxHealth(playerSheet.maxHealth);
 
-        playerSheet.currentStamina = playerSheet.maxStamina;
+        //playerSheet.currentStamina = playerSheet.maxStamina;
         resourceController.SetMaxStamina(playerSheet.maxStamina);
     }
     void Update()
@@ -97,6 +99,42 @@ public class PlayerManager : MonoBehaviour
     public void DefenseRating(int armorRating, int armorSkill)
     {
         playerSheet.defense = playerSheet.level * 10 + armorRating * SkillMultiplier(armorSkill);
+    }
+
+    public void InitializePlayer()
+    {
+        InitializeInfo();
+        InitializePrimeAttributes();
+        InitializeAbilityScores();
+    }
+
+    public void InitializeInfo()
+    {
+        playerSheet.playerName = "Hero";
+        playerSheet.level = 1;
+        playerSheet.experiencePoints = 0;
+        playerSheet.attributePoints = 5;
+        playerSheet.skillPoints = 5;
+    }
+
+    public void InitializePrimeAttributes()
+    {
+        playerSheet.maxHealth = 100;
+        playerSheet.currentHealth = 100;
+        playerSheet.maxStamina = 100;
+        playerSheet.currentStamina = 100;
+        playerSheet.maxMana = 100;
+        playerSheet.currentMana = 100; 
+    }
+
+    public void InitializeAbilityScores()
+    {
+        playerSheet.power = 1;
+        playerSheet.vitality = 1;
+        playerSheet.endurance = 1;
+        playerSheet.agility = 1;
+        playerSheet.intellect = 1;
+        playerSheet.luck = 1;
     }
     //-----------PLAYER CALCULATIONS----------\\
 
