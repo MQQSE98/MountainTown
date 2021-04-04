@@ -11,8 +11,10 @@ public class PlayerManager : MonoBehaviour
     public CharacterSheet playerSheet;
     public PlayerMovement playerMovement;
     public PlayerCombat playerCombat;
-    GameObject inventoryPanel;
+    public GameObject inventoryPanel;
+
     Animator animator;
+
     [HideInInspector]
     public string orientation;
 
@@ -59,8 +61,7 @@ public class PlayerManager : MonoBehaviour
         InitializePlayer();
         
         //set all components 
-        animator = gameObject.GetComponent<Animator>();
-        inventoryPanel = GameObject.Find("InvetoryPanel");
+        animator = gameObject.GetComponent<Animator>();    
         playerMovement = gameObject.GetComponent<PlayerMovement>();
         playerCombat = gameObject.GetComponent<PlayerCombat>();
 
@@ -106,6 +107,12 @@ public class PlayerManager : MonoBehaviour
         playerSheet.defense = playerSheet.level * 10 + armorRating * SkillMultiplier(armorSkill);
     }
 
+    public void MaxHealth()
+    {
+        int playerBase = playerSheet.level * 10;
+        playerSheet.maxHealth = playerBase + AbilityScoreMultiplier(playerSheet.vitality) * playerBase;
+    }
+
     public void InitializePlayer()
     {
         InitializeInfo();
@@ -124,7 +131,7 @@ public class PlayerManager : MonoBehaviour
 
     public void InitializePrimeAttributes()
     {
-        playerSheet.maxHealth = 100;
+        MaxHealth();
         playerSheet.currentHealth = 100;
         playerSheet.maxStamina = 100;
         playerSheet.currentStamina = 100;
