@@ -13,8 +13,7 @@ public class EnemyCombat : Combat
 
     public void MeleeAttack(GameObject enemy, GameObject player)
     {
-
-        if ((player.transform.position - enemy.transform.position).magnitude < enemy.GetComponent<EnemyM>().HitRange)
+       if ((player.transform.position - enemy.transform.position).magnitude < enemy.GetComponent<EnemyM>().HitRange)
         {
             playerManager.TakeDamage(10);
         }
