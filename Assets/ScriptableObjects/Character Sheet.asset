@@ -17,8 +17,8 @@ MonoBehaviour:
   experiencePoints: 0
   attributePoints: 5
   skillPoints: 5
-  maxHealth: 100
-  currentHealth: 70
+  maxHealth: 10
+  currentHealth: 1.6825889
   maxStamina: 100
   currentStamina: 100
   maxMana: 100
@@ -45,6 +45,8 @@ MonoBehaviour:
   bag:
   - {fileID: 11400000, guid: 874d3a90a7bb977499343fd500c468fe, type: 2}
   - {fileID: 11400000, guid: 874d3a90a7bb977499343fd500c468fe, type: 2}
+  - {fileID: 11400000, guid: 874d3a90a7bb977499343fd500c468fe, type: 2}
+  - {fileID: 11400000, guid: bb9944a146a535248a9207ceae04878f, type: 2}
   - {fileID: 11400000, guid: 874d3a90a7bb977499343fd500c468fe, type: 2}
   - {fileID: 11400000, guid: bb9944a146a535248a9207ceae04878f, type: 2}
   - {fileID: 11400000, guid: 874d3a90a7bb977499343fd500c468fe, type: 2}
