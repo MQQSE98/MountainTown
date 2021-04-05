@@ -15,7 +15,7 @@ public class EnemyCombat : Combat
     {
        if ((player.transform.position - enemy.transform.position).magnitude < enemy.GetComponent<EnemyM>().HitRange)
         {
-            playerManager.TakeDamage(10);
+            playerManager.TakeDamage(1);
         }
     }
 }

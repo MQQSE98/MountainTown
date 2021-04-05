@@ -132,7 +132,7 @@ public class PlayerManager : MonoBehaviour
     public void InitializePrimeAttributes()
     {
         MaxHealth();
-        playerSheet.currentHealth = 100;
+        playerSheet.currentHealth = playerSheet.maxHealth;
         playerSheet.maxStamina = 100;
         playerSheet.currentStamina = 100;
         playerSheet.maxMana = 100;
