@@ -3,6 +3,7 @@
 /// </summary>
 
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -13,6 +14,7 @@ public class PlayerManager : MonoBehaviour
     public PlayerCombat playerCombat;
     public GameObject inventoryPanel;
 
+    private SpriteRenderer sr;
     Animator animator;
 
     [HideInInspector]
@@ -64,6 +66,8 @@ public class PlayerManager : MonoBehaviour
         animator = gameObject.GetComponent<Animator>();    
         playerMovement = gameObject.GetComponent<PlayerMovement>();
         playerCombat = gameObject.GetComponent<PlayerCombat>();
+
+        sr = gameObject.GetComponent<SpriteRenderer>();
 
         //playerSheet.list.Clear();
         UpdatePanelSlots();
@@ -155,6 +159,7 @@ public class PlayerManager : MonoBehaviour
     {
         playerSheet.currentHealth -= damage;
         resourceController.SetHealth(playerSheet.currentHealth);
+        StartCoroutine(DamageEffectSequence(sr, Color.red, 0.5f, 0.5f));
         if (playerSheet.currentHealth <= 0)
         {
             Death();
@@ -247,7 +252,7 @@ public class PlayerManager : MonoBehaviour
 
             if(itemPickedUp)
             {
-                playerSheet.bag.Add(itemPickedUp);
+                playerSheet.AddItem(itemPickedUp);
                 Destroy(itemObject);
                 UpdatePanelSlots();
                 Debug.Log("Pickup Successful");
@@ -288,7 +293,7 @@ public class PlayerManager : MonoBehaviour
             if(index < playerSheet.bag.Count)
             {
                 slot.item = playerSheet.bag[index];
-                //slot.amount = 1;                
+                //slot.amount = 1;                f
             }
             else
             {
@@ -372,4 +377,28 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+
+
+    IEnumerator DamageEffectSequence(SpriteRenderer sr, Color dmgColor, float duration, float delay)
+    {
+        // save origin color
+        Color originColor = sr.color;
+
+        // tint the sprite with damage color
+        sr.color = dmgColor;
+
+        // you can delay the animation
+        yield return new WaitForSeconds(delay);
+
+        // lerp animation with given duration in seconds
+        for (float t = 0; t < 1.0f; t += Time.deltaTime / duration)
+        {
+            sr.color = Color.Lerp(dmgColor, originColor, t);
+
+            yield return null;
+        }
+
+        // restore origin color
+        sr.color = originColor;
+    }
 }
