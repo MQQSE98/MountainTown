@@ -50,21 +50,31 @@ public class CharacterSheet : ScriptableObject
     public List<Item> bag = new List<Item>();
     public int gold;
 
-    public void Add(Item item)
+    public void AddItem(Item item)
     {
-        if (bag.Count < 35)
+
+        for (int i = 0; i < bag.Count; i++)
         {
-            bag.Add(item);
-            //item.isInInventory = true;
+            if (bag[i] == null)
+            {
+                bag[i] = item;
+
+                break;
+            }
+            else if (bag[i] == item)
+            {
+                Debug.Log("There is already an item at index" + i + item.ItemName);
+            }
+
+
         }
-        else
-        {
-            Debug.Log("Inventory is full");
-        }
+
+
     }
 
     public void Remove(Item item)
     {
         bag.Remove(item);
+        bag.Add(null);
     }
 }

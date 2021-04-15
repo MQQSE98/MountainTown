@@ -9,10 +9,14 @@ public class Arrow : MonoBehaviour
 
     private PlayerCombat playerCombat;
 
+    
+
     private float damage = 10;
     private float lifeCycleDelta = 0;
     private float lifeCycle = 7;
     public int orientation;
+
+    
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -62,13 +66,16 @@ public class Arrow : MonoBehaviour
     /// Checks if arrow has hit an enemy while in the air
     /// </summary>
     /// <param name="col"></param>
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
+        
         Debug.Log("Are we here?");
-        if(col.gameObject.tag == "Enemy" && !isGrounded)
+        if(col.tag == "Enemy" && !isGrounded)
         {
             Debug.LogWarning("Hit -----------------------------------");
             col.gameObject.GetComponent<Transform>().parent.transform.gameObject.GetComponent<EnemyM>().health -= 10;
+            col.gameObject.GetComponent<Transform>().parent.transform.gameObject.GetComponent<EnemyCombat>().TakeDamage();
+
             Destroy(this.gameObject);
         }
     }

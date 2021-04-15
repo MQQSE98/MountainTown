@@ -12,25 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc1a7c0233fa5dd42b66ea214747152e, type: 3}
   m_Name: Character Sheet
   m_EditorClassIdentifier: 
-  playerName: 
-  level: 0
+  playerName: Hero
+  level: 1
   experiencePoints: 0
-  attributePoints: 0
-  skillPoints: 0
-  maxHealth: 100
-  currentHealth: 100
+  attributePoints: 5
+  skillPoints: 5
+  maxHealth: 10
+  currentHealth: 10
   maxStamina: 100
   currentStamina: 100
-  maxMana: 0
-  currentMana: 0
+  maxMana: 100
+  currentMana: 100
   attack: 10
   defense: 10
-  power: 0
-  vitality: 0
-  endurance: 0
-  agility: 0
-  intellect: 0
-  luck: 0
+  power: 1
+  vitality: 1
+  endurance: 1
+  agility: 1
+  intellect: 1
+  luck: 1
   oneHanded: 0
   twoHanded: 0
   dualWield: 0
@@ -43,7 +43,39 @@ MonoBehaviour:
   mediumArmor: 0
   heavyArmor: 0
   bag:
-  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
-  - {fileID: 11400000, guid: 34ffd204f42329946b5bfa52c26d5a7d, type: 2}
-  - {fileID: 11400000, guid: 874d3a90a7bb977499343fd500c468fe, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   gold: 0
