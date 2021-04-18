@@ -117,6 +117,17 @@ public class PlayerManager : MonoBehaviour
         playerSheet.maxHealth = playerBase + AbilityScoreMultiplier(playerSheet.vitality) * playerBase;
     }
 
+    public void MaxStamina()
+    {
+        int playerBase = playerSheet.level * 10;
+        playerSheet.maxStamina = playerBase + AbilityScoreMultiplier(playerSheet.endurance) * playerBase;
+    }
+
+    public void MaxMana()
+    {
+        int playerBase = playerSheet.level * 10;
+        playerSheet.maxMana = playerBase + AbilityScoreMultiplier(playerSheet.intellect) * playerBase;
+    }
     public void InitializePlayer()
     {
         InitializeInfo();
@@ -136,11 +147,11 @@ public class PlayerManager : MonoBehaviour
     public void InitializePrimeAttributes()
     {
         MaxHealth();
+        MaxStamina();
+        MaxMana();
         playerSheet.currentHealth = playerSheet.maxHealth;
-        playerSheet.maxStamina = 100;
-        playerSheet.currentStamina = 100;
-        playerSheet.maxMana = 100;
-        playerSheet.currentMana = 100; 
+        playerSheet.currentStamina = playerSheet.maxStamina;
+        playerSheet.currentMana = playerSheet.maxMana;
     }
 
     public void InitializeAbilityScores()
