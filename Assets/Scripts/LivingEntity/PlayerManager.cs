@@ -270,6 +270,16 @@ public class PlayerManager : MonoBehaviour
             playerSheet.gold += 1;
             Destroy(other.gameObject, delay);
         }
+        if(other.gameObject.CompareTag("EXP"))
+        {
+            Gold gold = other.gameObject.GetComponent<Gold>();
+            float delay = 2.0f;
+
+            gold.magnetIsOn = true;
+
+            playerSheet.gold += gold.amount;
+            Destroy(other.gameObject, delay);
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)

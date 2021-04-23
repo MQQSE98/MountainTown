@@ -14,6 +14,7 @@ TagManager:
   - LEntity
   - NPC
   - Gold
+  - EXP
   layers:
   - Default
   - TransparentFX
