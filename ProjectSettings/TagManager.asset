@@ -13,6 +13,7 @@ TagManager:
   - Collision
   - LEntity
   - NPC
+  - Gold
   layers:
   - Default
   - TransparentFX
@@ -21,10 +22,9 @@ TagManager:
   - Water
   - UI
   - 
-  - Player
+  - 
   - 
   - Collision
-  - 
   - 
   - 
   - 

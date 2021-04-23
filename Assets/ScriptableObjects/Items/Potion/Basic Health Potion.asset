@@ -9,21 +9,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 7b2c61d67ea22bc438bdc6384acac7e9, type: 3}
   m_Name: Basic Health Potion
   m_EditorClassIdentifier: Assembly-CSharp::HealthPotion
   id: a826253c3e6bf5940b856950669a906f
   Prefab: {fileID: 4700009407362035773, guid: c83552cfaf2e52c46864c4d8e8443263, type: 3}
   TypeOfItem: 2
-  ItemName: Basic Health Potion
-  ItemDescription: A basic health potion that restores a little bit of health.
+  isEquipable: 0
+  takesTwoHands: 0
+  isOffHand: 0
+  ItemName: 
+  ItemDescription: 
   isInInventory: 0
   Icon: {fileID: 21300000, guid: d3a9365181f5d284f89d4d0486f7be27, type: 3}
-  Rarity: 0.5
+  Rarity: 0
   HealthDebuff: 0
   StaminaDebuff: 0
   SpeedDebuff: 0
-  MaxStackAmount: 1
+  MaxStackAmount: 0
   EffectDuration: 0
   IsTimed: 0
-  HealthAdd: 10
+  HealthAdd: 30

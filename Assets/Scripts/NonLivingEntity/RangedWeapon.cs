@@ -24,7 +24,10 @@ public class RangedWeapon : Weapon
     {
         GameObject player = GameObject.FindWithTag("Player");
         PlayerManager playerManager = player.GetComponent<PlayerManager>();
+        
 
-        playerManager.currentRangedWeapon = this;
+        playerManager.EquipItem(this);
+        playerManager.UpdateEquipmentSlots();
+        playerManager.UpdatePanelSlots();
     }
 }

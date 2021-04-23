@@ -1,8 +1,4 @@
-﻿/**
- * Author: Joseph Mills
-**/
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Player/Character Sheet")]
@@ -14,6 +10,7 @@ public class CharacterSheet : ScriptableObject
     public int experiencePoints;
     public int attributePoints;
     public int skillPoints;
+    public float weight;
 
     [Header("Prime Attributes")]
     public float maxHealth;
@@ -50,6 +47,18 @@ public class CharacterSheet : ScriptableObject
     public List<Item> bag = new List<Item>();
     public int gold;
 
+    [Header("Equipment")]
+    public Item HeadSlot;
+    public Item BodySlot;
+    public Item HandSlot;
+    public Item BootSlot;
+    public Item LegSlot;
+    public Item ShoulderSlot;
+    public Item RingSlot;    
+    public Item AmuletSlot;    
+    public Item WeaponSlotLeft;
+    public Item WeaponSlotRight;
+        
     public void AddItem(Item item)
     {
 
