@@ -15,6 +15,9 @@ MonoBehaviour:
   id: 0dc30ca1a037df141b63e740959fc59a
   Prefab: {fileID: 4700009407362035773, guid: c83552cfaf2e52c46864c4d8e8443263, type: 3}
   TypeOfItem: 1
+  isEquiped: 0
+  takesTwoHands: 0
+  isOffHand: 0
   ItemName: Bow
   ItemDescription: 
   isInInventory: 0
@@ -23,8 +26,12 @@ MonoBehaviour:
   HealthDebuff: 0
   StaminaDebuff: 0
   SpeedDebuff: 0
+  weight: 0
+  health: 0
+  defense: 0
+  attack: 0
   MaxStackAmount: 1
-  Range: 5
+  Range: 20
   Damage: 1
   AttackRate: 1
   DamageType: 5

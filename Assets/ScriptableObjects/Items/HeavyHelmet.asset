@@ -21,13 +21,13 @@ MonoBehaviour:
   ItemName: Heavy Helmet
   ItemDescription: Causes headaches from the crushing weight of it.
   isInInventory: 0
-  Icon: {fileID: 21300000, guid: 5091b17e4deda824795ed0ffc80791ba, type: 3}
+  Icon: {fileID: -4889549720363884393, guid: 61a428b98b8f6f24bb481bfbf13c4bf6, type: 3}
   Rarity: 0
   HealthDebuff: 0
   StaminaDebuff: 0
   SpeedDebuff: 0
   weight: 30
-  health: 200
-  defense: 100
+  health: 10
+  defense: 30
   attack: 0
   MaxStackAmount: 0

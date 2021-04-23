@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2061e04ef8cc26c4d81d091e42631f01, type: 3}
+  m_Name: HeavyAmulet
+  m_EditorClassIdentifier: 
+  id: 22e9f0ceb166d9244a83804a587d0872
+  Prefab: {fileID: 4700009407362035773, guid: c83552cfaf2e52c46864c4d8e8443263, type: 3}
+  TypeOfItem: 11
+  isEquiped: 0
+  takesTwoHands: 0
+  isOffHand: 0
+  ItemName: Heavy Amulet
+  ItemDescription: Heavy amulet which makes you feel like you're being choked...no
+    judgment here
+  isInInventory: 0
+  Icon: {fileID: -3626735026403826733, guid: 45e43174bb5763c4fb543b8ac2a9714c, type: 3}
+  Rarity: 0
+  HealthDebuff: 0
+  StaminaDebuff: 0
+  SpeedDebuff: 0
+  weight: 10
+  health: 15
+  defense: 35
+  attack: 10
+  MaxStackAmount: 0
