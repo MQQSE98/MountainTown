@@ -272,12 +272,12 @@ public class PlayerManager : MonoBehaviour
         }
         if(other.gameObject.CompareTag("EXP"))
         {
-            Gold gold = other.gameObject.GetComponent<Gold>();
+            Gold gold = other.gameObject.GetComponent<Gold>(); //calling it gold here, but just reusing the controller
             float delay = 2.0f;
 
             gold.magnetIsOn = true;
 
-            playerSheet.gold += gold.amount;
+            playerSheet.experiencePoints += gold.amount; 
             Destroy(other.gameObject, delay);
         }
     }
@@ -361,7 +361,7 @@ public class PlayerManager : MonoBehaviour
             {
                 stat.value.text = playerSheet.maxMana.ToString();
             }
-            if(child.name == "Exp")
+            if(child.name == "EXP")
             {
                 stat.value.text = playerSheet.experiencePoints.ToString();
             }
@@ -383,6 +383,7 @@ public class PlayerManager : MonoBehaviour
             gold.gold.text = playerSheet.gold.ToString();
         }
     }
+
     public void UpdatePanelSlots()
     {
         int index = 0;

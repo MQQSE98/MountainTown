@@ -84,8 +84,8 @@ public class EnemyM : MonoBehaviour
     void XPDrop()
     {
         int dropNum = rand.Next(1, 6);
-        loadedPrefab = Resources.Load("Assets/Prefabs/ItemPrefabs/XpBall.prefab");
-        SpawnAroundPoint(dropNum, deathPosition, 2F);
+        //loadedPrefab = Assetdatabase.load("Assets/Prefabs/ItemPrefabs/XpBall");
+        SpawnAroundPoint(dropNum, deathPosition, 0.5F);
     }
 
     void SpawnAroundPoint(int num, Vector3 point, float radius)
@@ -106,9 +106,10 @@ public class EnemyM : MonoBehaviour
             var spawnPos = point + spawnDir * radius; // Radius is just the distance away from the point
 
             /* Now spawn */
-            var xp = Instantiate(loadedPrefab, spawnPos, Quaternion.identity) as GameObject;
+            GameObject xp = (GameObject)Instantiate(Resources.Load("XpBall"), spawnPos, Quaternion.identity);
 
             /* Rotate the enemy to face towards player */
+            xp.GetComponent<SpriteRenderer>().sortingOrder = 1;
             xp.transform.LookAt(point);
 
             /* Adjust height */
