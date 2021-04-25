@@ -201,7 +201,7 @@ public class PlayerManager : MonoBehaviour
 
     void Sprint()
     {
-        print(playerSheet.currentStamina);
+        //print(playerSheet.currentStamina);
         stamConsumationRate = playerSheet.maxStamina * stamConsumtionPercent;
 
         if (Input.GetKey(KeyCode.G) && playerSheet.currentStamina >= 5)
