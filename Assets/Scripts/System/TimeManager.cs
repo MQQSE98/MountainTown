@@ -76,8 +76,8 @@ public class TimeManager : MonoBehaviour
         //+ gameMin + (gameHr*60) +(gameDay*60*60);
 
         cGameMin = totalGameSec % 60;
-        cGameHr = totalGameSec / 60 % 60;
-        cGameDay = totalGameSec / 60 / 60 / 24;
+        cGameHr = totalGameSec / 60 % 24;
+        cGameDay = totalGameSec / 60 / 24 % 7;
 
         //print("REal Hour: "+cRealHr+", REal Minutes: "+cRealMin+"Real sec: "+cRealSec);
      }
