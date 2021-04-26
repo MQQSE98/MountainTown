@@ -17,15 +17,15 @@ MonoBehaviour:
   experiencePoints: 0
   attributePoints: 5
   skillPoints: 5
-  weight: 220
+  weight: 1570
   maxHealth: 10
-  currentHealth: 7.9359455
+  currentHealth: 10
   maxStamina: 10
   currentStamina: 10
   maxMana: 10
   currentMana: 10
   attack: 10
-  defense: 710
+  defense: 2400
   power: 1
   vitality: 1
   endurance: 1
@@ -44,14 +44,6 @@ MonoBehaviour:
   mediumArmor: 0
   heavyArmor: 0
   bag:
-  - {fileID: 11400000, guid: 569f557a804fe544fa2a793aebe41edb, type: 2}
-  - {fileID: 11400000, guid: f32334a3a85658943b0670f14df063b7, type: 2}
-  - {fileID: 11400000, guid: f32334a3a85658943b0670f14df063b7, type: 2}
-  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
-  - {fileID: 11400000, guid: f32334a3a85658943b0670f14df063b7, type: 2}
-  - {fileID: 11400000, guid: 0dc30ca1a037df141b63e740959fc59a, type: 2}
-  - {fileID: 11400000, guid: 0dc30ca1a037df141b63e740959fc59a, type: 2}
-  - {fileID: 0}
   - {fileID: 11400000, guid: 4d2cea5ea5bed2f439e2f17cfa5ea366, type: 2}
   - {fileID: 0}
   - {fileID: 0}
@@ -79,7 +71,15 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  gold: 407
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  gold: 505
   HeadSlot: {fileID: 11400000, guid: 4d2cea5ea5bed2f439e2f17cfa5ea366, type: 2}
   BodySlot: {fileID: 0}
   HandSlot: {fileID: 0}
@@ -88,5 +88,5 @@ MonoBehaviour:
   ShoulderSlot: {fileID: 0}
   RingSlot: {fileID: 0}
   AmuletSlot: {fileID: 0}
-  WeaponSlotLeft: {fileID: 11400000, guid: 0dc30ca1a037df141b63e740959fc59a, type: 2}
+  WeaponSlotLeft: {fileID: 11400000, guid: f32334a3a85658943b0670f14df063b7, type: 2}
   WeaponSlotRight: {fileID: 0}
