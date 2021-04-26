@@ -44,7 +44,16 @@ public class CameraManager : MonoBehaviour
 
     public void SwitchTownScene(string baseLayerName)
     {
-        TilemapRenderer baseLayer = GameObject.Find("" + baseLayerName + "Base").GetComponent<TilemapRenderer>();
+        Renderer baseLayer;
+        if (baseLayerName == "BossTestRoom")
+        {
+            baseLayer = GameObject.Find(baseLayerName).GetComponent<SpriteRenderer>();
+        }
+        else 
+        {
+            baseLayer = GameObject.Find("" + baseLayerName + "Base").GetComponent<TilemapRenderer>();
+        }
+        
         GetTilemapBoundaries(baseLayer);
         SetClampHeight();
         SetClampWidth();
@@ -57,7 +66,7 @@ public class CameraManager : MonoBehaviour
         ZoomCameraOut();
         PlayerCameraClamp();
     }
-    public void GetTilemapBoundaries(TilemapRenderer baseLayer)
+    public void GetTilemapBoundaries(Renderer baseLayer)
     {
         xMin = baseLayer.bounds.min.x;
         xMax = baseLayer.bounds.max.x;

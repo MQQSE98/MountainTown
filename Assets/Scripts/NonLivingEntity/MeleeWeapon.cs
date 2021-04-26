@@ -20,7 +20,11 @@ public class MeleeWeapon : Weapon
     {
         GameObject player = GameObject.FindWithTag("Player");
         PlayerManager playerManager = player.GetComponent<PlayerManager>();
+        
+        playerManager.EquipItem(this);
+        playerManager.UpdateEquipmentSlots();
+        playerManager.UpdatePanelSlots();
 
-        playerManager.currentMeleeWeapon = this;
+        
     }
 }

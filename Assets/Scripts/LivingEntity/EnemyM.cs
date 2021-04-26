@@ -9,6 +9,12 @@ public class EnemyM : MonoBehaviour
     public float hitRange;
     private EnemyCombat enemyCombat;
     public float hitDelta;
+    public Item[] lootPool;
+    private GameObject currentPrefab;
+    private Vector3 deathPosition;
+    private System.Random rand = new System.Random();
+    private UnityEngine.Object loadedPrefab;
+    private GameObject player;
 
     public float HitRange
     {
@@ -26,16 +32,91 @@ public class EnemyM : MonoBehaviour
     void Start()
     {
         enemyCombat = gameObject.GetComponent<EnemyCombat>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(health <= 0)
+        Debug.Log("Distance between player and boss: " + (player.GetComponent<Transform>().position - this.transform.position));
+        OnDeath();
+    }
+
+    //handle all the things enemy needs to do on death
+    //destroy itself
+    //drop loot
+    //drop XP
+    void Die()
+    {
+        deathPosition = gameObject.transform.position;
+        Destroy(this.gameObject);
+        LootDrop();
+        XPDrop();
+    }
+
+    //spawn loot drop item
+    void LootDrop()
+    {
+        for (int i = 0; i < lootPool.Length; i++)
         {
-            Destroy(this.gameObject);
+            if (i == 0)
+            {
+                currentPrefab = lootPool[i].Prefab;
+                currentPrefab.GetComponent<ItemManager>().item = lootPool[i];
+                currentPrefab.GetComponent<SpriteRenderer>().sprite = lootPool[i].Icon;
+                currentPrefab.GetComponent<SpriteRenderer>().sortingOrder = 1; //have to do this so it does not render under the base layerssds
+                currentPrefab.SetActive(true);
+                Instantiate(currentPrefab, deathPosition, Quaternion.identity);
+            }
+            else
+            {
+                currentPrefab = lootPool[i].Prefab;
+                currentPrefab.GetComponent<ItemManager>().item = lootPool[i];
+                currentPrefab.GetComponent<SpriteRenderer>().sprite = lootPool[i].Icon;
+                currentPrefab.SetActive(true);
+                Instantiate(currentPrefab, new Vector3(-12F, -1, 0), Quaternion.identity);
+            }
         }
     }
+
+    //spawn XP drop item
+    void XPDrop()
+    {
+        int dropNum = rand.Next(1, 6);
+        //loadedPrefab = Assetdatabase.load("Assets/Prefabs/ItemPrefabs/XpBall");
+        SpawnAroundPoint(dropNum, deathPosition, 0.5F);
+    }
+
+    void SpawnAroundPoint(int num, Vector3 point, float radius)
+    {
+        for (int i = 0; i < num; i++)
+        {
+
+            /* Distance around the circle */
+            var radians = 2 * Mathf.PI / num * i;
+
+            /* Get the vector direction */
+            var vertical = Mathf.Sin(radians);
+            var horizontal = Mathf.Cos(radians);
+
+            var spawnDir = new Vector3(horizontal, 0, vertical);
+
+            /* Get the spawn position */
+            var spawnPos = point + spawnDir * radius; // Radius is just the distance away from the point
+
+            /* Now spawn */
+            GameObject xp = (GameObject)Instantiate(Resources.Load("XpBall"), spawnPos, Quaternion.identity);
+
+            /* Rotate the enemy to face towards player */
+            xp.GetComponent<SpriteRenderer>().sortingOrder = 1;
+            xp.transform.LookAt(point);
+
+            /* Adjust height */
+            xp.transform.Translate(new Vector3(0, xp.transform.localScale.y / 2, 0));
+            xp.SetActive(true);
+        }
+    }
+
 
     void FixedUpdate()
     {
@@ -47,6 +128,30 @@ public class EnemyM : MonoBehaviour
         {
             hitDelta += Time.fixedDeltaTime;
         }
-        
+
+    }
+    public void OnDeath()
+    {
+        if (this.gameObject.name == "SanguineSludge_Boss")
+        {
+            
+            if (health <= 0)
+            {
+                this.hitRange = 0;
+                this.gameObject.GetComponent<SSBOSSMovementControl>().DIE();
+                //Destroy(this.gameObject);
+            }
+        }
+        else
+        {
+            if (health <= 0)
+            {
+                Die();
+            }
+        }
+    }
+    public void setRange(float range)
+    {
+        hitRange = range;
     }
 }

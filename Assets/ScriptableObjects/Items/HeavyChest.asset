@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306b0301ee984e747aef94216f57de11, type: 3}
+  m_Name: HeavyChest
+  m_EditorClassIdentifier: 
+  id: 70c586612ce38c04a9ed1f2fdeef7f99
+  Prefab: {fileID: 4700009407362035773, guid: c83552cfaf2e52c46864c4d8e8443263, type: 3}
+  TypeOfItem: 6
+  isEquiped: 1
+  takesTwoHands: 0
+  isOffHand: 0
+  ItemName: Heavy Chest
+  ItemDescription: Heavy Chest armor which sucks to wear
+  isInInventory: 0
+  Icon: {fileID: -6392908950190550409, guid: 45e43174bb5763c4fb543b8ac2a9714c, type: 3}
+  Rarity: 0
+  HealthDebuff: 0
+  StaminaDebuff: 0
+  SpeedDebuff: 0
+  weight: 45
+  health: 20
+  defense: 50
+  attack: 0
+  MaxStackAmount: 0

@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
 
+    public bool dash;
+
     Vector2 movement;
 
     [SerializeField]
@@ -91,23 +93,34 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        CheckRolling();
+        CheckDash();
         CheckAttacking();
         CheckBlocking();
     }
 
-    void CheckRolling()
+    void CheckDash()
     {
-        //Check if player is holding space
         if (Input.GetKey(KeyCode.Space))
         {
-            animator.SetBool("Roll", true);
+            dash = true;
         }
         else
         {
-            animator.SetBool("Roll", false);
+            dash = false;
         }
     }
+    //void CheckRolling()
+    //{
+    //    //Check if player is holding space
+    //    if (Input.GetKey(KeyCode.Space))
+    //    {
+    //        animator.SetBool("Roll", true);
+    //    }
+    //    else
+    //    {
+    //        animator.SetBool("Roll", false);
+    //    }
+    //}
 
 
     void CheckAttacking()
@@ -176,8 +189,9 @@ public class PlayerMovement : MonoBehaviour
         // movement
         if (animator.GetBool("Blocking") == false && animator.GetBool("Attacking") == false)
         {
-            if (animator.GetBool("Roll"))
+            if (dash == true)
             {
+               
                 rb.MovePosition(rb.position + movement.normalized * rollSpeed * Time.fixedDeltaTime);
             }
             else

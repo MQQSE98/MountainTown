@@ -13,6 +13,9 @@ TagManager:
   - Collision
   - LEntity
   - NPC
+  - Gold
+  - EXP
+  - Boss
   layers:
   - Default
   - TransparentFX
