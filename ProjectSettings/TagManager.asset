@@ -15,6 +15,7 @@ TagManager:
   - NPC
   - Gold
   - EXP
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -23,9 +24,10 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - Player
   - 
   - Collision
+  - 
   - 
   - 
   - 

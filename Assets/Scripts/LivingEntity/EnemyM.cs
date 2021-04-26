@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class EnemyM : MonoBehaviour
 {
 
@@ -32,15 +31,14 @@ public class EnemyM : MonoBehaviour
     void Start()
     {
         enemyCombat = gameObject.GetComponent<EnemyCombat>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(health <= 0)
-        {
-            Die();
-        }
+        Debug.Log("Distance between player and boss: " + (player.GetComponent<Transform>().position - this.transform.position));
+        OnDeath();
     }
 
     //handle all the things enemy needs to do on death
@@ -129,6 +127,30 @@ public class EnemyM : MonoBehaviour
         {
             hitDelta += Time.fixedDeltaTime;
         }
-        
+
+    }
+    public void OnDeath()
+    {
+        if (this.gameObject.name == "SanguineSludge_Boss")
+        {
+            
+            if (health <= 0)
+            {
+                this.hitRange = 0;
+                this.gameObject.GetComponent<SSBOSSMovementControl>().DIE();
+                //Destroy(this.gameObject);
+            }
+        }
+        else
+        {
+            if (health <= 0)
+            {
+                Die();
+            }
+        }
+    }
+    public void setRange(float range)
+    {
+        hitRange = range;
     }
 }
