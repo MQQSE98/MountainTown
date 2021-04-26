@@ -14,6 +14,7 @@ public class EnemyM : MonoBehaviour
     private Vector3 deathPosition;
     private System.Random rand = new System.Random();
     private UnityEngine.Object loadedPrefab;
+    private GameObject player;
 
     public float HitRange
     {
