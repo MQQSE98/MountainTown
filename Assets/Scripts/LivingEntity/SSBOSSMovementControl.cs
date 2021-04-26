@@ -39,6 +39,7 @@ public class SSBOSSMovementControl : MonoBehaviour
 
     public bool dead = false;
     public bool freeMove = true;
+    public bool isActive = false;
 
 
     Vector2 movement;
@@ -69,6 +70,26 @@ public class SSBOSSMovementControl : MonoBehaviour
 
     void Update()
     {
+
+        if (isActive)
+        {
+            doBossStuff();
+        }
+        else
+        {
+            checkActive();
+        }
+    }
+
+    private void checkActive()
+    {
+        if ((this.transform.position - target.position).sqrMagnitude <= Mathf.Pow(20F, 2))
+        {
+            isActive = true;
+        }
+    }
+    private void doBossStuff()
+    {
         Debug.Log("Distance between player and boss: " + (target.position - this.transform.position));
         //TEST CASE
         if (animator.GetBool("Death") && holdup < 300 /*&& dead == false*/)
@@ -83,7 +104,7 @@ public class SSBOSSMovementControl : MonoBehaviour
             Destroy(self);
             
         }*/
-        
+
         //random strategy
 
         strategy = Random.Range(0, 36);
@@ -115,19 +136,19 @@ public class SSBOSSMovementControl : MonoBehaviour
                 this.gameObject.GetComponent<EnemyM>().setRange(4);
                 for (int t = 0; t < 10; t++) //chase player
                 {
-                    
+
 
                     oldX = transform.position.x;
                     oldY = transform.position.y;
                     transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * .75f * Time.deltaTime);
                     newX = transform.position.x;
                     newY = transform.position.y;
-                    
+
 
                     if (newX - oldX > 0 && (newX - oldX) * (newX - oldX) >= (newY - oldY) * (newY - oldY))
                     {
-                        
-                        
+
+
                         if (wasFlipped == false)
                         {
                             transform.Rotate(0, 180f, 0);
@@ -145,8 +166,8 @@ public class SSBOSSMovementControl : MonoBehaviour
                     }
                     else if (newX - oldX < 0 && (newX - oldX) * (newX - oldX) >= (newY - oldY) * (newY - oldY))
                     {
-                        
-                        
+
+
                         if (wasFlipped)
                         {
                             transform.Rotate(0, 180f, 0);
@@ -163,8 +184,8 @@ public class SSBOSSMovementControl : MonoBehaviour
                     }
                     if (newY - oldY > 0 && (newX - oldX) * (newX - oldX) < (newY - oldY) * (newY - oldY))
                     {
-                        
-                        
+
+
                         if (wasFlipped)
                         {
                             transform.Rotate(0, 180f, 0);
@@ -183,8 +204,8 @@ public class SSBOSSMovementControl : MonoBehaviour
                     }
                     else if (newY - oldY < 0 && (newX - oldX) * (newX - oldX) < (newY - oldY) * (newY - oldY))
                     {
-                        
-                        
+
+
                         if (wasFlipped)
                         {
                             transform.Rotate(0, 180f, 0);
@@ -314,9 +335,9 @@ public class SSBOSSMovementControl : MonoBehaviour
                 }
             }*/
             holdup = 20;
-            
+
         }
-        if (holdup < 300) 
+        if (holdup < 300)
         {
             holdup--;
         }
@@ -328,7 +349,7 @@ public class SSBOSSMovementControl : MonoBehaviour
         {
             Destroy(self);
         }
-        
+
 
 
         /**if ((Input.GetKeyDown(KeyCode.W) ^ Input.GetKeyDown(KeyCode.A) ^ Input.GetKeyDown(KeyCode.S) ^ Input.GetKeyDown(KeyCode.D)) && movement.x == 0 && movement.y == 0)
