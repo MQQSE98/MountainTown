@@ -7,9 +7,10 @@ public class EnemyM : MonoBehaviour
 
     public float health = 100;
     public float hitRange;
-    private EnemyCombat enemyCombat;
+    private EnemyCombat enemyCombat; 
     public float hitDelta;
     public Item[] lootPool;
+    
     private GameObject currentPrefab;
     private Vector3 deathPosition;
     private System.Random rand = new System.Random();
@@ -33,6 +34,12 @@ public class EnemyM : MonoBehaviour
     {
         enemyCombat = gameObject.GetComponent<EnemyCombat>();
         player = GameObject.FindGameObjectWithTag("Player");
+
+        if (gameObject.transform.name == "SanguineSludge_Boss")
+        {
+            BossHeathController bossHeathController = gameObject.GetComponent<BossHeathController>();
+            bossHeathController.SetMaxHealth(health);
+        }
     }
 
     // Update is called once per frame
@@ -52,6 +59,7 @@ public class EnemyM : MonoBehaviour
         Destroy(this.gameObject);
         LootDrop();
         XPDrop();
+        
     }
 
     //spawn loot drop item
@@ -82,11 +90,12 @@ public class EnemyM : MonoBehaviour
     //spawn XP drop item
     void XPDrop()
     {
-        int dropNum = rand.Next(1, 6);
+        int dropNum = rand.Next(20, 30);
         //loadedPrefab = Assetdatabase.load("Assets/Prefabs/ItemPrefabs/XpBall");
         SpawnAroundPoint(dropNum, deathPosition, 0.5F);
     }
 
+   
     void SpawnAroundPoint(int num, Vector3 point, float radius)
     {
         for (int i = 0; i < num; i++)
@@ -99,6 +108,11 @@ public class EnemyM : MonoBehaviour
             var vertical = Mathf.Sin(radians);
             var horizontal = Mathf.Cos(radians);
 
+            float randomX = rand.Next(5, 10);
+            float randomY = rand.Next(5, 10);
+
+            //Vector3 offsetVector = new Vector3();
+
             var spawnDir = new Vector3(horizontal, 0, vertical);
 
             /* Get the spawn position */
@@ -106,14 +120,24 @@ public class EnemyM : MonoBehaviour
 
             /* Now spawn */
             GameObject xp = (GameObject)Instantiate(Resources.Load("XpBall"), spawnPos, Quaternion.identity);
+            GameObject gold = (GameObject)Instantiate(Resources.Load("Gold"), spawnPos, Quaternion.identity);
+
 
             /* Rotate the enemy to face towards player */
-            xp.GetComponent<SpriteRenderer>().sortingOrder = 1;
+            xp.GetComponent<SpriteRenderer>().sortingOrder = 2;
             xp.transform.LookAt(point);
 
+            gold.GetComponent<SpriteRenderer>().sortingOrder = 2;
+            gold.transform.LookAt(point);
+
             /* Adjust height */
-            xp.transform.Translate(new Vector3(0, xp.transform.localScale.y / 2, 0));
+            xp.transform.Translate(new Vector3(randomX, randomY, 0));
             xp.SetActive(true);
+
+            gold.transform.Translate(new Vector3(randomX, randomY, 0));
+            gold.SetActive(true);
+
+
         }
     }
 

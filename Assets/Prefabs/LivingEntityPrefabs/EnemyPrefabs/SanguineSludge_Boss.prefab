@@ -527,6 +527,7 @@ MonoBehaviour:
   biteRange: 4
   dead: 0
   freeMove: 1
+  isActive: 0
 --- !u!114 &5725355696039967388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,7 +543,7 @@ MonoBehaviour:
   health: 100
   hitRange: 3
   hitDelta: 0
-  player: {fileID: 0}
+  lootPool: []
 --- !u!114 &5725355696039967389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -555,6 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72cdeca0d8f09044bad3b55a5c5f8824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gloopDamageEffect: {fileID: 0}
 --- !u!1 &5725355696236232314
 GameObject:
   m_ObjectHideFlags: 0

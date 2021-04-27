@@ -76,6 +76,12 @@ public class Arrow : MonoBehaviour
             col.gameObject.GetComponent<Transform>().parent.transform.gameObject.GetComponent<EnemyM>().health -= 10;
             col.gameObject.GetComponent<Transform>().parent.transform.gameObject.GetComponent<EnemyCombat>().TakeDamage();
 
+            if (col.gameObject.GetComponent<Transform>().parent.name == "SanguineSludge_Boss")
+            {
+                BossHeathController bossHeathController = col.gameObject.GetComponent<Transform>().parent.transform.gameObject.GetComponent<BossHeathController>();
+                bossHeathController.SetHealth(col.gameObject.GetComponent<Transform>().parent.transform.gameObject.GetComponent<EnemyM>().health);
+            }
+
             Destroy(this.gameObject);
         }
     }

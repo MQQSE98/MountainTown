@@ -88,6 +88,9 @@ public class PlayerManager : MonoBehaviour
 
         //playerSheet.currentStamina = playerSheet.maxStamina;
         resourceController.SetMaxStamina(playerSheet.maxStamina);
+
+        resourceController.SetMaxExp(playerSheet.ExpToLevel);
+        resourceController.SetExp(playerSheet.experiencePoints);
     }
     void Update()
     {
@@ -102,6 +105,9 @@ public class PlayerManager : MonoBehaviour
         UpdateGold();
         Attack();
         Dash();
+        
+        LevelUp();
+     
     }
 
     //-----------PLAYER CALCULATIONS----------\\
@@ -157,6 +163,7 @@ public class PlayerManager : MonoBehaviour
         playerSheet.level = 1;
         playerSheet.experiencePoints = 0;
         playerSheet.attributePoints = 5;
+        playerSheet.ExpToLevel = playerSheet.level * 200;
         playerSheet.skillPoints = 5;
     }
 
@@ -277,7 +284,9 @@ public class PlayerManager : MonoBehaviour
 
             gold.magnetIsOn = true;
 
-            playerSheet.experiencePoints += gold.amount; 
+            playerSheet.experiencePoints += gold.amount;
+            resourceController.SetExp(playerSheet.experiencePoints);
+            
             Destroy(other.gameObject, delay);
         }
     }
@@ -772,5 +781,26 @@ public class PlayerManager : MonoBehaviour
 
         // restore origin color
         sr.color = originColor;
+    }
+    
+
+    public void LevelUp()
+    {
+        
+
+        if(playerSheet.experiencePoints >= playerSheet.ExpToLevel)
+        {
+           
+            playerSheet.level += 1;
+            playerSheet.ExpToLevel = playerSheet.level * 200;
+            playerSheet.maxHealth += 20;
+            playerSheet.maxStamina += 20;
+            playerSheet.attack += 3;
+            playerSheet.defense += 3;
+
+            animator.Play("LevelUp");
+
+
+        }
     }
 }

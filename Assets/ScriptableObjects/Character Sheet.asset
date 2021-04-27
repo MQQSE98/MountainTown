@@ -14,18 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Hero
   level: 1
-  experiencePoints: 0
+  ExpToLevel: 200
+  experiencePoints: 27
   attributePoints: 5
   skillPoints: 5
-  weight: 1570
+  weight: 0
   maxHealth: 10
-  currentHealth: 10
+  currentHealth: 9.105435
   maxStamina: 10
   currentStamina: 10
   maxMana: 10
   currentMana: 10
-  attack: 10
-  defense: 2400
+  attack: 4018
+  defense: 8188
   power: 1
   vitality: 1
   endurance: 1
@@ -44,7 +45,17 @@ MonoBehaviour:
   mediumArmor: 0
   heavyArmor: 0
   bag:
+  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
+  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
+  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
+  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
+  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
+  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
+  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
   - {fileID: 11400000, guid: 4d2cea5ea5bed2f439e2f17cfa5ea366, type: 2}
+  - {fileID: 11400000, guid: 70c586612ce38c04a9ed1f2fdeef7f99, type: 2}
+  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
+  - {fileID: 11400000, guid: a826253c3e6bf5940b856950669a906f, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -69,24 +80,14 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  gold: 505
+  gold: 1247
   HeadSlot: {fileID: 11400000, guid: 4d2cea5ea5bed2f439e2f17cfa5ea366, type: 2}
-  BodySlot: {fileID: 0}
+  BodySlot: {fileID: 11400000, guid: 70c586612ce38c04a9ed1f2fdeef7f99, type: 2}
   HandSlot: {fileID: 0}
   BootSlot: {fileID: 0}
   LegSlot: {fileID: 0}
   ShoulderSlot: {fileID: 0}
   RingSlot: {fileID: 0}
   AmuletSlot: {fileID: 0}
-  WeaponSlotLeft: {fileID: 11400000, guid: f32334a3a85658943b0670f14df063b7, type: 2}
+  WeaponSlotLeft: {fileID: 0}
   WeaponSlotRight: {fileID: 0}
