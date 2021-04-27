@@ -64,7 +64,12 @@ public class PlayerCombat : Combat
                 }
                 if (hit == true)
                 {
+                    
                     e.GetComponent<Transform>().parent.transform.gameObject.GetComponent<EnemyM>().health -= weapon.Damage;
+                    if(e.name == "SanguineSludge_Boss")
+                    {
+                        e.GetComponent<Transform>().parent.gameObject.GetComponent<BossHeathController>().SetHealth(e.GetComponent<Transform>().parent.transform.gameObject.GetComponent<EnemyM>().health);
+                    }
                     if(e.name == "Goop")
                     {
                         e.GetComponent<EnemyCombat>().TakeDamage(); 

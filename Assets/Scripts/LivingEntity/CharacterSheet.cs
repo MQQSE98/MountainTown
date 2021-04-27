@@ -7,6 +7,7 @@ public class CharacterSheet : ScriptableObject
     [Header("Character Info")]
     public string playerName;
     public int level;
+    public int ExpToLevel;
     public int experiencePoints;
     public int attributePoints;
     public int skillPoints;

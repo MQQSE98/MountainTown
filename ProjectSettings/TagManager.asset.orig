@@ -6,20 +6,19 @@ TagManager:
   tags:
   - Boundary
   - InteractableObject
-<<<<<<< HEAD
   - Item
   - TeleportPad
   - InteractableDoor
   - Enemy
-=======
-  - InteractableDoor
-  - TeleportPad
-  - Consumable
-  - Item
   - Collision
   - LEntity
   - NPC
->>>>>>> origin
+<<<<<<< HEAD
+  - Gold
+  - EXP
+=======
+  - Boss
+>>>>>>> Jason-BossTest
   layers:
   - Default
   - TransparentFX
@@ -28,14 +27,9 @@ TagManager:
   - Water
   - UI
   - 
-<<<<<<< HEAD
+  - 
   - 
   - Collision
-=======
-  - Player
-  - 
->>>>>>> origin
-  - 
   - 
   - 
   - 
@@ -62,6 +56,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
+  - name: PassBy
     uniqueID: 2337642677
     locked: 0

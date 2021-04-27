@@ -23,8 +23,9 @@ public class EnemyCombat : Combat
     }
     public void TakeDamage()
     {
-        
         Instantiate(gloopDamageEffect, transform.position, Quaternion.identity, transform);
     }
+
+        
 
 }

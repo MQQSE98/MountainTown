@@ -1,0 +1,1220 @@
+fileFormatVersion: 2
+guid: 2f99fdee9f37f7a47a61c190ed75b9e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2750568234100677829
+    second: BOSS_SanguineSludge00
+  - first:
+      213: 5824619147468542626
+    second: BOSS_SanguineSludge01
+  - first:
+      213: 434855690500036976
+    second: BOSS_SanguineSludge02
+  - first:
+      213: 1659006890273074683
+    second: BOSS_SanguineSludge03
+  - first:
+      213: 7581300521259229582
+    second: BOSS_SanguineSludge04
+  - first:
+      213: 8398338076702337606
+    second: BOSS_SanguineSludge05
+  - first:
+      213: 5371361144430730433
+    second: BOSS_SanguineSludge06
+  - first:
+      213: -2505395575207045385
+    second: BOSS_SanguineSludge07
+  - first:
+      213: 3880123112813272066
+    second: BOSS_SanguineSludge08
+  - first:
+      213: 4652583462343791965
+    second: BOSS_SanguineSludge09
+  - first:
+      213: 6630020678298326003
+    second: BOSS_SanguineSludge10
+  - first:
+      213: -881818401820385416
+    second: BOSS_SanguineSludge11
+  - first:
+      213: -6086075750850037617
+    second: BOSS_SanguineSludge12
+  - first:
+      213: -14142117350172215
+    second: BOSS_SanguineSludge13
+  - first:
+      213: 4814805803238658787
+    second: BOSS_SanguineSludge14
+  - first:
+      213: 6530805063676967524
+    second: BOSS_SanguineSludge15
+  - first:
+      213: 862406999888245183
+    second: BOSS_SanguineSludge16
+  - first:
+      213: 9050926301053643125
+    second: BOSS_SanguineSludge17
+  - first:
+      213: -1560952670201300866
+    second: BOSS_SanguineSludge18
+  - first:
+      213: -5952018706005440958
+    second: BOSS_SanguineSludge19
+  - first:
+      213: 5610711335229710490
+    second: BOSS_SanguineSludge20
+  - first:
+      213: -4366592672544754316
+    second: BOSS_SanguineSludge21
+  - first:
+      213: -4315193269951211378
+    second: BOSS_SanguineSludge22
+  - first:
+      213: -7906616175989848339
+    second: BOSS_SanguineSludge23
+  - first:
+      213: 4036918592020783782
+    second: BOSS_SanguineSludge24
+  - first:
+      213: -7307123852161284011
+    second: BOSS_SanguineSludge25
+  - first:
+      213: 3339773992801977109
+    second: BOSS_SanguineSludge26
+  - first:
+      213: 6713278069200658115
+    second: BOSS_SanguineSludge27
+  - first:
+      213: 1324287153582274698
+    second: BOSS_SanguineSludge28
+  - first:
+      213: 8351009740530951861
+    second: BOSS_SanguineSludge29
+  - first:
+      213: -1976577788064345683
+    second: BOSS_SanguineSludge30
+  - first:
+      213: -3498557986286494964
+    second: BOSS_SanguineSludge31
+  - first:
+      213: 1479389176103807870
+    second: BOSS_SanguineSludge32
+  - first:
+      213: 6144391872936707020
+    second: BOSS_SanguineSludge33
+  - first:
+      213: -8070486776638428078
+    second: BOSS_SanguineSludge34
+  - first:
+      213: -1041098890559543266
+    second: BOSS_SanguineSludge35
+  - first:
+      213: -3283540973969871386
+    second: BOSS_SanguineSludge36
+  - first:
+      213: 7624066644631849336
+    second: BOSS_SanguineSludge37
+  - first:
+      213: 3401448072264981325
+    second: BOSS_SanguineSludge38
+  - first:
+      213: 626050935829909380
+    second: BOSS_SanguineSludge39
+  - first:
+      213: -5830560912037699392
+    second: BOSS_SanguineSludge40
+  - first:
+      213: 2611656927316988628
+    second: BOSS_SanguineSludge41
+  - first:
+      213: 2538618086788451106
+    second: BOSS_SanguineSludge42
+  - first:
+      213: -8908196161647848142
+    second: BOSS_SanguineSludge43
+  - first:
+      213: 5535688074156422258
+    second: BOSS_SanguineSludge44
+  - first:
+      213: -3360987684946035902
+    second: BOSS_SanguineSludge45
+  - first:
+      213: -3770715667434316494
+    second: BOSS_SanguineSludge46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 589
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33a4f3a3c404d9d0800000000000000
+      internalID: -2750568234100677829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge01
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 589
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a21dc4214435d050800000000000000
+      internalID: 5824619147468542626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge02
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 589
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079dfc052fae80600800000000000000
+      internalID: 434855690500036976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge03
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 589
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfde6a61af9f50710800000000000000
+      internalID: 1659006890273074683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge04
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 589
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81e32918a0363960800000000000000
+      internalID: 7581300521259229582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge05
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 589
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64aea750cf3ec8470800000000000000
+      internalID: 8398338076702337606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge06
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 589
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc112e8088ea8a40800000000000000
+      internalID: 5371361144430730433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 491
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6d2fd9ffb0b3dd0800000000000000
+      internalID: -2505395575207045385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge08
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 491
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c9400d967f8d530800000000000000
+      internalID: 3880123112813272066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge09
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 491
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55dbd0320c419040800000000000000
+      internalID: 4652583462343791965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge10
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 491
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f35777fda0920c50800000000000000
+      internalID: 6630020678298326003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge11
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 491
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fd71be5d623c3f0800000000000000
+      internalID: -881818401820385416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge12
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 491
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88f67a995ae98ba0800000000000000
+      internalID: -6086075750850037617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge13
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 491
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c998f6b1d1cdcff0800000000000000
+      internalID: -14142117350172215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2978c3e50a1d240800000000000000
+      internalID: 4814805803238658787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 393
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ab9cd8a9412aa50800000000000000
+      internalID: 6530805063676967524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge16
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 393
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb13620e892e7fb00800000000000000
+      internalID: 862406999888245183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge17
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 393
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579ea8654895b9d70800000000000000
+      internalID: 9050926301053643125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge18
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 393
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78347511d1665ae0800000000000000
+      internalID: -1560952670201300866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge19
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 393
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246c014a58e266da0800000000000000
+      internalID: -5952018706005440958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge20
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 393
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90ef998b304ddd40800000000000000
+      internalID: 5610711335229710490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 295
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475752a791fb663c0800000000000000
+      internalID: -4366592672544754316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge22
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 295
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88d667759a5d14c0800000000000000
+      internalID: -4315193269951211378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge23
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 295
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de684ce9a7e064290800000000000000
+      internalID: -7906616175989848339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge24
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 295
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2a1982214060830800000000000000
+      internalID: 4036918592020783782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge25
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 295
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558842e3291e79a90800000000000000
+      internalID: -7307123852161284011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge26
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 295
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513cc0760c2495e20800000000000000
+      internalID: 3339773992801977109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge27
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 295
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce1021e5da5a2d50800000000000000
+      internalID: 6713278069200658115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 197
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8872e95620d06210800000000000000
+      internalID: 1324287153582274698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 197
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6ac2c0d1fb4e370800000000000000
+      internalID: 8351009740530951861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge30
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 197
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da15f7f59f8c194e0800000000000000
+      internalID: -1976577788064345683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge31
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 197
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b99413c00a27fc0800000000000000
+      internalID: -3498557986286494964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge32
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 197
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ba9361e98d78410800000000000000
+      internalID: 1479389176103807870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge33
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 197
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc38033aad3454550800000000000000
+      internalID: 6144391872936707020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge34
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 197
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25caaf1390fdfff80800000000000000
+      internalID: -8070486776638428078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18252433164d81f0800000000000000
+      internalID: -1041098890559543266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge36
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ede51191e48e62d0800000000000000
+      internalID: -3283540973969871386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge37
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 99
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8798f2128302ec960800000000000000
+      internalID: 7624066644631849336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge38
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 99
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b9a45000f543f20800000000000000
+      internalID: 3401448072264981325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge39
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 99
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f4179520e20b800800000000000000
+      internalID: 626050935829909380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge40
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 99
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c027bcfdbfa51fa0800000000000000
+      internalID: -5830560912037699392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge41
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 99
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2dae363287e3420800000000000000
+      internalID: 2611656927316988628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b486323bbfa3320800000000000000
+      internalID: 2538618086788451106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge43
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2355b73e9cabf5480800000000000000
+      internalID: -8908196161647848142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge44
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274b57f59f6b2dc40800000000000000
+      internalID: 5535688074156422258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge45
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b3450028f5b51d0800000000000000
+      internalID: -3360987684946035902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SanguineSludge46
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dd39d141abbabc0800000000000000
+      internalID: -3770715667434316494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,7 +12,10 @@ public class Gold : MonoBehaviour
 
     public void Start()
     {
-        Instantiate(goldSparkle, transform.position, Quaternion.identity, transform);
+        if(this.gameObject.CompareTag("Gold"))
+        {
+            Instantiate(goldSparkle, transform.position, Quaternion.identity, transform);
+        }
 
         player = GameObject.FindGameObjectWithTag("Player");
 
