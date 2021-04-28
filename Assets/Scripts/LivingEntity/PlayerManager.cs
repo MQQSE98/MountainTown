@@ -20,8 +20,8 @@ public class PlayerManager : MonoBehaviour
     //PlayerParticles
     public ParticleSystem healthLoss;
     public ParticleSystem DashDown;
-    
-    
+
+    public bool blockedAttack = false;
 
     private SpriteRenderer sr;
     Animator animator;
@@ -48,6 +48,8 @@ public class PlayerManager : MonoBehaviour
 
     [HideInInspector]
     public float holdTimeDelta;
+
+    
 
     public ResourceController resourceController;
     public GameObject currentInteractableObject = null;
@@ -91,6 +93,8 @@ public class PlayerManager : MonoBehaviour
 
         resourceController.SetMaxExp(playerSheet.ExpToLevel);
         resourceController.SetExp(playerSheet.experiencePoints);
+        resourceController.SetMaxHealth(playerSheet.maxMana);
+        
     }
     void Update()
     {
@@ -191,6 +195,7 @@ public class PlayerManager : MonoBehaviour
     //Testing Methods for Resource Controller
     public void TakeDamage(int damage)
     {
+        
         playerSheet.currentHealth -= damage;
         resourceController.SetHealth(playerSheet.currentHealth);
         Instantiate(healthLoss, transform.position, Quaternion.identity, transform);       
@@ -783,7 +788,7 @@ public class PlayerManager : MonoBehaviour
         sr.color = originColor;
     }
     
-
+   
     public void LevelUp()
     {
         

@@ -108,8 +108,7 @@ public class EnemyM : MonoBehaviour
             var vertical = Mathf.Sin(radians);
             var horizontal = Mathf.Cos(radians);
 
-            float randomX = rand.Next(5, 10);
-            float randomY = rand.Next(5, 10);
+            
 
             //Vector3 offsetVector = new Vector3();
 
@@ -131,10 +130,10 @@ public class EnemyM : MonoBehaviour
             gold.transform.LookAt(point);
 
             /* Adjust height */
-            xp.transform.Translate(new Vector3(randomX, randomY, 0));
+            xp.transform.Translate(new Vector3(0, xp.transform.localScale.y / 2, 0));
             xp.SetActive(true);
 
-            gold.transform.Translate(new Vector3(randomX, randomY, 0));
+            gold.transform.Translate(new Vector3(0, gold.transform.localScale.y / 2, 0));
             gold.SetActive(true);
 
 

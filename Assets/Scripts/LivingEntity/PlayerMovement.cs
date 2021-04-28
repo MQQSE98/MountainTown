@@ -14,8 +14,11 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
+    GameObject blockAnimation;
 
     public bool dash;
+
+    public bool blocking = false;
 
     Vector2 movement;
 
@@ -26,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         animator.SetBool("Melee", true);
+        blockAnimation = gameObject.transform.GetChild(0).gameObject;
     }
 
     //create a property for attacking
@@ -176,11 +180,15 @@ public class PlayerMovement : MonoBehaviour
         //check if Secondary Mouse is active
         if (Input.GetMouseButton(1))
         {
-            animator.SetBool("Blocking", true);
+            blocking = true;
+            
+            blockAnimation.SetActive(true);
         }
         else
         {
-            animator.SetBool("Blocking", false);
+            blocking = false;
+            blockAnimation.SetActive(false);
+            
         }
     }
 

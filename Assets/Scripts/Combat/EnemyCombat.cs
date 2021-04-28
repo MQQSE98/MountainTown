@@ -7,6 +7,8 @@ public class EnemyCombat : Combat
     private PlayerManager playerManager;
     public ParticleSystem gloopDamageEffect;
 
+    public bool enemyAttacking = false;
+
     private void Start()
     {
         playerManager = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerManager>();
@@ -18,7 +20,12 @@ public class EnemyCombat : Combat
     {
        if ((player.transform.position - enemy.transform.position).magnitude < enemy.GetComponent<EnemyM>().HitRange)
         {
+            enemyAttacking = true;
             playerManager.TakeDamage(1);
+        }
+       else
+        {
+            enemyAttacking = false;
         }
     }
     public void TakeDamage()
