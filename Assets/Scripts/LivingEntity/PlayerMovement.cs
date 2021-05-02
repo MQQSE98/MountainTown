@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetBool("Melee", true);
             }
         }
-        if ((Input.GetKeyDown(KeyCode.W) ^ Input.GetKeyDown(KeyCode.A) ^ Input.GetKeyDown(KeyCode.S) ^ Input.GetKeyDown(KeyCode.D)) && movement.x == 0 && movement.y == 0)
+        if ((Input.GetKeyDown(KeyCode.W) ^ Input.GetKeyDown(KeyCode.A) ^ Input.GetKeyDown(KeyCode.S) ^ Input.GetKeyDown(KeyCode.D)) && movement.x == 0 && movement.y == 0 && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
         {
             animator.SetBool("Diagonal", false);
         }
@@ -146,19 +146,19 @@ public class PlayerMovement : MonoBehaviour
         {
 
             //Primary Mouse initially clicked
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
             {
                 animator.SetBool("Attacking", true);
                 attackDelta = 0;
                 mousePos = GetMouseLoc();
             }
             //Primary Mouse held down
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButton(0) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
             {
                 attackDelta += Time.deltaTime;
             }
             //Primary Mouse released
-            if (Input.GetMouseButtonUp(0))
+            if (Input.GetMouseButtonUp(0) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
             {
                 //Debug.Log("Time: "+delta);
                 if (attackDelta < .25)
@@ -178,7 +178,7 @@ public class PlayerMovement : MonoBehaviour
     void CheckBlocking()
     {
         //check if Secondary Mouse is active
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(1) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1) 
         {
             blocking = true;
             

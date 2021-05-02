@@ -12,7 +12,7 @@ public class BlockController : MonoBehaviour
         {
             if (other.gameObject.GetComponentInParent<EnemyCombat>().enemyAttacking == true)
             {
-                gameObject.GetComponentInChildren<PlayerManager>().blockedAttack = true;
+                gameObject.GetComponentInParent<PlayerManager>().blockedAttack = true;
                 
             }
 
