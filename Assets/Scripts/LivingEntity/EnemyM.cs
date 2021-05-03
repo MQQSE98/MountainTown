@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class EnemyM : MonoBehaviour
@@ -16,6 +17,7 @@ public class EnemyM : MonoBehaviour
     private System.Random rand = new System.Random();
     private UnityEngine.Object loadedPrefab;
     private GameObject player;
+    public Image credits;
 
     public float HitRange
     {
@@ -34,6 +36,7 @@ public class EnemyM : MonoBehaviour
     {
         enemyCombat = gameObject.GetComponent<EnemyCombat>();
         player = GameObject.FindGameObjectWithTag("Player");
+        
 
         if (gameObject.transform.name == "SanguineSludge_Boss")
         {
@@ -163,6 +166,8 @@ public class EnemyM : MonoBehaviour
             {
                 this.hitRange = 0;
                 this.gameObject.GetComponent<SSBOSSMovementControl>().DIE();
+
+                credits.enabled = true;
                 //Destroy(this.gameObject);
             }
         }
