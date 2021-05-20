@@ -8,7 +8,7 @@ Clone the git repo - `git clone git://github.com/MQQSE98/MountainTown.git'
 
 Run the provided executable - 'MountainTown/Build/Mountaintown.exe'
 
-##Features
+## Features
 
 * Town start scene
 * Cave scene for combat
@@ -19,7 +19,7 @@ Run the provided executable - 'MountainTown/Build/Mountaintown.exe'
 * Internal time used for day/night cycles along with timing NPC events
 * Attractive interactive UI
 
-##Contributions
+## Contributions
 
 * Project Manager - Joe Mills          https://www.linkedin.com/in/joseph-mills-9b9b1b1b5/
 * Lead Developer - Brad Lovekamp       https://www.linkedin.com/in/bradlovekamp/
@@ -28,11 +28,11 @@ Run the provided executable - 'MountainTown/Build/Mountaintown.exe'
 * Developer - Nathan Boyd              https://github.com/nBoyd-98
 * Developer - Jason Ditto              https://github.com/TheJollyfish
 
-##Project Information
+## Project Information
 
 Provided within Documentation - 'MountainTown/Documentation'
 
-##Tools And Assets
+## Tools And Assets
 
 * Unity
 * Aesprite
